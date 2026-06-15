@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NOUR DATASHEET — نور للإضاءة الحديثة | داتا شيت لوحات الكهرباء</title>
+  <meta name="description" content="داتا شيت منتجات نور للإضاءة الحديثة — تصنيع جميع مقاسات لوحات الكهرباء واللوحات الذكية ولوحات الاتصالات والبواطات، مع التصنيع حسب الطلب." />
+  <meta name="theme-color" content="#07254d" />
+  <meta property="og:title" content="NOUR DATASHEET — نور للإضاءة الحديثة" />
+  <meta property="og:description" content="داتا شيت احترافي لجميع مقاسات لوحات الكهرباء من نور." />
+  <meta property="og:image" content="assets/img/logo.jpg" />
+  <link rel="icon" href="assets/img/logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Orbitron:wght@700;800;900&family=Montserrat:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <!-- sticky mini header -->
+  <header class="site-header">
+    <div class="container bar">
+      <a href="index.html" style="display:flex;align-items:center;gap:10px">
+        <img class="logo-mini" src="assets/img/logo.jpg" alt="شعار نور" />
+        <span class="brand-mini"><b>نور للإضاءة الحديثة</b><span>NOUR DATASHEET</span></span>
+      </a>
+      <div class="spacer"></div>
+      <div class="mini-actions" id="miniActions"></div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero center">
+    <div class="container">
+      <div class="hero-logo-wrap"><img src="assets/img/logo.jpg" alt="شعار نور للإضاءة الحديثة" /></div>
+      <h1 class="title-en" id="titleEn">NOUR DATASHEET</h1>
+      <p class="intro-ar" id="introAr"></p>
+      <div class="hero-stats" id="heroStats"></div>
+      <div class="hero-contact" id="heroContact"></div>
+    </div>
+  </section>
+
+  <!-- toolbar -->
+  <div class="toolbar">
+    <div class="container">
+      <label class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="searchInput" type="search" placeholder="ابحث عن منتج أو مقاس…" aria-label="بحث" />
+      </label>
+      <div class="chips" id="chips"></div>
+    </div>
+  </div>
+
+  <!-- catalog -->
+  <main class="container" id="catalog"></main>
+
+  <!-- footer -->
+  <footer class="footer" id="footer"></footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/svg.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
