@@ -126,8 +126,10 @@
           <a href="index.html#cat-${esc(p.categorySlug)}">${ICONS.bolt} ${esc(p.categoryName)}</a>
         </div>
         <div class="ds-brandline">
-          <span class="logo"><img src="assets/img/logo.webp" alt="نور"
-            width="600" height="343" decoding="async" /></span>
+          <span class="logo product-logo-card">
+            <img class="product-brand-logo" src="assets/img/logo.webp" alt="نور"
+              width="600" height="343" decoding="async" />
+          </span>
           <span class="t"><b>NOUR DATASHEET</b><span>${esc(D.company.nameAr)}</span></span>
         </div>
         <p class="intro-ar" style="margin:12px 0 0;text-align:right">${esc(D.company.introAr)}</p>
