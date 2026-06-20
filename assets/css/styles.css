@@ -50,12 +50,12 @@ body {
   overflow-x: hidden;
 }
 
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; text-decoration: none; }
 
 /* inline icons default to text-size; illustration SVGs override to 100% below */
 svg { width: 1.15em; height: 1.15em; flex: 0 0 auto; vertical-align: -0.16em; }
-.card-media svg, .hero-photo svg, .view-card svg, .render3d svg,
+.card-media svg, .hero-photo svg,
 .dim-illus svg, .empty svg, .f-logo svg, .hero-logo-wrap svg {
   width: 100%; height: auto; vertical-align: middle;
 }
@@ -262,21 +262,6 @@ svg { width: 1.15em; height: 1.15em; flex: 0 0 auto; vertical-align: -0.16em; }
   display: grid; place-items: center; border: 1px solid var(--line); }
 .hero-photo img { width: 100%; height: 100%; object-fit: contain; padding: 14px; }
 
-/* closed/open pair */
-.pair { display: grid; grid-template-columns: 1fr; gap: 14px; }
-.view-card { border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--grad-sky); padding: 10px;
-  text-align: center; }
-.view-card .cap { font-weight: 800; color: var(--navy); margin-top: 8px; font-size: .95rem; }
-.view-card .cap small { display: block; color: var(--muted); font-weight: 600; font-size: .76rem; }
-.view-card svg { width: 100%; height: auto; }
-
-/* 3D render */
-.render3d { display: grid; place-items: center; padding: 20px 6px; background:
-  radial-gradient(600px 280px at 50% 20%, #ffffff, #eaf2fb); border-radius: var(--radius-sm); border: 1px solid var(--line); }
-.render3d .stage { perspective: 1100px; }
-.render3d .floaty { animation: floaty 6s ease-in-out infinite; }
-.render3d svg { width: min(420px, 78vw); height: auto; filter: drop-shadow(0 30px 30px rgba(8,47,96,.28)); }
-
 /* dimensions */
 .dim-illus { background: var(--grad-sky); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 12px; }
 .dim-illus svg { width: 100%; height: auto; }
@@ -334,7 +319,6 @@ svg { width: 1.15em; height: 1.15em; flex: 0 0 auto; vertical-align: -0.16em; }
 /* ---------- Responsive ---------- */
 @media (min-width: 600px) {
   .grid { grid-template-columns: repeat(2, 1fr); }
-  .pair { grid-template-columns: 1fr 1fr; }
   .footer .f-grid { grid-template-columns: 1.4fr 1fr 1fr; }
   .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; align-items: start; }
 }

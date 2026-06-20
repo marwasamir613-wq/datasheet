@@ -21,7 +21,37 @@
 
   document.title = `${p.name} — NOUR DATASHEET`;
   const dimOk = [p.h, p.w, p.d].every((v) => v != null);
-  const img = p.images && p.images[0];
+  const img = p.mainImage || p.referenceImage || (p.images && p.images[0]);
+
+  // Keep fallbacks out of inline event attributes. This also catches cached
+  // failures that may complete before the listeners are attached.
+  let fallbackId = 0;
+  const imageFallbacks = new Map();
+  const imageOrFallback = (url, fallbackFn, alt, options) => {
+    if (!url) return fallbackFn();
+    const opts = options || {};
+    const key = `media-fallback-${++fallbackId}`;
+    imageFallbacks.set(key, fallbackFn());
+    return `<img${opts.className ? ` class="${esc(opts.className)}"` : ""}
+      src="${esc(url)}" alt="${esc(alt)}"
+      width="${Number(opts.width) || 1200}" height="${Number(opts.height) || 900}"
+      loading="${opts.loading || "lazy"}" decoding="async"
+      ${opts.fetchpriority ? `fetchpriority="${esc(opts.fetchpriority)}"` : ""}
+      data-fallback-key="${key}" />`;
+  };
+  const bindImageFallbacks = (scope) => {
+    scope.querySelectorAll("img[data-fallback-key]").forEach((image) => {
+      const swap = () => {
+        const fallback = imageFallbacks.get(image.dataset.fallbackKey);
+        if (!fallback || !image.isConnected) return;
+        image.insertAdjacentHTML("afterend", fallback);
+        imageFallbacks.delete(image.dataset.fallbackKey);
+        image.remove();
+      };
+      image.addEventListener("error", swap, { once: true });
+      if (image.complete && image.naturalWidth === 0) swap();
+    });
+  };
 
   // ----- features -----
   const stdFeatures = [
@@ -59,11 +89,20 @@
         <div class="grid">
           ${related
             .map((r) => {
-              const ri = r.images && r.images[0];
-              const media = ri
-                ? `<img src="${esc(ri)}" alt="${esc(r.name)}" loading="lazy"
-                     onerror="this.style.display='none';this.parentNode.insertAdjacentHTML('beforeend', window.NOUR_SVG.placeholder())" />`
-                : SVG.placeholder();
+              const ri =
+                r.thumbnailImage ||
+                r.mainImage ||
+                (r.images && r.images[0]);
+              const media = imageOrFallback(
+                ri,
+                () => SVG.placeholder(),
+                r.name,
+                {
+                  width: r.thumbnailWidth,
+                  height: r.thumbnailHeight,
+                  loading: "lazy",
+                }
+              );
               return `<article class="card">
                 <a class="card-media" href="${productUrl(r)}">${media}
                   ${[r.h, r.w, r.d].every((v) => v != null) ? `<span class="size-tag">${r.h}×${r.w}×${r.d} mm</span>` : ""}
@@ -87,7 +126,8 @@
           <a href="index.html#cat-${esc(p.categorySlug)}">${ICONS.bolt} ${esc(p.categoryName)}</a>
         </div>
         <div class="ds-brandline">
-          <span class="logo"><img src="assets/img/logo.jpg" alt="نور" /></span>
+          <span class="logo"><img src="assets/img/logo.webp" alt="نور"
+            width="600" height="343" decoding="async" /></span>
           <span class="t"><b>NOUR DATASHEET</b><span>${esc(D.company.nameAr)}</span></span>
         </div>
         <p class="intro-ar" style="margin:12px 0 0;text-align:right">${esc(D.company.introAr)}</p>
@@ -101,41 +141,15 @@
       <section class="block section-pull reveal">
         <h2 class="block-title"><span class="dot"></span> الصورة الرئيسية</h2>
         <div class="hero-photo">
-          ${
-            img
-              ? `<img src="${esc(img)}" alt="${esc(p.name)}"
-                  onerror="this.style.display='none';this.parentNode.insertAdjacentHTML('beforeend', window.NOUR_SVG.placeholder())" />`
-              : SVG.placeholder()
-          }
+          ${imageOrFallback(img, () => SVG.placeholder(), p.name, {
+            className: "product-main-image",
+            width: p.mainImageWidth,
+            height: p.mainImageHeight,
+            loading: "eager",
+            fetchpriority: "high",
+          })}
         </div>
       </section>
-
-      <div class="ds-grid">
-        <!-- closed / open -->
-        <section class="block reveal">
-          <h2 class="block-title"><span class="dot"></span> اللوحة مغلقة ومفتوحة</h2>
-          <div class="pair">
-            <div class="view-card">
-              ${SVG.closed(p)}
-              <div class="cap">مغلقة <small>Closed view</small></div>
-            </div>
-            <div class="view-card">
-              ${SVG.open(p)}
-              <div class="cap">مفتوحة <small>Open / interior view</small></div>
-            </div>
-          </div>
-          <p class="dim-note">${ICONS.info} الرسومات توضيحية بنسب اللوحة الحقيقية. الصورة الرئيسية أعلاه هي صورة المنتج الفعلية.</p>
-        </section>
-
-        <!-- 3D render -->
-        <section class="block reveal">
-          <h2 class="block-title"><span class="dot"></span> مجسم ثلاثي الأبعاد</h2>
-          <div class="render3d">
-            <div class="stage"><div class="floaty">${SVG.iso(p)}</div></div>
-          </div>
-          <p class="dim-note">${ICONS.cube} مجسم تسويقي مبني على أبعاد المنتج الفعلية (عرض × ارتفاع × عمق).</p>
-        </section>
-      </div>
 
       <!-- dimensions -->
       <section class="block reveal">
@@ -197,5 +211,6 @@
       </div>
     </div>`;
 
+  bindImageFallbacks(root);
   window.NOUR.observeReveals(root);
 })();

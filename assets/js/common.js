@@ -60,7 +60,8 @@
     container.innerHTML = `
       <div class="container f-grid">
         <div>
-          <div class="f-logo"><img src="assets/img/logo.jpg" alt="نور للإضاءة الحديثة" /></div>
+          <div class="f-logo"><img src="assets/img/logo.webp" alt="نور للإضاءة الحديثة"
+            width="600" height="343" loading="lazy" decoding="async" /></div>
           <h3 style="margin-top:14px">${esc(D.company.nameAr)}</h3>
           <p style="margin:0;max-width:36ch">${esc(D.company.introAr)}</p>
         </div>

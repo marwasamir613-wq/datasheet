@@ -33,10 +33,13 @@
 
   // ---- card ----
   function card(p) {
-    const img = p.images && p.images[0];
+    const img =
+      p.thumbnailImage || p.mainImage || (p.images && p.images[0]);
     const media = img
-      ? `<img src="${esc(img)}" alt="${esc(p.name)}" loading="lazy"
-           onerror="this.style.display='none';this.parentNode.insertAdjacentHTML('beforeend', window.NOUR_SVG.placeholder())" />`
+      ? `<img src="${esc(img)}" alt="${esc(p.name)}"
+           width="${Number(p.thumbnailWidth) || 480}"
+           height="${Number(p.thumbnailHeight) || 360}"
+           loading="lazy" decoding="async" data-card-image />`
       : window.NOUR_SVG.placeholder();
     const dimOk = [p.h, p.w, p.d].every((v) => v != null);
     return `
@@ -93,6 +96,16 @@
   emptyEl.style.display = "none";
   emptyEl.innerHTML = "لا توجد نتائج مطابقة لبحثك.";
   catalog.appendChild(emptyEl);
+
+  catalog.querySelectorAll("img[data-card-image]").forEach((image) => {
+    const showFallback = () => {
+      if (!image.isConnected) return;
+      image.insertAdjacentHTML("afterend", window.NOUR_SVG.placeholder());
+      image.remove();
+    };
+    image.addEventListener("error", showFallback, { once: true });
+    if (image.complete && image.naturalWidth === 0) showFallback();
+  });
 
   // ---- filtering (category + search) ----
   const searchInput = document.getElementById("searchInput");
