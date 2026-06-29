@@ -39,6 +39,13 @@
     return "product.html?id=" + encodeURIComponent(p.id);
   }
 
+  function applyBrandAssets() {
+    const logo = D.company.logoPath || "assets/img/logo.webp";
+    document.querySelectorAll(".logo-mini").forEach((image) => {
+      image.src = logo;
+    });
+  }
+
   // ---- mini header actions ----
   function miniActions(container) {
     container.innerHTML = `
@@ -60,7 +67,7 @@
     container.innerHTML = `
       <div class="container f-grid">
         <div>
-          <div class="f-logo"><img src="assets/img/logo.webp" alt="نور للإضاءة الحديثة"
+          <div class="f-logo"><img src="${esc(D.company.logoPath || "assets/img/logo.webp")}" alt="نور للإضاءة الحديثة"
             width="600" height="343" loading="lazy" decoding="async" /></div>
           <h3 style="margin-top:14px">${esc(D.company.nameAr)}</h3>
           <p style="margin:0;max-width:36ch">${esc(D.company.introAr)}</p>
@@ -108,6 +115,6 @@
 
   window.NOUR = {
     D, ICONS, esc, cm, dimShort, waFor, productUrl,
-    miniActions, heroContact, footer, observeReveals,
+    miniActions, heroContact, footer, observeReveals, applyBrandAssets,
   };
 })();

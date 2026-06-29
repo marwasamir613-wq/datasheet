@@ -1,10 +1,14 @@
 /* ===========================================================
    NOUR DATASHEET — product detail (single-scroll datasheet)
+   Exposed as window.NOUR.renderProduct and invoked by the page bootstrap
+   after the runtime data layer (nour-data.js) has loaded.
    =========================================================== */
-(function () {
+window.NOUR = window.NOUR || {};
+window.NOUR.renderProduct = function () {
   const { D, ICONS, esc, cm, productUrl } = window.NOUR;
   const SVG = window.NOUR_SVG;
 
+  window.NOUR.applyBrandAssets();
   window.NOUR.miniActions(document.getElementById("miniActions"));
   window.NOUR.footer(document.getElementById("footer"));
 
@@ -22,6 +26,24 @@
   document.title = `${p.name} — NOUR DATASHEET`;
   const dimOk = [p.h, p.w, p.d].every((v) => v != null);
   const img = p.mainImage || p.referenceImage || (p.images && p.images[0]);
+  const extraImages = (p.imageItems || [])
+    .filter((image) => image.visible !== false && image.type !== "main" && image.src);
+  const knownExtraSrcs = new Set(extraImages.map((image) => image.src));
+  [
+    { src: p.aiClosedImageUrl, caption: "صورة اللوحة المغلقة" },
+    { src: p.aiOpenImageUrl, caption: "صورة اللوحة المفتوحة" },
+  ].forEach((image) => {
+    if (image.src && !knownExtraSrcs.has(image.src)) {
+      knownExtraSrcs.add(image.src);
+      extraImages.push({
+        type: "extra",
+        src: image.src,
+        alt: `${p.name} — ${image.caption}`,
+        caption: image.caption,
+        visible: true,
+      });
+    }
+  });
 
   // Keep fallbacks out of inline event attributes. This also catches cached
   // failures that may complete before the listeners are attached.
@@ -61,6 +83,7 @@
     "تصنيع دقيق على يد فنيين متخصصين",
     "متوفر بمقاسات قياسية ويمكن التصنيع حسب الطلب",
   ];
+  const productFeatures = [...stdFeatures, ...(p.features || [])];
 
   // ----- dimension table -----
   const dimRow = (label, mm) =>
@@ -117,6 +140,48 @@
       </section>`
     : "";
 
+  const extraImagesHTML = extraImages.length
+    ? `<section class="block reveal">
+        <h2 class="block-title"><span class="dot"></span> صور إضافية للمنتج</h2>
+        <div class="product-gallery">
+          ${extraImages
+            .map(
+              (image) => `<figure>
+                <img src="${esc(image.src)}" alt="${esc(image.alt || p.name)}"
+                  width="900" height="675" loading="lazy" decoding="async" />
+                ${image.caption ? `<figcaption>${esc(image.caption)}</figcaption>` : ""}
+              </figure>`
+            )
+            .join("")}
+        </div>
+      </section>`
+    : "";
+
+  const contentBlocksHTML = (p.contentBlocks || [])
+    .map(renderContentBlock)
+    .filter(Boolean)
+    .join("");
+
+  function renderContentBlock(block) {
+    if (!block || !block.type) return "";
+    const title = block.title
+      ? `<h2 class="block-title"><span class="dot"></span> ${esc(block.title)}</h2>`
+      : "";
+    if (block.type === "text")
+      return `<section class="block reveal custom-content-block">${title}<p class="desc-text">${esc(block.body || "")}</p></section>`;
+    if (block.type === "note")
+      return `<section class="block reveal custom-content-block">${title}<div class="note-custom">${ICONS.info}<span>${esc(block.body || "")}</span></div></section>`;
+    if (block.type === "image" && block.image)
+      return `<section class="block reveal custom-content-block">${title}<figure class="content-image"><img src="${esc(block.image)}" alt="${esc(block.title || p.name)}" width="1000" height="750" loading="lazy" decoding="async" />${block.caption ? `<figcaption>${esc(block.caption)}</figcaption>` : ""}</figure></section>`;
+    if (block.type === "features" && Array.isArray(block.items))
+      return `<section class="block reveal custom-content-block">${title}<div class="features">${block.items.map((item) => `<div class="feature">${ICONS.check}<p>${esc(item)}</p></div>`).join("")}</div></section>`;
+    if (block.type === "table" && Array.isArray(block.rows))
+      return `<section class="block reveal custom-content-block">${title}<div class="content-table-wrap"><table class="content-table">${block.rows.map((row) => `<tr>${(row || []).map((cell) => `<td>${esc(cell)}</td>`).join("")}</tr>`).join("")}</table></div></section>`;
+    if (block.type === "gallery" && Array.isArray(block.images))
+      return `<section class="block reveal custom-content-block">${title}<div class="product-gallery">${block.images.map((src) => `<figure><img src="${esc(src)}" alt="${esc(block.title || p.name)}" width="900" height="675" loading="lazy" decoding="async" /></figure>`).join("")}</div></section>`;
+    return "";
+  }
+
   // ----- compose -----
   root.innerHTML = `
     <section class="ds-top">
@@ -127,7 +192,7 @@
         </div>
         <div class="ds-brandline">
           <span class="logo product-logo-card">
-            <img class="product-brand-logo" src="assets/img/logo.webp" alt="نور"
+            <img class="product-brand-logo" src="${esc(D.company.logoPath || "assets/img/logo.webp")}" alt="نور"
               width="600" height="343" decoding="async" />
           </span>
           <span class="t"><b>NOUR DATASHEET</b><span>${esc(D.company.nameAr)}</span></span>
@@ -153,11 +218,22 @@
         </div>
       </section>
 
+      ${extraImagesHTML}
+
       <!-- dimensions -->
       <section class="block reveal">
         <h2 class="block-title"><span class="dot"></span> المقاسات والأبعاد</h2>
         <div class="two-col">
-          <div class="dim-illus">${SVG.dims(p)}</div>
+          <div class="dim-illus">${
+            p.dimensionImage
+              ? imageOrFallback(
+                  p.dimensionImage,
+                  () => SVG.dims(p),
+                  `${p.name} — رسم المقاسات`,
+                  { className: "dim-custom-image", width: 1000, height: 760, loading: "lazy" }
+                )
+              : SVG.dims(p)
+          }</div>
           <div>
             ${dimTable}
             <p class="dim-note">${ICONS.ruler} ${
@@ -176,7 +252,8 @@
             : ""
         }
         <div class="features">
-          ${stdFeatures.map((f) => `<div class="feature">${ICONS.check}<p>${esc(f)}</p></div>`).join("")}
+          ${productFeatures.map((f) => `<div class="feature">${ICONS.check}<p>${esc(f)}</p></div>`).join("")}
+          ${(p.specs || []).map((spec) => `<div class="feature">${ICONS.check}<p>${esc(typeof spec === "string" ? spec : JSON.stringify(spec))}</p></div>`).join("")}
           ${
             dimOk
               ? `<div class="feature">${ICONS.ruler}<p>المقاس: <b dir="ltr">${p.w}×${p.h}×${p.d} mm</b> (عرض×ارتفاع×عمق)</p></div>`
@@ -185,9 +262,11 @@
         </div>
         <div class="note-custom" style="margin-top:14px">
           ${ICONS.bolt}
-          <span>${esc(D.company.customNoteAr)} — تواصل معنا لتنفيذ أي مقاس خاص بمشروعك.</span>
+          <span>${esc(p.customNote || D.company.customNoteAr)} — تواصل معنا لتنفيذ أي مقاس خاص بمشروعك.</span>
         </div>
       </section>
+
+      ${contentBlocksHTML}
 
       <!-- contact -->
       <section class="block ds-contact reveal">
@@ -215,4 +294,4 @@
 
   bindImageFallbacks(root);
   window.NOUR.observeReveals(root);
-})();
+};

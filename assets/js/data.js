@@ -1,20 +1,46 @@
 /* AUTO-GENERATED from data/*.raw.json by data/build-data.js — do not edit by hand. */
 window.NOUR_DATA = {
-  "generatedAt": "2026-06-20T10:18:18.610Z",
+  "generatedAt": "2026-06-29T10:24:53.971Z",
   "company": {
     "nameAr": "نور للإضاءة الحديثة",
     "titleEn": "NOUR DATASHEET",
     "introAr": "شركة نور متخصصة في تصنيع جميع مقاسات لوحات الكهرباء ويوجد تصنيع حسب الطلب",
     "aboutAr": "نور للإضاءة الحديثة — خبرة تتجاوز 40 عامًا منذ عام 1985 في تصنيع لوحات الكهرباء بمختلف المقاسات، واللوحات الذكية، ولوحات الاتصالات، والبواطات. خامات قوية وتصنيع دقيق على يد فنيين متخصصين، مع إمكانية التصنيع حسب الطلب لخدمة المشاريع السكنية والتجارية والصناعية.",
-    "customNoteAr": "يوجد تصنيع حسب الطلب بأي مقاس"
+    "customNoteAr": "يوجد تصنيع حسب الطلب بأي مقاس",
+    "logoPath": "assets/img/logo.webp",
+    "heroImagePath": "assets/img/hero-panels.webp",
+    "yearsExperience": 40
   },
   "contact": {
     "phoneDisplay": "01003510077",
+    "phoneInternational": "201003510077",
     "tel": "tel:+201003510077",
     "whatsapp": "https://wa.me/201003510077",
     "whatsappText": "https://wa.me/201003510077?text=%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D9%84%D9%8A%D9%83%D9%85%D8%8C%20%D8%A3%D8%B1%D8%BA%D8%A8%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20",
     "facebook": "https://www.facebook.com/profile.php?id=100090946688622",
     "email": "nourformodernligting111@gmail.com"
+  },
+  "homepage": {
+    "heroTitle": "NOUR DATASHEET",
+    "searchPlaceholder": "ابحث عن منتج أو مقاس…",
+    "stats": [
+      {
+        "value": "{products}",
+        "label": "منتج / مقاس"
+      },
+      {
+        "value": "{categories}",
+        "label": "أقسام"
+      },
+      {
+        "value": "+40",
+        "label": "عامًا خبرة"
+      },
+      {
+        "value": "حسب الطلب",
+        "label": "تصنيع خاص"
+      }
+    ]
   },
   "stats": {
     "categories": 7,
@@ -74,6 +100,7 @@ window.NOUR_DATA = {
   "products": [
     {
       "id": "1987bcb0-b8c8-458b-a4d4-748b799f375d",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة خطوط 12 خط أفقي / رأسي",
       "categoryId": "685e22fe-0fc4-4f69-ab0d-c2059901349f",
       "categoryName": "لوحات خطوط فقط",
@@ -82,20 +109,36 @@ window.NOUR_DATA = {
       "w": 270,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410584938-____________________________202605101356.jpeg"
+        "assets/img/products/lo-12-h-v-main-1782723127953.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410584938-____________________________202605101356.jpeg",
-      "mainImage": "assets/img/optimized/lo-12-h-v-main.webp",
-      "thumbnailImage": "assets/img/optimized/lo-12-h-v-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lo-12-h-v-main-1782723127953.webp",
+          "alt": "لوحة خطوط 12 خط أفقي / رأسي",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lo-12-h-v-main-1782723127953.webp",
+      "mainImage": "assets/img/products/lo-12-h-v-main-1782723127953.webp",
+      "thumbnailImage": "assets/img/products/lo-12-h-v-main-1782723127953.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410584938-____________________________202605101356.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lo-12-h-v-main-1782723127953.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة خطوط 12 خط أفقي أو رأسي",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 1,
       "indexInCategory": 1,
       "structure": {
         "category": "lines-only",
@@ -167,6 +210,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "3e5e3a07-94be-4c8d-bb1b-4de7db2d26e4",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة خطوط 14 خط صفين",
       "categoryId": "685e22fe-0fc4-4f69-ab0d-c2059901349f",
       "categoryName": "لوحات خطوط فقط",
@@ -175,20 +219,36 @@ window.NOUR_DATA = {
       "w": 270,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410755348-________________________202605101358.jpeg"
+        "assets/img/products/lo-14-2rows-main-1782724144068.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410755348-________________________202605101358.jpeg",
-      "mainImage": "assets/img/optimized/lo-14-2rows-main.webp",
-      "thumbnailImage": "assets/img/optimized/lo-14-2rows-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lo-14-2rows-main-1782724144068.webp",
+          "alt": "لوحة خطوط 14 خط صفين",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lo-14-2rows-main-1782724144068.webp",
+      "mainImage": "assets/img/products/lo-14-2rows-main-1782724144068.webp",
+      "thumbnailImage": "assets/img/products/lo-14-2rows-main-1782724144068.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410755348-________________________202605101358.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lo-14-2rows-main-1782724144068.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة خطوط 14 خط صفين",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 2,
       "indexInCategory": 2,
       "structure": {
         "category": "lines-only",
@@ -259,7 +319,118 @@ window.NOUR_DATA = {
       }
     },
     {
+      "id": "b4aefce3-ba4d-4202-a098-561994fe8e42",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
+      "name": "لوحة 16 خط 3 فاز بالعمومي",
+      "categoryId": "685e22fe-0fc4-4f69-ab0d-c2059901349f",
+      "categoryName": "لوحات خطوط فقط",
+      "categorySlug": "lines-only",
+      "h": 390,
+      "w": 330,
+      "d": 90,
+      "images": [
+        "assets/img/products/lo-16-3p-main-1782728056472.webp"
+      ],
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lo-16-3p-main-1782728056472.webp",
+          "alt": "لوحة 16 خط 3 فاز بالعمومي",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lo-16-3p-main-1782728056472.webp",
+      "mainImage": "assets/img/products/lo-16-3p-main-1782728056472.webp",
+      "thumbnailImage": "assets/img/products/lo-16-3p-main-1782728056472.webp",
+      "mainImageWidth": 1200,
+      "mainImageHeight": 900,
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lo-16-3p-main-1782728056472.webp",
+      "dimensionImage": null,
+      "aiClosedImageUrl": null,
+      "aiOpenImageUrl": null,
+      "description": "لوحة 16 خط 3 فاز بالعمومي",
+      "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 3,
+      "indexInCategory": 3,
+      "structure": {
+        "category": "lines-only",
+        "productType": "distribution-panel",
+        "layoutType": "dual-column-with-bottom-group",
+        "orientation": "portrait",
+        "door": {
+          "type": "hinged-door",
+          "side": "left",
+          "opens": "swings open to the left"
+        },
+        "doorSide": "left",
+        "breakerGroups": 3,
+        "breakerColumns": [
+          6,
+          6
+        ],
+        "breakerRows": 1,
+        "totalBreakers": 16,
+        "lowerSection": true,
+        "lowerCount": 4,
+        "hasMeter": false,
+        "meterCount": 0,
+        "prepaid": false,
+        "hasMainBreaker": true,
+        "mainBreakerPosition": "top-center",
+        "mainBreakerPoles": 3,
+        "threePhase": true,
+        "signalLamps": 0,
+        "structureDescription": "A three-phase main breaker across the top, then 16 outgoing line breakers on DIN rails arranged as two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers.",
+        "notes": [
+          "لوحة خطوط: 16 خط بالعمومي"
+        ],
+        "confidenceScore": 0.88,
+        "reviewRequired": false,
+        "_dec": {
+          "columns": [
+            6,
+            6
+          ],
+          "lower": 4,
+          "rows": 1,
+          "orientation": "dual+bottom"
+        }
+      },
+      "structureDescription": "A three-phase main breaker across the top, then 16 outgoing line breakers on DIN rails arranged as two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers.",
+      "layoutType": "dual-column-with-bottom-group",
+      "aiPromptClosed": "CLOSED VIEW — لوحة 16 خط 3 فاز بالعمومي. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 330mm × height 390mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+      "aiPromptOpen": "OPEN / INTERIOR VIEW — لوحة 16 خط 3 فاز بالعمومي. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 330mm × height 390mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): A three-phase main breaker across the top, then 16 outgoing line breakers on DIN rails arranged as two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers. Interior must contain exactly: a three-phase (wide) main breaker at the top-centre; 6 + 6 breakers in 2 vertical groups plus a smaller bottom group of 4 breakers. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+      "imageStatus": "needs-generation",
+      "reviewNotes": [
+        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+      ],
+      "ai": {
+        "layoutType": "dual-column-with-bottom-group",
+        "promptClosed": "CLOSED VIEW — لوحة 16 خط 3 فاز بالعمومي. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 330mm × height 390mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+        "promptOpen": "OPEN / INTERIOR VIEW — لوحة 16 خط 3 فاز بالعمومي. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 330mm × height 390mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): A three-phase main breaker across the top, then 16 outgoing line breakers on DIN rails arranged as two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers. Interior must contain exactly: a three-phase (wide) main breaker at the top-centre; 6 + 6 breakers in 2 vertical groups plus a smaller bottom group of 4 breakers. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+        "aiClosedImageUrl": null,
+        "aiOpenImageUrl": null,
+        "imageStatus": "needs-generation",
+        "reviewNotes": [
+          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+        ],
+        "reviewRequired": false,
+        "confidenceScore": 0.88
+      }
+    },
+    {
       "id": "e6655d55-f533-4138-a57a-4d4af300d51c",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة 12 خط بالقاطع أوميجا متحركة",
       "categoryId": "685e22fe-0fc4-4f69-ab0d-c2059901349f",
       "categoryName": "لوحات خطوط فقط",
@@ -268,21 +439,37 @@ window.NOUR_DATA = {
       "w": 360,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410739259-____________________________202605101358.jpeg"
+        "assets/img/products/lo-12-omega-mobile-main-1782726448827.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410739259-____________________________202605101358.jpeg",
-      "mainImage": "assets/img/optimized/lo-12-omega-mobile-main.webp",
-      "thumbnailImage": "assets/img/optimized/lo-12-omega-mobile-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lo-12-omega-mobile-main-1782726448827.webp",
+          "alt": "لوحة 12 خط بالقاطع أوميجا متحركة",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lo-12-omega-mobile-main-1782726448827.webp",
+      "mainImage": "assets/img/products/lo-12-omega-mobile-main-1782726448827.webp",
+      "thumbnailImage": "assets/img/products/lo-12-omega-mobile-main-1782726448827.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410739259-____________________________202605101358.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lo-12-omega-mobile-main-1782726448827.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة 12 خط بالقاطع أوميجا متحركة",
       "specs": [],
-      "indexInCategory": 3,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 4,
+      "indexInCategory": 4,
       "structure": {
         "category": "lines-only",
         "productType": "distribution-panel",
@@ -353,6 +540,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "f775ea9c-7a6a-4e7c-bf67-4af22ef25c0d",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة 18 خط أوميجا متحركة",
       "categoryId": "685e22fe-0fc4-4f69-ab0d-c2059901349f",
       "categoryName": "لوحات خطوط فقط",
@@ -361,21 +549,37 @@ window.NOUR_DATA = {
       "w": 360,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410945718-____________________________202605101402.jpeg"
+        "assets/img/products/lo-18-omega-mobile-main-1782726401517.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410945718-____________________________202605101402.jpeg",
-      "mainImage": "assets/img/optimized/lo-18-omega-mobile-main.webp",
-      "thumbnailImage": "assets/img/optimized/lo-18-omega-mobile-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lo-18-omega-mobile-main-1782726401517.webp",
+          "alt": "لوحة 18 خط أوميجا متحركة",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lo-18-omega-mobile-main-1782726401517.webp",
+      "mainImage": "assets/img/products/lo-18-omega-mobile-main-1782726401517.webp",
+      "thumbnailImage": "assets/img/products/lo-18-omega-mobile-main-1782726401517.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410945718-____________________________202605101402.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lo-18-omega-mobile-main-1782726401517.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة 18 خط خطوط أوميجا متحركة",
       "specs": [],
-      "indexInCategory": 4,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 5,
+      "indexInCategory": 5,
       "structure": {
         "category": "lines-only",
         "productType": "distribution-panel",
@@ -445,286 +649,8 @@ window.NOUR_DATA = {
       }
     },
     {
-      "id": "b4aefce3-ba4d-4202-a098-561994fe8e42",
-      "name": "لوحة 16 خط 3 فاز بالعمومي",
-      "categoryId": "685e22fe-0fc4-4f69-ab0d-c2059901349f",
-      "categoryName": "لوحات خطوط فقط",
-      "categorySlug": "lines-only",
-      "h": 390,
-      "w": 330,
-      "d": 90,
-      "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410802092-________________________202605101359.jpeg"
-      ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410802092-________________________202605101359.jpeg",
-      "mainImage": "assets/img/optimized/lo-16-3p-main.webp",
-      "thumbnailImage": "assets/img/optimized/lo-16-3p-thumb.webp",
-      "mainImageWidth": 1200,
-      "mainImageHeight": 896,
-      "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410802092-________________________202605101359.jpeg",
-      "aiClosedImageUrl": null,
-      "aiOpenImageUrl": null,
-      "description": "لوحة 16 خط 3 فاز بالعمومي",
-      "specs": [],
-      "indexInCategory": 5,
-      "structure": {
-        "category": "lines-only",
-        "productType": "distribution-panel",
-        "layoutType": "dual-column-with-bottom-group",
-        "orientation": "portrait",
-        "door": {
-          "type": "hinged-door",
-          "side": "left",
-          "opens": "swings open to the left"
-        },
-        "doorSide": "left",
-        "breakerGroups": 3,
-        "breakerColumns": [
-          6,
-          6
-        ],
-        "breakerRows": 1,
-        "totalBreakers": 16,
-        "lowerSection": true,
-        "lowerCount": 4,
-        "hasMeter": false,
-        "meterCount": 0,
-        "prepaid": false,
-        "hasMainBreaker": true,
-        "mainBreakerPosition": "top-center",
-        "mainBreakerPoles": 3,
-        "threePhase": true,
-        "signalLamps": 0,
-        "structureDescription": "A three-phase main breaker across the top, then 16 outgoing line breakers on DIN rails arranged as two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers.",
-        "notes": [
-          "لوحة خطوط: 16 خط بالعمومي"
-        ],
-        "confidenceScore": 0.88,
-        "reviewRequired": false,
-        "_dec": {
-          "columns": [
-            6,
-            6
-          ],
-          "lower": 4,
-          "rows": 1,
-          "orientation": "dual+bottom"
-        }
-      },
-      "structureDescription": "A three-phase main breaker across the top, then 16 outgoing line breakers on DIN rails arranged as two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers.",
-      "layoutType": "dual-column-with-bottom-group",
-      "aiPromptClosed": "CLOSED VIEW — لوحة 16 خط 3 فاز بالعمومي. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 330mm × height 390mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-      "aiPromptOpen": "OPEN / INTERIOR VIEW — لوحة 16 خط 3 فاز بالعمومي. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 330mm × height 390mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): A three-phase main breaker across the top, then 16 outgoing line breakers on DIN rails arranged as two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers. Interior must contain exactly: a three-phase (wide) main breaker at the top-centre; 6 + 6 breakers in 2 vertical groups plus a smaller bottom group of 4 breakers. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-      "imageStatus": "needs-generation",
-      "reviewNotes": [
-        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-      ],
-      "ai": {
-        "layoutType": "dual-column-with-bottom-group",
-        "promptClosed": "CLOSED VIEW — لوحة 16 خط 3 فاز بالعمومي. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 330mm × height 390mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-        "promptOpen": "OPEN / INTERIOR VIEW — لوحة 16 خط 3 فاز بالعمومي. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 330mm × height 390mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): A three-phase main breaker across the top, then 16 outgoing line breakers on DIN rails arranged as two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers. Interior must contain exactly: a three-phase (wide) main breaker at the top-centre; 6 + 6 breakers in 2 vertical groups plus a smaller bottom group of 4 breakers. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-        "aiClosedImageUrl": null,
-        "aiOpenImageUrl": null,
-        "imageStatus": "needs-generation",
-        "reviewNotes": [
-          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-        ],
-        "reviewRequired": false,
-        "confidenceScore": 0.88
-      }
-    },
-    {
-      "id": "eefb1bc3-1d14-495f-949f-3748e4f48467",
-      "name": "لوحة 18 خط 3 فاز بالعمومي أوميجا ثابتة",
-      "categoryId": "685e22fe-0fc4-4f69-ab0d-c2059901349f",
-      "categoryName": "لوحات خطوط فقط",
-      "categorySlug": "lines-only",
-      "h": 440,
-      "w": 350,
-      "d": 90,
-      "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411424320-________________________202605101406.jpeg"
-      ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411424320-________________________202605101406.jpeg",
-      "mainImage": "assets/img/optimized/lo-18-3p-fixed-main.webp",
-      "thumbnailImage": "assets/img/optimized/lo-18-3p-fixed-thumb.webp",
-      "mainImageWidth": 1200,
-      "mainImageHeight": 896,
-      "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411424320-________________________202605101406.jpeg",
-      "aiClosedImageUrl": null,
-      "aiOpenImageUrl": null,
-      "description": "لوحة 18 خط 3 فاز بالعمومي أوميجا ثابتة",
-      "specs": [],
-      "indexInCategory": 6,
-      "structure": {
-        "category": "lines-only",
-        "productType": "distribution-panel",
-        "layoutType": "dual-column-with-bottom-group",
-        "orientation": "portrait",
-        "door": {
-          "type": "hinged-door",
-          "side": "left",
-          "opens": "swings open to the left"
-        },
-        "doorSide": "left",
-        "breakerGroups": 3,
-        "breakerColumns": [
-          8,
-          8
-        ],
-        "breakerRows": 1,
-        "totalBreakers": 18,
-        "lowerSection": true,
-        "lowerCount": 2,
-        "hasMeter": false,
-        "meterCount": 0,
-        "prepaid": false,
-        "hasMainBreaker": true,
-        "mainBreakerPosition": "top-center",
-        "mainBreakerPoles": 3,
-        "threePhase": true,
-        "signalLamps": 0,
-        "structureDescription": "A three-phase main breaker across the top, then 18 outgoing line breakers on DIN rails arranged as two vertical groups (8 + 8) plus a smaller bottom group of 2 breakers (fixed omega DIN rail).",
-        "notes": [
-          "لوحة خطوط: 18 خط بالعمومي"
-        ],
-        "confidenceScore": 0.88,
-        "reviewRequired": false,
-        "_dec": {
-          "columns": [
-            8,
-            8
-          ],
-          "lower": 2,
-          "rows": 1,
-          "orientation": "dual+bottom"
-        }
-      },
-      "structureDescription": "A three-phase main breaker across the top, then 18 outgoing line breakers on DIN rails arranged as two vertical groups (8 + 8) plus a smaller bottom group of 2 breakers (fixed omega DIN rail).",
-      "layoutType": "dual-column-with-bottom-group",
-      "aiPromptClosed": "CLOSED VIEW — لوحة 18 خط 3 فاز بالعمومي أوميجا ثابتة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-      "aiPromptOpen": "OPEN / INTERIOR VIEW — لوحة 18 خط 3 فاز بالعمومي أوميجا ثابتة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): A three-phase main breaker across the top, then 18 outgoing line breakers on DIN rails arranged as two vertical groups (8 + 8) plus a smaller bottom group of 2 breakers (fixed omega DIN rail). Interior must contain exactly: a three-phase (wide) main breaker at the top-centre; 8 + 8 breakers in 2 vertical groups plus a smaller bottom group of 2 breakers. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-      "imageStatus": "needs-generation",
-      "reviewNotes": [
-        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-      ],
-      "ai": {
-        "layoutType": "dual-column-with-bottom-group",
-        "promptClosed": "CLOSED VIEW — لوحة 18 خط 3 فاز بالعمومي أوميجا ثابتة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-        "promptOpen": "OPEN / INTERIOR VIEW — لوحة 18 خط 3 فاز بالعمومي أوميجا ثابتة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): A three-phase main breaker across the top, then 18 outgoing line breakers on DIN rails arranged as two vertical groups (8 + 8) plus a smaller bottom group of 2 breakers (fixed omega DIN rail). Interior must contain exactly: a three-phase (wide) main breaker at the top-centre; 8 + 8 breakers in 2 vertical groups plus a smaller bottom group of 2 breakers. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-        "aiClosedImageUrl": null,
-        "aiOpenImageUrl": null,
-        "imageStatus": "needs-generation",
-        "reviewNotes": [
-          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-        ],
-        "reviewRequired": false,
-        "confidenceScore": 0.88
-      }
-    },
-    {
-      "id": "7430d656-51f7-4285-8e99-42bd961bd05d",
-      "name": "لوحة 24 خط 3 فاز بالعمومي",
-      "categoryId": "685e22fe-0fc4-4f69-ab0d-c2059901349f",
-      "categoryName": "لوحات خطوط فقط",
-      "categorySlug": "lines-only",
-      "h": 470,
-      "w": 350,
-      "d": 90,
-      "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411404984-________________________202605101409__2_.jpeg"
-      ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411404984-________________________202605101409__2_.jpeg",
-      "mainImage": "assets/img/optimized/lo-24-3p-omega-main.webp",
-      "thumbnailImage": "assets/img/optimized/lo-24-3p-omega-thumb.webp",
-      "mainImageWidth": 1200,
-      "mainImageHeight": 896,
-      "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411404984-________________________202605101409__2_.jpeg",
-      "aiClosedImageUrl": null,
-      "aiOpenImageUrl": null,
-      "description": "لوحة 24 خط 3 فاز بالعمومي",
-      "specs": [],
-      "indexInCategory": 7,
-      "structure": {
-        "category": "lines-only",
-        "productType": "distribution-panel",
-        "layoutType": "dual-column-with-bottom-group",
-        "orientation": "portrait",
-        "door": {
-          "type": "hinged-door",
-          "side": "left",
-          "opens": "swings open to the left"
-        },
-        "doorSide": "left",
-        "breakerGroups": 3,
-        "breakerColumns": [
-          10,
-          10
-        ],
-        "breakerRows": 1,
-        "totalBreakers": 24,
-        "lowerSection": true,
-        "lowerCount": 4,
-        "hasMeter": false,
-        "meterCount": 0,
-        "prepaid": false,
-        "hasMainBreaker": true,
-        "mainBreakerPosition": "top-center",
-        "mainBreakerPoles": 3,
-        "threePhase": true,
-        "signalLamps": 0,
-        "structureDescription": "A three-phase main breaker across the top, then 24 outgoing line breakers on DIN rails arranged as two vertical groups (10 + 10) plus a smaller bottom group of 4 breakers.",
-        "notes": [
-          "لوحة خطوط: 24 خط بالعمومي"
-        ],
-        "confidenceScore": 0.88,
-        "reviewRequired": false,
-        "_dec": {
-          "columns": [
-            10,
-            10
-          ],
-          "lower": 4,
-          "rows": 1,
-          "orientation": "dual+bottom"
-        }
-      },
-      "structureDescription": "A three-phase main breaker across the top, then 24 outgoing line breakers on DIN rails arranged as two vertical groups (10 + 10) plus a smaller bottom group of 4 breakers.",
-      "layoutType": "dual-column-with-bottom-group",
-      "aiPromptClosed": "CLOSED VIEW — لوحة 24 خط 3 فاز بالعمومي. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 470mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-      "aiPromptOpen": "OPEN / INTERIOR VIEW — لوحة 24 خط 3 فاز بالعمومي. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 470mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): A three-phase main breaker across the top, then 24 outgoing line breakers on DIN rails arranged as two vertical groups (10 + 10) plus a smaller bottom group of 4 breakers. Interior must contain exactly: a three-phase (wide) main breaker at the top-centre; 10 + 10 breakers in 2 vertical groups plus a smaller bottom group of 4 breakers. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-      "imageStatus": "needs-generation",
-      "reviewNotes": [
-        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-      ],
-      "ai": {
-        "layoutType": "dual-column-with-bottom-group",
-        "promptClosed": "CLOSED VIEW — لوحة 24 خط 3 فاز بالعمومي. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 470mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-        "promptOpen": "OPEN / INTERIOR VIEW — لوحة 24 خط 3 فاز بالعمومي. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 470mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): A three-phase main breaker across the top, then 24 outgoing line breakers on DIN rails arranged as two vertical groups (10 + 10) plus a smaller bottom group of 4 breakers. Interior must contain exactly: a three-phase (wide) main breaker at the top-centre; 10 + 10 breakers in 2 vertical groups plus a smaller bottom group of 4 breakers. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-        "aiClosedImageUrl": null,
-        "aiOpenImageUrl": null,
-        "imageStatus": "needs-generation",
-        "reviewNotes": [
-          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-        ],
-        "reviewRequired": false,
-        "confidenceScore": 0.88
-      }
-    },
-    {
       "id": "c2ad0b63-cb72-481d-ab9e-2a751f0f81b5",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة 18 خط 3 فاز بالعمومي",
       "categoryId": "685e22fe-0fc4-4f69-ab0d-c2059901349f",
       "categoryName": "لوحات خطوط فقط",
@@ -733,21 +659,37 @@ window.NOUR_DATA = {
       "w": 270,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410998594-________________________202605101402.jpeg"
+        "assets/img/products/lo-18-3p-general-main-1782726266007.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410998594-________________________202605101402.jpeg",
-      "mainImage": "assets/img/optimized/lo-18-3p-general-main.webp",
-      "thumbnailImage": "assets/img/optimized/lo-18-3p-general-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lo-18-3p-general-main-1782726266007.webp",
+          "alt": "لوحة 18 خط 3 فاز بالعمومي",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lo-18-3p-general-main-1782726266007.webp",
+      "mainImage": "assets/img/products/lo-18-3p-general-main-1782726266007.webp",
+      "thumbnailImage": "assets/img/products/lo-18-3p-general-main-1782726266007.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410998594-________________________202605101402.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lo-18-3p-general-main-1782726266007.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة 18 خط 3 فاز بالعمومي",
       "specs": [],
-      "indexInCategory": 8,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 6,
+      "indexInCategory": 6,
       "structure": {
         "category": "lines-only",
         "productType": "distribution-panel",
@@ -818,6 +760,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "36b36dc3-0798-4273-9d4a-d8cea948e442",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة 24 خط 3 فاز بالعمومي",
       "categoryId": "685e22fe-0fc4-4f69-ab0d-c2059901349f",
       "categoryName": "لوحات خطوط فقط",
@@ -828,6 +771,16 @@ window.NOUR_DATA = {
       "images": [
         "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411092556-________________________202605101404.jpeg"
       ],
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411092556-________________________202605101404.jpeg",
+          "alt": "لوحة 24 خط 3 فاز بالعمومي",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
       "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411092556-________________________202605101404.jpeg",
       "mainImage": "assets/img/optimized/lo-24-3p-main.webp",
       "thumbnailImage": "assets/img/optimized/lo-24-3p-thumb.webp",
@@ -836,11 +789,17 @@ window.NOUR_DATA = {
       "thumbnailWidth": 480,
       "thumbnailHeight": 358,
       "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411092556-________________________202605101404.jpeg",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة 24 خط 3 فاز بالعمومي",
       "specs": [],
-      "indexInCategory": 9,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 7,
+      "indexInCategory": 7,
       "structure": {
         "category": "lines-only",
         "productType": "distribution-panel",
@@ -911,6 +870,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "1cbc9600-37da-4fba-855c-b3ef9522d1c5",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة خطوط 24 خط",
       "categoryId": "685e22fe-0fc4-4f69-ab0d-c2059901349f",
       "categoryName": "لوحات خطوط فقط",
@@ -919,21 +879,37 @@ window.NOUR_DATA = {
       "w": 270,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411861655-________________________202605101416__1_.jpeg"
+        "assets/img/products/lo-24-lines-main-1782726180257.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411861655-________________________202605101416__1_.jpeg",
-      "mainImage": "assets/img/optimized/lo-24-lines-main.webp",
-      "thumbnailImage": "assets/img/optimized/lo-24-lines-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lo-24-lines-main-1782726180257.webp",
+          "alt": "لوحة خطوط 24 خط",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lo-24-lines-main-1782726180257.webp",
+      "mainImage": "assets/img/products/lo-24-lines-main-1782726180257.webp",
+      "thumbnailImage": "assets/img/products/lo-24-lines-main-1782726180257.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411861655-________________________202605101416__1_.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lo-24-lines-main-1782726180257.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة خطوط 24 خط",
       "specs": [],
-      "indexInCategory": 10,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 8,
+      "indexInCategory": 8,
       "structure": {
         "category": "lines-only",
         "productType": "distribution-panel",
@@ -1003,7 +979,228 @@ window.NOUR_DATA = {
       }
     },
     {
+      "id": "eefb1bc3-1d14-495f-949f-3748e4f48467",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
+      "name": "لوحة 18 خط 3 فاز بالعمومي أوميجا ثابتة",
+      "categoryId": "685e22fe-0fc4-4f69-ab0d-c2059901349f",
+      "categoryName": "لوحات خطوط فقط",
+      "categorySlug": "lines-only",
+      "h": 440,
+      "w": 350,
+      "d": 90,
+      "images": [
+        "assets/img/products/lo-18-3p-fixed-main-1782723640581.webp"
+      ],
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lo-18-3p-fixed-main-1782723640581.webp",
+          "alt": "لوحة 18 خط 3 فاز بالعمومي أوميجا ثابتة",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lo-18-3p-fixed-main-1782723640581.webp",
+      "mainImage": "assets/img/products/lo-18-3p-fixed-main-1782723640581.webp",
+      "thumbnailImage": "assets/img/products/lo-18-3p-fixed-main-1782723640581.webp",
+      "mainImageWidth": 1200,
+      "mainImageHeight": 900,
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lo-18-3p-fixed-main-1782723640581.webp",
+      "dimensionImage": null,
+      "aiClosedImageUrl": null,
+      "aiOpenImageUrl": null,
+      "description": "لوحة 18 خط 3 فاز بالعمومي أوميجا ثابتة",
+      "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 9,
+      "indexInCategory": 9,
+      "structure": {
+        "category": "lines-only",
+        "productType": "distribution-panel",
+        "layoutType": "dual-column-with-bottom-group",
+        "orientation": "portrait",
+        "door": {
+          "type": "hinged-door",
+          "side": "left",
+          "opens": "swings open to the left"
+        },
+        "doorSide": "left",
+        "breakerGroups": 3,
+        "breakerColumns": [
+          8,
+          8
+        ],
+        "breakerRows": 1,
+        "totalBreakers": 18,
+        "lowerSection": true,
+        "lowerCount": 2,
+        "hasMeter": false,
+        "meterCount": 0,
+        "prepaid": false,
+        "hasMainBreaker": true,
+        "mainBreakerPosition": "top-center",
+        "mainBreakerPoles": 3,
+        "threePhase": true,
+        "signalLamps": 0,
+        "structureDescription": "A three-phase main breaker across the top, then 18 outgoing line breakers on DIN rails arranged as two vertical groups (8 + 8) plus a smaller bottom group of 2 breakers (fixed omega DIN rail).",
+        "notes": [
+          "لوحة خطوط: 18 خط بالعمومي"
+        ],
+        "confidenceScore": 0.88,
+        "reviewRequired": false,
+        "_dec": {
+          "columns": [
+            8,
+            8
+          ],
+          "lower": 2,
+          "rows": 1,
+          "orientation": "dual+bottom"
+        }
+      },
+      "structureDescription": "A three-phase main breaker across the top, then 18 outgoing line breakers on DIN rails arranged as two vertical groups (8 + 8) plus a smaller bottom group of 2 breakers (fixed omega DIN rail).",
+      "layoutType": "dual-column-with-bottom-group",
+      "aiPromptClosed": "CLOSED VIEW — لوحة 18 خط 3 فاز بالعمومي أوميجا ثابتة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+      "aiPromptOpen": "OPEN / INTERIOR VIEW — لوحة 18 خط 3 فاز بالعمومي أوميجا ثابتة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): A three-phase main breaker across the top, then 18 outgoing line breakers on DIN rails arranged as two vertical groups (8 + 8) plus a smaller bottom group of 2 breakers (fixed omega DIN rail). Interior must contain exactly: a three-phase (wide) main breaker at the top-centre; 8 + 8 breakers in 2 vertical groups plus a smaller bottom group of 2 breakers. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+      "imageStatus": "needs-generation",
+      "reviewNotes": [
+        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+      ],
+      "ai": {
+        "layoutType": "dual-column-with-bottom-group",
+        "promptClosed": "CLOSED VIEW — لوحة 18 خط 3 فاز بالعمومي أوميجا ثابتة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+        "promptOpen": "OPEN / INTERIOR VIEW — لوحة 18 خط 3 فاز بالعمومي أوميجا ثابتة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): A three-phase main breaker across the top, then 18 outgoing line breakers on DIN rails arranged as two vertical groups (8 + 8) plus a smaller bottom group of 2 breakers (fixed omega DIN rail). Interior must contain exactly: a three-phase (wide) main breaker at the top-centre; 8 + 8 breakers in 2 vertical groups plus a smaller bottom group of 2 breakers. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+        "aiClosedImageUrl": null,
+        "aiOpenImageUrl": null,
+        "imageStatus": "needs-generation",
+        "reviewNotes": [
+          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+        ],
+        "reviewRequired": false,
+        "confidenceScore": 0.88
+      }
+    },
+    {
+      "id": "7430d656-51f7-4285-8e99-42bd961bd05d",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
+      "name": "لوحة 24 خط 3 فاز بالعمومي",
+      "categoryId": "685e22fe-0fc4-4f69-ab0d-c2059901349f",
+      "categoryName": "لوحات خطوط فقط",
+      "categorySlug": "lines-only",
+      "h": 470,
+      "w": 350,
+      "d": 90,
+      "images": [
+        "assets/img/products/lo-24-3p-omega-main-1782726035122.webp"
+      ],
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lo-24-3p-omega-main-1782726035122.webp",
+          "alt": "لوحة 24 خط 3 فاز بالعمومي",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lo-24-3p-omega-main-1782726035122.webp",
+      "mainImage": "assets/img/products/lo-24-3p-omega-main-1782726035122.webp",
+      "thumbnailImage": "assets/img/products/lo-24-3p-omega-main-1782726035122.webp",
+      "mainImageWidth": 1200,
+      "mainImageHeight": 900,
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lo-24-3p-omega-main-1782726035122.webp",
+      "dimensionImage": null,
+      "aiClosedImageUrl": null,
+      "aiOpenImageUrl": null,
+      "description": "لوحة 24 خط 3 فاز بالعمومي",
+      "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 10,
+      "indexInCategory": 10,
+      "structure": {
+        "category": "lines-only",
+        "productType": "distribution-panel",
+        "layoutType": "dual-column-with-bottom-group",
+        "orientation": "portrait",
+        "door": {
+          "type": "hinged-door",
+          "side": "left",
+          "opens": "swings open to the left"
+        },
+        "doorSide": "left",
+        "breakerGroups": 3,
+        "breakerColumns": [
+          10,
+          10
+        ],
+        "breakerRows": 1,
+        "totalBreakers": 24,
+        "lowerSection": true,
+        "lowerCount": 4,
+        "hasMeter": false,
+        "meterCount": 0,
+        "prepaid": false,
+        "hasMainBreaker": true,
+        "mainBreakerPosition": "top-center",
+        "mainBreakerPoles": 3,
+        "threePhase": true,
+        "signalLamps": 0,
+        "structureDescription": "A three-phase main breaker across the top, then 24 outgoing line breakers on DIN rails arranged as two vertical groups (10 + 10) plus a smaller bottom group of 4 breakers.",
+        "notes": [
+          "لوحة خطوط: 24 خط بالعمومي"
+        ],
+        "confidenceScore": 0.88,
+        "reviewRequired": false,
+        "_dec": {
+          "columns": [
+            10,
+            10
+          ],
+          "lower": 4,
+          "rows": 1,
+          "orientation": "dual+bottom"
+        }
+      },
+      "structureDescription": "A three-phase main breaker across the top, then 24 outgoing line breakers on DIN rails arranged as two vertical groups (10 + 10) plus a smaller bottom group of 4 breakers.",
+      "layoutType": "dual-column-with-bottom-group",
+      "aiPromptClosed": "CLOSED VIEW — لوحة 24 خط 3 فاز بالعمومي. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 470mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+      "aiPromptOpen": "OPEN / INTERIOR VIEW — لوحة 24 خط 3 فاز بالعمومي. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 470mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): A three-phase main breaker across the top, then 24 outgoing line breakers on DIN rails arranged as two vertical groups (10 + 10) plus a smaller bottom group of 4 breakers. Interior must contain exactly: a three-phase (wide) main breaker at the top-centre; 10 + 10 breakers in 2 vertical groups plus a smaller bottom group of 4 breakers. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+      "imageStatus": "needs-generation",
+      "reviewNotes": [
+        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+      ],
+      "ai": {
+        "layoutType": "dual-column-with-bottom-group",
+        "promptClosed": "CLOSED VIEW — لوحة 24 خط 3 فاز بالعمومي. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 470mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+        "promptOpen": "OPEN / INTERIOR VIEW — لوحة 24 خط 3 فاز بالعمومي. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 470mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): A three-phase main breaker across the top, then 24 outgoing line breakers on DIN rails arranged as two vertical groups (10 + 10) plus a smaller bottom group of 4 breakers. Interior must contain exactly: a three-phase (wide) main breaker at the top-centre; 10 + 10 breakers in 2 vertical groups plus a smaller bottom group of 4 breakers. Category: lines-only distribution board. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+        "aiClosedImageUrl": null,
+        "aiOpenImageUrl": null,
+        "imageStatus": "needs-generation",
+        "reviewNotes": [
+          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+        ],
+        "reviewRequired": false,
+        "confidenceScore": 0.88
+      }
+    },
+    {
       "id": "3800c7d9-1deb-4c04-9735-6fef3f3c47a4",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة 36 خط 3 فاز بالعمومي أوميجا متحركة",
       "categoryId": "685e22fe-0fc4-4f69-ab0d-c2059901349f",
       "categoryName": "لوحات خطوط فقط",
@@ -1012,20 +1209,36 @@ window.NOUR_DATA = {
       "w": 360,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411889353-________________________202605101416.jpeg"
+        "assets/img/products/lo-36-omega-mobile-main-1782726076885.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411889353-________________________202605101416.jpeg",
-      "mainImage": "assets/img/optimized/lo-36-omega-mobile-main.webp",
-      "thumbnailImage": "assets/img/optimized/lo-36-omega-mobile-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lo-36-omega-mobile-main-1782726076885.webp",
+          "alt": "لوحة 36 خط 3 فاز بالعمومي أوميجا متحركة",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lo-36-omega-mobile-main-1782726076885.webp",
+      "mainImage": "assets/img/products/lo-36-omega-mobile-main-1782726076885.webp",
+      "thumbnailImage": "assets/img/products/lo-36-omega-mobile-main-1782726076885.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411889353-________________________202605101416.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lo-36-omega-mobile-main-1782726076885.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة 36 خط 3 فاز بالعمومي أوميجا متحركة",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 11,
       "indexInCategory": 11,
       "structure": {
         "category": "lines-only",
@@ -1099,6 +1312,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "32e60e04-e190-4fa6-b442-fd686fd6ca47",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة عداد 220V كارت شحن",
       "categoryId": "6a9e526d-8d80-406b-b77d-4804b5ee55fe",
       "categoryName": "لوحات عداد فقط",
@@ -1107,20 +1321,36 @@ window.NOUR_DATA = {
       "w": 270,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778412158883-________________________202605101422.jpeg"
+        "assets/img/products/mo-220-card-main-1782723141258.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778412158883-________________________202605101422.jpeg",
-      "mainImage": "assets/img/optimized/mo-220-card-main.webp",
-      "thumbnailImage": "assets/img/optimized/mo-220-card-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/mo-220-card-main-1782723141258.webp",
+          "alt": "لوحة عداد 220V كارت شحن",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/mo-220-card-main-1782723141258.webp",
+      "mainImage": "assets/img/products/mo-220-card-main-1782723141258.webp",
+      "thumbnailImage": "assets/img/products/mo-220-card-main-1782723141258.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778412158883-________________________202605101422.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/mo-220-card-main-1782723141258.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة عداد 220V كارت شحن",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 1,
       "indexInCategory": 1,
       "structure": {
         "category": "meter-only",
@@ -1180,6 +1410,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "3c53c23e-c37a-42f7-8a70-a6e3ce8b1132",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة عداد 220V مصانع",
       "categoryId": "6a9e526d-8d80-406b-b77d-4804b5ee55fe",
       "categoryName": "لوحات عداد فقط",
@@ -1188,20 +1419,36 @@ window.NOUR_DATA = {
       "w": 270,
       "d": 120,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778412208985-________________________202605101423.jpeg"
+        "assets/img/products/mo-220-factories-main-1782725357911.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778412208985-________________________202605101423.jpeg",
-      "mainImage": "assets/img/optimized/mo-220-factories-main.webp",
-      "thumbnailImage": "assets/img/optimized/mo-220-factories-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/mo-220-factories-main-1782725357911.webp",
+          "alt": "لوحة عداد 220V مصانع",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/mo-220-factories-main-1782725357911.webp",
+      "mainImage": "assets/img/products/mo-220-factories-main-1782725357911.webp",
+      "thumbnailImage": "assets/img/products/mo-220-factories-main-1782725357911.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778412208985-________________________202605101423.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/mo-220-factories-main-1782725357911.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة عداد 220V مصانع",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 2,
       "indexInCategory": 2,
       "structure": {
         "category": "meter-only",
@@ -1261,6 +1508,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "a8286304-eadf-4413-aba0-44fe2e481ab1",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة عداد 3 فاز مصانع",
       "categoryId": "6a9e526d-8d80-406b-b77d-4804b5ee55fe",
       "categoryName": "لوحات عداد فقط",
@@ -1269,20 +1517,36 @@ window.NOUR_DATA = {
       "w": 330,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778412299185-________________________202605101424.jpeg"
+        "assets/img/products/mo-3p-factories-main-1782723162059.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778412299185-________________________202605101424.jpeg",
-      "mainImage": "assets/img/optimized/mo-3p-factories-main.webp",
-      "thumbnailImage": "assets/img/optimized/mo-3p-factories-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/mo-3p-factories-main-1782723162059.webp",
+          "alt": "لوحة عداد 3 فاز مصانع",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/mo-3p-factories-main-1782723162059.webp",
+      "mainImage": "assets/img/products/mo-3p-factories-main-1782723162059.webp",
+      "thumbnailImage": "assets/img/products/mo-3p-factories-main-1782723162059.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778412299185-________________________202605101424.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/mo-3p-factories-main-1782723162059.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة عداد 3 فاز مصانع",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 3,
       "indexInCategory": 3,
       "structure": {
         "category": "meter-only",
@@ -1341,88 +1605,8 @@ window.NOUR_DATA = {
       }
     },
     {
-      "id": "29f2a354-4052-42b9-a1ac-0655b3d8ac01",
-      "name": "لوحة عداد كارت شحن 2 / 3 فاز",
-      "categoryId": "6a9e526d-8d80-406b-b77d-4804b5ee55fe",
-      "categoryName": "لوحات عداد فقط",
-      "categorySlug": "meter-only",
-      "h": 440,
-      "w": 350,
-      "d": 90,
-      "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778412849821-________________________202605101434.jpeg"
-      ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778412849821-________________________202605101434.jpeg",
-      "mainImage": "assets/img/optimized/mo-2card-3p-main.webp",
-      "thumbnailImage": "assets/img/optimized/mo-2card-3p-thumb.webp",
-      "mainImageWidth": 1200,
-      "mainImageHeight": 896,
-      "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778412849821-________________________202605101434.jpeg",
-      "aiClosedImageUrl": null,
-      "aiOpenImageUrl": null,
-      "description": "لوحة عداد كارت شحن 2 / 3 فاز بالقاطع",
-      "specs": [],
-      "indexInCategory": 4,
-      "structure": {
-        "category": "meter-only",
-        "productType": "meter-panel",
-        "layoutType": "meter-single",
-        "orientation": "portrait",
-        "door": {
-          "type": "hinged-door",
-          "side": "left",
-          "opens": "swings open to the left"
-        },
-        "doorSide": "left",
-        "breakerGroups": 0,
-        "breakerColumns": [],
-        "breakerRows": 1,
-        "totalBreakers": 0,
-        "lowerSection": false,
-        "lowerCount": 0,
-        "hasMeter": true,
-        "meterCount": 1,
-        "prepaid": true,
-        "hasMainBreaker": false,
-        "mainBreakerPosition": "none",
-        "mainBreakerPoles": 3,
-        "threePhase": true,
-        "signalLamps": 0,
-        "structureDescription": "Single electricity meter (prepaid charge-card type), three-phase filling the front, with terminal connections below.",
-        "notes": [
-          "لوحة عداد فردي كارت شحن"
-        ],
-        "confidenceScore": 0.74,
-        "reviewRequired": false
-      },
-      "structureDescription": "Single electricity meter (prepaid charge-card type), three-phase filling the front, with terminal connections below.",
-      "layoutType": "meter-single",
-      "aiPromptClosed": "CLOSED VIEW — لوحة عداد كارت شحن 2 / 3 فاز. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A meter viewing window is visible on the door. Category: meter panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-      "aiPromptOpen": "OPEN / INTERIOR VIEW — لوحة عداد كارت شحن 2 / 3 فاز. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Single electricity meter (prepaid charge-card type), three-phase filling the front, with terminal connections below. Interior must contain exactly: one meter (prepaid charge-card). Category: meter panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-      "imageStatus": "needs-generation",
-      "reviewNotes": [
-        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-      ],
-      "ai": {
-        "layoutType": "meter-single",
-        "promptClosed": "CLOSED VIEW — لوحة عداد كارت شحن 2 / 3 فاز. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A meter viewing window is visible on the door. Category: meter panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-        "promptOpen": "OPEN / INTERIOR VIEW — لوحة عداد كارت شحن 2 / 3 فاز. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Single electricity meter (prepaid charge-card type), three-phase filling the front, with terminal connections below. Interior must contain exactly: one meter (prepaid charge-card). Category: meter panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-        "aiClosedImageUrl": null,
-        "aiOpenImageUrl": null,
-        "imageStatus": "needs-generation",
-        "reviewNotes": [
-          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-        ],
-        "reviewRequired": false,
-        "confidenceScore": 0.74
-      }
-    },
-    {
       "id": "9b448f16-a968-436f-8b81-a3b394a32944",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة عداد 3 فاز كارت شحن",
       "categoryId": "6a9e526d-8d80-406b-b77d-4804b5ee55fe",
       "categoryName": "لوحات عداد فقط",
@@ -1431,21 +1615,37 @@ window.NOUR_DATA = {
       "w": 270,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778412365987-________________________202605101425.jpeg"
+        "assets/img/products/mo-3p-card-main-1782725831486.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778412365987-________________________202605101425.jpeg",
-      "mainImage": "assets/img/optimized/mo-3p-card-main.webp",
-      "thumbnailImage": "assets/img/optimized/mo-3p-card-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/mo-3p-card-main-1782725831486.webp",
+          "alt": "لوحة عداد 3 فاز كارت شحن",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/mo-3p-card-main-1782725831486.webp",
+      "mainImage": "assets/img/products/mo-3p-card-main-1782725831486.webp",
+      "thumbnailImage": "assets/img/products/mo-3p-card-main-1782725831486.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778412365987-________________________202605101425.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/mo-3p-card-main-1782725831486.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة عداد 3 فاز كارت شحن",
       "specs": [],
-      "indexInCategory": 5,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 4,
+      "indexInCategory": 4,
       "structure": {
         "category": "meter-only",
         "productType": "meter-panel",
@@ -1503,7 +1703,106 @@ window.NOUR_DATA = {
       }
     },
     {
+      "id": "29f2a354-4052-42b9-a1ac-0655b3d8ac01",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
+      "name": "لوحة عداد كارت شحن 2 / 3 فاز",
+      "categoryId": "6a9e526d-8d80-406b-b77d-4804b5ee55fe",
+      "categoryName": "لوحات عداد فقط",
+      "categorySlug": "meter-only",
+      "h": 440,
+      "w": 350,
+      "d": 90,
+      "images": [
+        "assets/img/products/mo-2card-3p-main-1782726597609.webp"
+      ],
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/mo-2card-3p-main-1782726597609.webp",
+          "alt": "لوحة عداد كارت شحن 2 / 3 فاز",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/mo-2card-3p-main-1782726597609.webp",
+      "mainImage": "assets/img/products/mo-2card-3p-main-1782726597609.webp",
+      "thumbnailImage": "assets/img/products/mo-2card-3p-main-1782726597609.webp",
+      "mainImageWidth": 1200,
+      "mainImageHeight": 900,
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/mo-2card-3p-main-1782726597609.webp",
+      "dimensionImage": null,
+      "aiClosedImageUrl": null,
+      "aiOpenImageUrl": null,
+      "description": "لوحة عداد كارت شحن 2 / 3 فاز بالقاطع",
+      "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 5,
+      "indexInCategory": 5,
+      "structure": {
+        "category": "meter-only",
+        "productType": "meter-panel",
+        "layoutType": "meter-single",
+        "orientation": "portrait",
+        "door": {
+          "type": "hinged-door",
+          "side": "left",
+          "opens": "swings open to the left"
+        },
+        "doorSide": "left",
+        "breakerGroups": 0,
+        "breakerColumns": [],
+        "breakerRows": 1,
+        "totalBreakers": 0,
+        "lowerSection": false,
+        "lowerCount": 0,
+        "hasMeter": true,
+        "meterCount": 1,
+        "prepaid": true,
+        "hasMainBreaker": false,
+        "mainBreakerPosition": "none",
+        "mainBreakerPoles": 3,
+        "threePhase": true,
+        "signalLamps": 0,
+        "structureDescription": "Single electricity meter (prepaid charge-card type), three-phase filling the front, with terminal connections below.",
+        "notes": [
+          "لوحة عداد فردي كارت شحن"
+        ],
+        "confidenceScore": 0.74,
+        "reviewRequired": false
+      },
+      "structureDescription": "Single electricity meter (prepaid charge-card type), three-phase filling the front, with terminal connections below.",
+      "layoutType": "meter-single",
+      "aiPromptClosed": "CLOSED VIEW — لوحة عداد كارت شحن 2 / 3 فاز. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A meter viewing window is visible on the door. Category: meter panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+      "aiPromptOpen": "OPEN / INTERIOR VIEW — لوحة عداد كارت شحن 2 / 3 فاز. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Single electricity meter (prepaid charge-card type), three-phase filling the front, with terminal connections below. Interior must contain exactly: one meter (prepaid charge-card). Category: meter panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+      "imageStatus": "needs-generation",
+      "reviewNotes": [
+        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+      ],
+      "ai": {
+        "layoutType": "meter-single",
+        "promptClosed": "CLOSED VIEW — لوحة عداد كارت شحن 2 / 3 فاز. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A meter viewing window is visible on the door. Category: meter panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+        "promptOpen": "OPEN / INTERIOR VIEW — لوحة عداد كارت شحن 2 / 3 فاز. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Single electricity meter (prepaid charge-card type), three-phase filling the front, with terminal connections below. Interior must contain exactly: one meter (prepaid charge-card). Category: meter panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+        "aiClosedImageUrl": null,
+        "aiOpenImageUrl": null,
+        "imageStatus": "needs-generation",
+        "reviewNotes": [
+          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+        ],
+        "reviewRequired": false,
+        "confidenceScore": 0.74
+      }
+    },
+    {
       "id": "0612dbfc-aef5-4b96-98dc-0d457b5f1d54",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة عداد 3 مفاتيح قاطع + لمبات إشارة",
       "categoryId": "6a9e526d-8d80-406b-b77d-4804b5ee55fe",
       "categoryName": "لوحات عداد فقط",
@@ -1512,20 +1811,36 @@ window.NOUR_DATA = {
       "w": 375,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413010721-________________________202605101436.jpeg"
+        "assets/img/products/mo-3-switches-main-1782726882126.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413010721-________________________202605101436.jpeg",
-      "mainImage": "assets/img/optimized/mo-3-switches-main.webp",
-      "thumbnailImage": "assets/img/optimized/mo-3-switches-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/mo-3-switches-main-1782726882126.webp",
+          "alt": "لوحة عداد 3 مفاتيح قاطع + لمبات إشارة",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/mo-3-switches-main-1782726882126.webp",
+      "mainImage": "assets/img/products/mo-3-switches-main-1782726882126.webp",
+      "thumbnailImage": "assets/img/products/mo-3-switches-main-1782726882126.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413010721-________________________202605101436.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/mo-3-switches-main-1782726882126.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة عداد 3 مفاتيح قاطع + لمبات إشارة",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 6,
       "indexInCategory": 6,
       "structure": {
         "category": "meter-only",
@@ -1595,6 +1910,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "c358e3cc-bd54-4ac3-a147-e5df7add09b8",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة عداد 4 مفاتيح قاطع + لمبات إشارة",
       "categoryId": "6a9e526d-8d80-406b-b77d-4804b5ee55fe",
       "categoryName": "لوحات عداد فقط",
@@ -1603,20 +1919,36 @@ window.NOUR_DATA = {
       "w": 475,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413317347-________________________202605101441.jpeg"
+        "assets/img/products/mo-4-switches-main-1782726953922.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413317347-________________________202605101441.jpeg",
-      "mainImage": "assets/img/optimized/mo-4-switches-main.webp",
-      "thumbnailImage": "assets/img/optimized/mo-4-switches-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/mo-4-switches-main-1782726953922.webp",
+          "alt": "لوحة عداد 4 مفاتيح قاطع + لمبات إشارة",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/mo-4-switches-main-1782726953922.webp",
+      "mainImage": "assets/img/products/mo-4-switches-main-1782726953922.webp",
+      "thumbnailImage": "assets/img/products/mo-4-switches-main-1782726953922.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413317347-________________________202605101441.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/mo-4-switches-main-1782726953922.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة عداد 4 مفاتيح قاطع مع لمبات إشارة",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 7,
       "indexInCategory": 7,
       "structure": {
         "category": "meter-only",
@@ -1686,6 +2018,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "5b41ec7f-fc3a-4813-9d6f-1edf90c92504",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة عداد 6 مفاتيح قاطع + لمبات إشارة",
       "categoryId": "6a9e526d-8d80-406b-b77d-4804b5ee55fe",
       "categoryName": "لوحات عداد فقط",
@@ -1694,20 +2027,36 @@ window.NOUR_DATA = {
       "w": 575,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413393933-________________________202605101442.jpeg"
+        "assets/img/products/mo-6-switches-main-1782727304838.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413393933-________________________202605101442.jpeg",
-      "mainImage": "assets/img/optimized/mo-6-switches-main.webp",
-      "thumbnailImage": "assets/img/optimized/mo-6-switches-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/mo-6-switches-main-1782727304838.webp",
+          "alt": "لوحة عداد 6 مفاتيح قاطع + لمبات إشارة",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/mo-6-switches-main-1782727304838.webp",
+      "mainImage": "assets/img/products/mo-6-switches-main-1782727304838.webp",
+      "thumbnailImage": "assets/img/products/mo-6-switches-main-1782727304838.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413393933-________________________202605101442.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/mo-6-switches-main-1782727304838.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة عداد 6 مفاتيح قاطع مع لمبات إشارة",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 8,
       "indexInCategory": 8,
       "structure": {
         "category": "meter-only",
@@ -1777,6 +2126,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "a756e76b-5e34-459f-a9fd-2b3de51d80ab",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة عداد 8 مفاتيح قاطع + لمبات إشارة",
       "categoryId": "6a9e526d-8d80-406b-b77d-4804b5ee55fe",
       "categoryName": "لوحات عداد فقط",
@@ -1785,20 +2135,36 @@ window.NOUR_DATA = {
       "w": 775,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413529471-________________________202605101445.jpeg"
+        "assets/img/products/mo-8-switches-main-1782727016552.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413529471-________________________202605101445.jpeg",
-      "mainImage": "assets/img/optimized/mo-8-switches-main.webp",
-      "thumbnailImage": "assets/img/optimized/mo-8-switches-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/mo-8-switches-main-1782727016552.webp",
+          "alt": "لوحة عداد 8 مفاتيح قاطع + لمبات إشارة",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/mo-8-switches-main-1782727016552.webp",
+      "mainImage": "assets/img/products/mo-8-switches-main-1782727016552.webp",
+      "thumbnailImage": "assets/img/products/mo-8-switches-main-1782727016552.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413529471-________________________202605101445.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/mo-8-switches-main-1782727016552.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة عداد 8 مفاتيح قاطع مع لمبات إشارة",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 9,
       "indexInCategory": 9,
       "structure": {
         "category": "meter-only",
@@ -1870,6 +2236,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "874bdfe1-5a8f-4af0-a586-c14efb17dc1d",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة 10 عداد + مفاتيح قاطع + لمبات إشارة",
       "categoryId": "6a9e526d-8d80-406b-b77d-4804b5ee55fe",
       "categoryName": "لوحات عداد فقط",
@@ -1878,20 +2245,36 @@ window.NOUR_DATA = {
       "w": 790,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413590423-________________________202605101445__1_.jpeg"
+        "assets/img/products/mo-10meter-main-1782727513276.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413590423-________________________202605101445__1_.jpeg",
-      "mainImage": "assets/img/optimized/mo-10meter-main.webp",
-      "thumbnailImage": "assets/img/optimized/mo-10meter-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/mo-10meter-main-1782727513276.webp",
+          "alt": "لوحة 10 عداد + مفاتيح قاطع + لمبات إشارة",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/mo-10meter-main-1782727513276.webp",
+      "mainImage": "assets/img/products/mo-10meter-main-1782727513276.webp",
+      "thumbnailImage": "assets/img/products/mo-10meter-main-1782727513276.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413590423-________________________202605101445__1_.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/mo-10meter-main-1782727513276.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة 10 عداد بمفاتيح قاطع ولمبات إشارة",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 10,
       "indexInCategory": 10,
       "structure": {
         "category": "meter-only",
@@ -1955,6 +2338,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "1997b8ee-7d01-4103-bc3a-39d5f4f45ebc",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة 12 عداد + مفاتيح قاطع + لمبات إشارة",
       "categoryId": "6a9e526d-8d80-406b-b77d-4804b5ee55fe",
       "categoryName": "لوحات عداد فقط",
@@ -1963,20 +2347,36 @@ window.NOUR_DATA = {
       "w": 790,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413684477-________________________202605101448.jpeg"
+        "assets/img/products/mo-12meter-main-1782726958428.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413684477-________________________202605101448.jpeg",
-      "mainImage": "assets/img/optimized/mo-12meter-main.webp",
-      "thumbnailImage": "assets/img/optimized/mo-12meter-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/mo-12meter-main-1782726958428.webp",
+          "alt": "لوحة 12 عداد + مفاتيح قاطع + لمبات إشارة",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/mo-12meter-main-1782726958428.webp",
+      "mainImage": "assets/img/products/mo-12meter-main-1782726958428.webp",
+      "thumbnailImage": "assets/img/products/mo-12meter-main-1782726958428.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413684477-________________________202605101448.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/mo-12meter-main-1782726958428.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة 12 عداد بمفاتيح قاطع ولمبات إشارة",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 11,
       "indexInCategory": 11,
       "structure": {
         "category": "meter-only",
@@ -2040,6 +2440,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "8ae8f649-de0c-4312-9ab4-7581703be964",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة عداد 220 فولت مفتاح ثلاثي",
       "categoryId": "1fec6b19-8a96-4d52-bdd6-56f96366d015",
       "categoryName": "لوحات خطوط + عداد",
@@ -2048,20 +2449,36 @@ window.NOUR_DATA = {
       "w": 270,
       "d": 115,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410252493-____________________________202605101350.jpeg"
+        "assets/img/products/lm-220-triple-main-1782727982524.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410252493-____________________________202605101350.jpeg",
-      "mainImage": "assets/img/optimized/lm-220-triple-main.webp",
-      "thumbnailImage": "assets/img/optimized/lm-220-triple-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lm-220-triple-main-1782727982524.webp",
+          "alt": "لوحة عداد 220 فولت مفتاح ثلاثي",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lm-220-triple-main-1782727982524.webp",
+      "mainImage": "assets/img/products/lm-220-triple-main-1782727982524.webp",
+      "thumbnailImage": "assets/img/products/lm-220-triple-main-1782727982524.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410252493-____________________________202605101350.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lm-220-triple-main-1782727982524.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة عداد 220V بمفتاح ثلاثي",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 1,
       "indexInCategory": 1,
       "structure": {
         "category": "lines-meter",
@@ -2121,6 +2538,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "401f8409-4843-4331-9d82-8d21fb88342b",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة 12 خط بالعداد خارج الشقة",
       "categoryId": "1fec6b19-8a96-4d52-bdd6-56f96366d015",
       "categoryName": "لوحات خطوط + عداد",
@@ -2129,20 +2547,36 @@ window.NOUR_DATA = {
       "w": 360,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410322392-________________________202605101351.jpeg"
+        "assets/img/products/lm-12-outside-main-1782723737274.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410322392-________________________202605101351.jpeg",
-      "mainImage": "assets/img/optimized/lm-12-outside-main.webp",
-      "thumbnailImage": "assets/img/optimized/lm-12-outside-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lm-12-outside-main-1782723737274.webp",
+          "alt": "لوحة 12 خط بالعداد خارج الشقة",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lm-12-outside-main-1782723737274.webp",
+      "mainImage": "assets/img/products/lm-12-outside-main-1782723737274.webp",
+      "thumbnailImage": "assets/img/products/lm-12-outside-main-1782723737274.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410322392-________________________202605101351.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lm-12-outside-main-1782723737274.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة 12 خط بالعداد خارج الشقة",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 2,
       "indexInCategory": 2,
       "structure": {
         "category": "lines-meter",
@@ -2214,6 +2648,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "d8854918-8786-4094-a259-cbc856d34cfb",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة 12 خط بالعداد داخل الشقة",
       "categoryId": "1fec6b19-8a96-4d52-bdd6-56f96366d015",
       "categoryName": "لوحات خطوط + عداد",
@@ -2222,20 +2657,36 @@ window.NOUR_DATA = {
       "w": 360,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410411652-________________________202605101353.jpeg"
+        "assets/img/products/lm-12-inside-main-1782723855465.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410411652-________________________202605101353.jpeg",
-      "mainImage": "assets/img/optimized/lm-12-inside-main.webp",
-      "thumbnailImage": "assets/img/optimized/lm-12-inside-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lm-12-inside-main-1782723855465.webp",
+          "alt": "لوحة 12 خط بالعداد داخل الشقة",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lm-12-inside-main-1782723855465.webp",
+      "mainImage": "assets/img/products/lm-12-inside-main-1782723855465.webp",
+      "thumbnailImage": "assets/img/products/lm-12-inside-main-1782723855465.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410411652-________________________202605101353.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lm-12-inside-main-1782723855465.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة 12 خط بالعداد داخل الشقة",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 3,
       "indexInCategory": 3,
       "structure": {
         "category": "lines-meter",
@@ -2307,6 +2758,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "b5202165-74cb-4179-808b-e8dff28030bf",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة عداد + مفتاح ثنائي",
       "categoryId": "1fec6b19-8a96-4d52-bdd6-56f96366d015",
       "categoryName": "لوحات خطوط + عداد",
@@ -2315,21 +2767,45 @@ window.NOUR_DATA = {
       "w": 330,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1781544550818-Use_Image_A__the_closed_202605051312.jpeg",
+        "assets/img/products/لوحة-عداد-مفتاح-ثنائي-main-1782728213264.webp",
         "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1781544563364-______________________2K_202605051312.jpeg"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1781544550818-Use_Image_A__the_closed_202605051312.jpeg",
-      "mainImage": "assets/img/optimized/b5202165-74cb-4179-808b-e8dff28030bf-main.webp",
-      "thumbnailImage": "assets/img/optimized/b5202165-74cb-4179-808b-e8dff28030bf-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/لوحة-عداد-مفتاح-ثنائي-main-1782728213264.webp",
+          "alt": "لوحة عداد + مفتاح ثنائي",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "type": "extra",
+          "src": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1781544563364-______________________2K_202605051312.jpeg",
+          "alt": "لوحة عداد + مفتاح ثنائي",
+          "caption": "",
+          "visible": true,
+          "order": 2
+        }
+      ],
+      "originalImage": "assets/img/products/لوحة-عداد-مفتاح-ثنائي-main-1782728213264.webp",
+      "mainImage": "assets/img/products/لوحة-عداد-مفتاح-ثنائي-main-1782728213264.webp",
+      "thumbnailImage": "assets/img/products/لوحة-عداد-مفتاح-ثنائي-main-1782728213264.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1781544550818-Use_Image_A__the_closed_202605051312.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/لوحة-عداد-مفتاح-ثنائي-main-1782728213264.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة عداد + مفتاح ثنائي من نور للإضاءة الحديثة ⚡\n⚡ أمان أعلى… وتنظيم أفضل في تصميم عملي واحترافي ⚡\n🔹 مميزات لوحة نور:\n✅ خامات قوية بجودة عالية\n✅ مفتاح ثنائي عملي وآمن\n✅ تصميم متين مناسب للاستخدام اليومي\n✅ تنظيم داخلي احترافي وسهولة في التركيب\n✅ تصنيع بجودة تضمن الكفاءة والعمر الطويل",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 3,
       "indexInCategory": 4,
       "structure": {
         "category": "lines-meter",
@@ -2388,286 +2864,8 @@ window.NOUR_DATA = {
       }
     },
     {
-      "id": "f614b72d-c0d8-43a8-b578-89bb20fea6e9",
-      "name": "لوحة 16 خط بالعداد أوميجا ثابتة",
-      "categoryId": "1fec6b19-8a96-4d52-bdd6-56f96366d015",
-      "categoryName": "لوحات خطوط + عداد",
-      "categorySlug": "lines-meter",
-      "h": 440,
-      "w": 350,
-      "d": 90,
-      "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778409648849-____________________________202605101339__1_.jpeg"
-      ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778409648849-____________________________202605101339__1_.jpeg",
-      "mainImage": "assets/img/optimized/lm-16-omega-fixed-main.webp",
-      "thumbnailImage": "assets/img/optimized/lm-16-omega-fixed-thumb.webp",
-      "mainImageWidth": 1200,
-      "mainImageHeight": 896,
-      "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778409648849-____________________________202605101339__1_.jpeg",
-      "aiClosedImageUrl": null,
-      "aiOpenImageUrl": null,
-      "description": "لوحة 16 خط بالعداد أوميجا ثابتة",
-      "specs": [],
-      "indexInCategory": 5,
-      "structure": {
-        "category": "lines-meter",
-        "productType": "meter-and-lines-panel",
-        "layoutType": "dual-column-with-bottom-group",
-        "orientation": "portrait",
-        "door": {
-          "type": "hinged-door",
-          "side": "left",
-          "opens": "swings open to the left"
-        },
-        "doorSide": "left",
-        "breakerGroups": 3,
-        "breakerColumns": [
-          6,
-          6
-        ],
-        "breakerRows": 1,
-        "totalBreakers": 16,
-        "lowerSection": true,
-        "lowerCount": 4,
-        "hasMeter": true,
-        "meterCount": 1,
-        "prepaid": false,
-        "hasMainBreaker": false,
-        "mainBreakerPosition": "none",
-        "mainBreakerPoles": null,
-        "threePhase": false,
-        "signalLamps": 0,
-        "structureDescription": "Meter at the top, then 16 outgoing line breakers in two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers.",
-        "notes": [
-          "لوحة خطوط + عداد: 16 خط"
-        ],
-        "confidenceScore": 0.82,
-        "reviewRequired": false,
-        "_dec": {
-          "columns": [
-            6,
-            6
-          ],
-          "lower": 4,
-          "rows": 1,
-          "orientation": "dual+bottom"
-        }
-      },
-      "structureDescription": "Meter at the top, then 16 outgoing line breakers in two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers.",
-      "layoutType": "dual-column-with-bottom-group",
-      "aiPromptClosed": "CLOSED VIEW — لوحة 16 خط بالعداد أوميجا ثابتة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-      "aiPromptOpen": "OPEN / INTERIOR VIEW — لوحة 16 خط بالعداد أوميجا ثابتة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Meter at the top, then 16 outgoing line breakers in two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers. Interior must contain exactly: one meter; 6 + 6 breakers in 2 vertical groups plus a smaller bottom group of 4 breakers. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-      "imageStatus": "needs-generation",
-      "reviewNotes": [
-        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-      ],
-      "ai": {
-        "layoutType": "dual-column-with-bottom-group",
-        "promptClosed": "CLOSED VIEW — لوحة 16 خط بالعداد أوميجا ثابتة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-        "promptOpen": "OPEN / INTERIOR VIEW — لوحة 16 خط بالعداد أوميجا ثابتة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Meter at the top, then 16 outgoing line breakers in two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers. Interior must contain exactly: one meter; 6 + 6 breakers in 2 vertical groups plus a smaller bottom group of 4 breakers. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-        "aiClosedImageUrl": null,
-        "aiOpenImageUrl": null,
-        "imageStatus": "needs-generation",
-        "reviewNotes": [
-          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-        ],
-        "reviewRequired": false,
-        "confidenceScore": 0.82
-      }
-    },
-    {
-      "id": "f7cd0357-72c4-430d-864e-62a8cb65f2bf",
-      "name": "لوحة 16 خط بالعداد أوميجا متحركة",
-      "categoryId": "1fec6b19-8a96-4d52-bdd6-56f96366d015",
-      "categoryName": "لوحات خطوط + عداد",
-      "categorySlug": "lines-meter",
-      "h": 440,
-      "w": 350,
-      "d": 90,
-      "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778409633359-____________________________202605101339__1_.jpeg"
-      ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778409633359-____________________________202605101339__1_.jpeg",
-      "mainImage": "assets/img/optimized/lm-16-omega-mobile-main.webp",
-      "thumbnailImage": "assets/img/optimized/lm-16-omega-mobile-thumb.webp",
-      "mainImageWidth": 1200,
-      "mainImageHeight": 896,
-      "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778409633359-____________________________202605101339__1_.jpeg",
-      "aiClosedImageUrl": null,
-      "aiOpenImageUrl": null,
-      "description": "لوحة 16 خط بالعداد أوميجا متحركة",
-      "specs": [],
-      "indexInCategory": 6,
-      "structure": {
-        "category": "lines-meter",
-        "productType": "meter-and-lines-panel",
-        "layoutType": "dual-column-with-bottom-group",
-        "orientation": "portrait",
-        "door": {
-          "type": "hinged-door",
-          "side": "left",
-          "opens": "swings open to the left"
-        },
-        "doorSide": "left",
-        "breakerGroups": 3,
-        "breakerColumns": [
-          6,
-          6
-        ],
-        "breakerRows": 1,
-        "totalBreakers": 16,
-        "lowerSection": true,
-        "lowerCount": 4,
-        "hasMeter": true,
-        "meterCount": 1,
-        "prepaid": false,
-        "hasMainBreaker": false,
-        "mainBreakerPosition": "none",
-        "mainBreakerPoles": null,
-        "threePhase": false,
-        "signalLamps": 0,
-        "structureDescription": "Meter at the top, then 16 outgoing line breakers in two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers.",
-        "notes": [
-          "لوحة خطوط + عداد: 16 خط"
-        ],
-        "confidenceScore": 0.82,
-        "reviewRequired": false,
-        "_dec": {
-          "columns": [
-            6,
-            6
-          ],
-          "lower": 4,
-          "rows": 1,
-          "orientation": "dual+bottom"
-        }
-      },
-      "structureDescription": "Meter at the top, then 16 outgoing line breakers in two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers.",
-      "layoutType": "dual-column-with-bottom-group",
-      "aiPromptClosed": "CLOSED VIEW — لوحة 16 خط بالعداد أوميجا متحركة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-      "aiPromptOpen": "OPEN / INTERIOR VIEW — لوحة 16 خط بالعداد أوميجا متحركة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Meter at the top, then 16 outgoing line breakers in two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers. Interior must contain exactly: one meter; 6 + 6 breakers in 2 vertical groups plus a smaller bottom group of 4 breakers. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-      "imageStatus": "needs-generation",
-      "reviewNotes": [
-        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-      ],
-      "ai": {
-        "layoutType": "dual-column-with-bottom-group",
-        "promptClosed": "CLOSED VIEW — لوحة 16 خط بالعداد أوميجا متحركة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-        "promptOpen": "OPEN / INTERIOR VIEW — لوحة 16 خط بالعداد أوميجا متحركة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Meter at the top, then 16 outgoing line breakers in two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers. Interior must contain exactly: one meter; 6 + 6 breakers in 2 vertical groups plus a smaller bottom group of 4 breakers. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-        "aiClosedImageUrl": null,
-        "aiOpenImageUrl": null,
-        "imageStatus": "needs-generation",
-        "reviewNotes": [
-          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-        ],
-        "reviewRequired": false,
-        "confidenceScore": 0.82
-      }
-    },
-    {
-      "id": "7762fd83-195f-4940-89a8-9ed4dec56632",
-      "name": "لوحة 18 خط بالعداد 3 فاز كارت شحن",
-      "categoryId": "1fec6b19-8a96-4d52-bdd6-56f96366d015",
-      "categoryName": "لوحات خطوط + عداد",
-      "categorySlug": "lines-meter",
-      "h": 440,
-      "w": 350,
-      "d": 90,
-      "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778409790914-________________________202605101342.jpeg"
-      ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778409790914-________________________202605101342.jpeg",
-      "mainImage": "assets/img/optimized/lm-18-card-charger-main.webp",
-      "thumbnailImage": "assets/img/optimized/lm-18-card-charger-thumb.webp",
-      "mainImageWidth": 1200,
-      "mainImageHeight": 896,
-      "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778409790914-________________________202605101342.jpeg",
-      "aiClosedImageUrl": null,
-      "aiOpenImageUrl": null,
-      "description": "لوحة 18 خط بالعداد 3 فاز مع كارت شحن، جودة عالية وعزل قوي",
-      "specs": [],
-      "indexInCategory": 7,
-      "structure": {
-        "category": "lines-meter",
-        "productType": "meter-and-lines-panel",
-        "layoutType": "dual-column-with-bottom-group",
-        "orientation": "portrait",
-        "door": {
-          "type": "hinged-door",
-          "side": "left",
-          "opens": "swings open to the left"
-        },
-        "doorSide": "left",
-        "breakerGroups": 3,
-        "breakerColumns": [
-          8,
-          8
-        ],
-        "breakerRows": 1,
-        "totalBreakers": 18,
-        "lowerSection": true,
-        "lowerCount": 2,
-        "hasMeter": true,
-        "meterCount": 1,
-        "prepaid": true,
-        "hasMainBreaker": true,
-        "mainBreakerPosition": "top-center",
-        "mainBreakerPoles": 3,
-        "threePhase": true,
-        "signalLamps": 0,
-        "structureDescription": "Meter at the top (prepaid charge-card) with a three-phase main breaker beside/under it, then 18 outgoing line breakers in two vertical groups (8 + 8) plus a smaller bottom group of 2 breakers.",
-        "notes": [
-          "لوحة خطوط + عداد: 18 خط"
-        ],
-        "confidenceScore": 0.87,
-        "reviewRequired": false,
-        "_dec": {
-          "columns": [
-            8,
-            8
-          ],
-          "lower": 2,
-          "rows": 1,
-          "orientation": "dual+bottom"
-        }
-      },
-      "structureDescription": "Meter at the top (prepaid charge-card) with a three-phase main breaker beside/under it, then 18 outgoing line breakers in two vertical groups (8 + 8) plus a smaller bottom group of 2 breakers.",
-      "layoutType": "dual-column-with-bottom-group",
-      "aiPromptClosed": "CLOSED VIEW — لوحة 18 خط بالعداد 3 فاز كارت شحن. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-      "aiPromptOpen": "OPEN / INTERIOR VIEW — لوحة 18 خط بالعداد 3 فاز كارت شحن. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Meter at the top (prepaid charge-card) with a three-phase main breaker beside/under it, then 18 outgoing line breakers in two vertical groups (8 + 8) plus a smaller bottom group of 2 breakers. Interior must contain exactly: a three-phase (wide) main breaker at the top-centre; one meter (prepaid charge-card); 8 + 8 breakers in 2 vertical groups plus a smaller bottom group of 2 breakers. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-      "imageStatus": "needs-generation",
-      "reviewNotes": [
-        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-      ],
-      "ai": {
-        "layoutType": "dual-column-with-bottom-group",
-        "promptClosed": "CLOSED VIEW — لوحة 18 خط بالعداد 3 فاز كارت شحن. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-        "promptOpen": "OPEN / INTERIOR VIEW — لوحة 18 خط بالعداد 3 فاز كارت شحن. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Meter at the top (prepaid charge-card) with a three-phase main breaker beside/under it, then 18 outgoing line breakers in two vertical groups (8 + 8) plus a smaller bottom group of 2 breakers. Interior must contain exactly: a three-phase (wide) main breaker at the top-centre; one meter (prepaid charge-card); 8 + 8 breakers in 2 vertical groups plus a smaller bottom group of 2 breakers. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-        "aiClosedImageUrl": null,
-        "aiOpenImageUrl": null,
-        "imageStatus": "needs-generation",
-        "reviewNotes": [
-          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-        ],
-        "reviewRequired": false,
-        "confidenceScore": 0.87
-      }
-    },
-    {
       "id": "150afb20-3c49-4c42-bba3-5863ffaa1712",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة 14 خط بالعداد كارت شحن",
       "categoryId": "1fec6b19-8a96-4d52-bdd6-56f96366d015",
       "categoryName": "لوحات خطوط + عداد",
@@ -2676,21 +2874,37 @@ window.NOUR_DATA = {
       "w": 270,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778409404853-____________________________202605101336.jpeg"
+        "assets/img/products/lm-14-card-charger-main-1782727318385.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778409404853-____________________________202605101336.jpeg",
-      "mainImage": "assets/img/optimized/lm-14-card-charger-main.webp",
-      "thumbnailImage": "assets/img/optimized/lm-14-card-charger-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lm-14-card-charger-main-1782727318385.webp",
+          "alt": "لوحة 14 خط بالعداد كارت شحن",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lm-14-card-charger-main-1782727318385.webp",
+      "mainImage": "assets/img/products/lm-14-card-charger-main-1782727318385.webp",
+      "thumbnailImage": "assets/img/products/lm-14-card-charger-main-1782727318385.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778409404853-____________________________202605101336.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lm-14-card-charger-main-1782727318385.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة 14 خط بالعداد كارت شحن",
       "specs": [],
-      "indexInCategory": 8,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 4,
+      "indexInCategory": 5,
       "structure": {
         "category": "lines-meter",
         "productType": "meter-and-lines-panel",
@@ -2761,6 +2975,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "f0ee6831-e6d2-4883-9ec3-23b5ddcd7175",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة 3 فاز كارت شحن بالعمومي",
       "categoryId": "1fec6b19-8a96-4d52-bdd6-56f96366d015",
       "categoryName": "لوحات خطوط + عداد",
@@ -2769,21 +2984,37 @@ window.NOUR_DATA = {
       "w": 270,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410187429-____________________________202605101349.jpeg"
+        "assets/img/products/lm-3phase-card-general-main-1782728514562.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410187429-____________________________202605101349.jpeg",
-      "mainImage": "assets/img/optimized/lm-3phase-card-general-main.webp",
-      "thumbnailImage": "assets/img/optimized/lm-3phase-card-general-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lm-3phase-card-general-main-1782728514562.webp",
+          "alt": "لوحة 3 فاز كارت شحن بالعمومي",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lm-3phase-card-general-main-1782728514562.webp",
+      "mainImage": "assets/img/products/lm-3phase-card-general-main-1782728514562.webp",
+      "thumbnailImage": "assets/img/products/lm-3phase-card-general-main-1782728514562.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410187429-____________________________202605101349.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lm-3phase-card-general-main-1782728514562.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة 3 فاز كارت شحن بالعمومي",
       "specs": [],
-      "indexInCategory": 9,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 5,
+      "indexInCategory": 6,
       "structure": {
         "category": "lines-meter",
         "productType": "meter-and-lines-panel",
@@ -2851,7 +3082,338 @@ window.NOUR_DATA = {
       }
     },
     {
+      "id": "f614b72d-c0d8-43a8-b578-89bb20fea6e9",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
+      "name": "لوحة 16 خط بالعداد أوميجا ثابتة",
+      "categoryId": "1fec6b19-8a96-4d52-bdd6-56f96366d015",
+      "categoryName": "لوحات خطوط + عداد",
+      "categorySlug": "lines-meter",
+      "h": 440,
+      "w": 350,
+      "d": 90,
+      "images": [
+        "assets/img/products/lm-16-omega-fixed-main-1782726504520.webp"
+      ],
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lm-16-omega-fixed-main-1782726504520.webp",
+          "alt": "لوحة 16 خط بالعداد أوميجا ثابتة",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lm-16-omega-fixed-main-1782726504520.webp",
+      "mainImage": "assets/img/products/lm-16-omega-fixed-main-1782726504520.webp",
+      "thumbnailImage": "assets/img/products/lm-16-omega-fixed-main-1782726504520.webp",
+      "mainImageWidth": 1200,
+      "mainImageHeight": 900,
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lm-16-omega-fixed-main-1782726504520.webp",
+      "dimensionImage": null,
+      "aiClosedImageUrl": null,
+      "aiOpenImageUrl": null,
+      "description": "لوحة 16 خط بالعداد أوميجا ثابتة",
+      "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 6,
+      "indexInCategory": 7,
+      "structure": {
+        "category": "lines-meter",
+        "productType": "meter-and-lines-panel",
+        "layoutType": "dual-column-with-bottom-group",
+        "orientation": "portrait",
+        "door": {
+          "type": "hinged-door",
+          "side": "left",
+          "opens": "swings open to the left"
+        },
+        "doorSide": "left",
+        "breakerGroups": 3,
+        "breakerColumns": [
+          6,
+          6
+        ],
+        "breakerRows": 1,
+        "totalBreakers": 16,
+        "lowerSection": true,
+        "lowerCount": 4,
+        "hasMeter": true,
+        "meterCount": 1,
+        "prepaid": false,
+        "hasMainBreaker": false,
+        "mainBreakerPosition": "none",
+        "mainBreakerPoles": null,
+        "threePhase": false,
+        "signalLamps": 0,
+        "structureDescription": "Meter at the top, then 16 outgoing line breakers in two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers.",
+        "notes": [
+          "لوحة خطوط + عداد: 16 خط"
+        ],
+        "confidenceScore": 0.82,
+        "reviewRequired": false,
+        "_dec": {
+          "columns": [
+            6,
+            6
+          ],
+          "lower": 4,
+          "rows": 1,
+          "orientation": "dual+bottom"
+        }
+      },
+      "structureDescription": "Meter at the top, then 16 outgoing line breakers in two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers.",
+      "layoutType": "dual-column-with-bottom-group",
+      "aiPromptClosed": "CLOSED VIEW — لوحة 16 خط بالعداد أوميجا ثابتة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+      "aiPromptOpen": "OPEN / INTERIOR VIEW — لوحة 16 خط بالعداد أوميجا ثابتة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Meter at the top, then 16 outgoing line breakers in two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers. Interior must contain exactly: one meter; 6 + 6 breakers in 2 vertical groups plus a smaller bottom group of 4 breakers. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+      "imageStatus": "needs-generation",
+      "reviewNotes": [
+        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+      ],
+      "ai": {
+        "layoutType": "dual-column-with-bottom-group",
+        "promptClosed": "CLOSED VIEW — لوحة 16 خط بالعداد أوميجا ثابتة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+        "promptOpen": "OPEN / INTERIOR VIEW — لوحة 16 خط بالعداد أوميجا ثابتة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Meter at the top, then 16 outgoing line breakers in two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers. Interior must contain exactly: one meter; 6 + 6 breakers in 2 vertical groups plus a smaller bottom group of 4 breakers. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+        "aiClosedImageUrl": null,
+        "aiOpenImageUrl": null,
+        "imageStatus": "needs-generation",
+        "reviewNotes": [
+          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+        ],
+        "reviewRequired": false,
+        "confidenceScore": 0.82
+      }
+    },
+    {
+      "id": "f7cd0357-72c4-430d-864e-62a8cb65f2bf",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
+      "name": "لوحة 16 خط بالعداد أوميجا متحركة",
+      "categoryId": "1fec6b19-8a96-4d52-bdd6-56f96366d015",
+      "categoryName": "لوحات خطوط + عداد",
+      "categorySlug": "lines-meter",
+      "h": 440,
+      "w": 350,
+      "d": 90,
+      "images": [
+        "assets/img/products/lm-16-omega-mobile-main-1782726506225.webp"
+      ],
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lm-16-omega-mobile-main-1782726506225.webp",
+          "alt": "لوحة 16 خط بالعداد أوميجا متحركة",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lm-16-omega-mobile-main-1782726506225.webp",
+      "mainImage": "assets/img/products/lm-16-omega-mobile-main-1782726506225.webp",
+      "thumbnailImage": "assets/img/products/lm-16-omega-mobile-main-1782726506225.webp",
+      "mainImageWidth": 1200,
+      "mainImageHeight": 900,
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lm-16-omega-mobile-main-1782726506225.webp",
+      "dimensionImage": null,
+      "aiClosedImageUrl": null,
+      "aiOpenImageUrl": null,
+      "description": "لوحة 16 خط بالعداد أوميجا متحركة",
+      "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 7,
+      "indexInCategory": 8,
+      "structure": {
+        "category": "lines-meter",
+        "productType": "meter-and-lines-panel",
+        "layoutType": "dual-column-with-bottom-group",
+        "orientation": "portrait",
+        "door": {
+          "type": "hinged-door",
+          "side": "left",
+          "opens": "swings open to the left"
+        },
+        "doorSide": "left",
+        "breakerGroups": 3,
+        "breakerColumns": [
+          6,
+          6
+        ],
+        "breakerRows": 1,
+        "totalBreakers": 16,
+        "lowerSection": true,
+        "lowerCount": 4,
+        "hasMeter": true,
+        "meterCount": 1,
+        "prepaid": false,
+        "hasMainBreaker": false,
+        "mainBreakerPosition": "none",
+        "mainBreakerPoles": null,
+        "threePhase": false,
+        "signalLamps": 0,
+        "structureDescription": "Meter at the top, then 16 outgoing line breakers in two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers.",
+        "notes": [
+          "لوحة خطوط + عداد: 16 خط"
+        ],
+        "confidenceScore": 0.82,
+        "reviewRequired": false,
+        "_dec": {
+          "columns": [
+            6,
+            6
+          ],
+          "lower": 4,
+          "rows": 1,
+          "orientation": "dual+bottom"
+        }
+      },
+      "structureDescription": "Meter at the top, then 16 outgoing line breakers in two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers.",
+      "layoutType": "dual-column-with-bottom-group",
+      "aiPromptClosed": "CLOSED VIEW — لوحة 16 خط بالعداد أوميجا متحركة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+      "aiPromptOpen": "OPEN / INTERIOR VIEW — لوحة 16 خط بالعداد أوميجا متحركة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Meter at the top, then 16 outgoing line breakers in two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers. Interior must contain exactly: one meter; 6 + 6 breakers in 2 vertical groups plus a smaller bottom group of 4 breakers. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+      "imageStatus": "needs-generation",
+      "reviewNotes": [
+        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+      ],
+      "ai": {
+        "layoutType": "dual-column-with-bottom-group",
+        "promptClosed": "CLOSED VIEW — لوحة 16 خط بالعداد أوميجا متحركة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+        "promptOpen": "OPEN / INTERIOR VIEW — لوحة 16 خط بالعداد أوميجا متحركة. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Meter at the top, then 16 outgoing line breakers in two vertical groups (6 + 6) plus a smaller bottom group of 4 breakers. Interior must contain exactly: one meter; 6 + 6 breakers in 2 vertical groups plus a smaller bottom group of 4 breakers. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+        "aiClosedImageUrl": null,
+        "aiOpenImageUrl": null,
+        "imageStatus": "needs-generation",
+        "reviewNotes": [
+          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+        ],
+        "reviewRequired": false,
+        "confidenceScore": 0.82
+      }
+    },
+    {
+      "id": "7762fd83-195f-4940-89a8-9ed4dec56632",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
+      "name": "لوحة 18 خط بالعداد 3 فاز كارت شحن",
+      "categoryId": "1fec6b19-8a96-4d52-bdd6-56f96366d015",
+      "categoryName": "لوحات خطوط + عداد",
+      "categorySlug": "lines-meter",
+      "h": 440,
+      "w": 350,
+      "d": 90,
+      "images": [
+        "assets/img/products/lm-18-card-charger-main-1782724348773.webp"
+      ],
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lm-18-card-charger-main-1782724348773.webp",
+          "alt": "لوحة 18 خط بالعداد 3 فاز كارت شحن",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lm-18-card-charger-main-1782724348773.webp",
+      "mainImage": "assets/img/products/lm-18-card-charger-main-1782724348773.webp",
+      "thumbnailImage": "assets/img/products/lm-18-card-charger-main-1782724348773.webp",
+      "mainImageWidth": 1200,
+      "mainImageHeight": 900,
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lm-18-card-charger-main-1782724348773.webp",
+      "dimensionImage": null,
+      "aiClosedImageUrl": null,
+      "aiOpenImageUrl": null,
+      "description": "لوحة 18 خط بالعداد 3 فاز مع كارت شحن، جودة عالية وعزل قوي",
+      "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 8,
+      "indexInCategory": 9,
+      "structure": {
+        "category": "lines-meter",
+        "productType": "meter-and-lines-panel",
+        "layoutType": "dual-column-with-bottom-group",
+        "orientation": "portrait",
+        "door": {
+          "type": "hinged-door",
+          "side": "left",
+          "opens": "swings open to the left"
+        },
+        "doorSide": "left",
+        "breakerGroups": 3,
+        "breakerColumns": [
+          8,
+          8
+        ],
+        "breakerRows": 1,
+        "totalBreakers": 18,
+        "lowerSection": true,
+        "lowerCount": 2,
+        "hasMeter": true,
+        "meterCount": 1,
+        "prepaid": true,
+        "hasMainBreaker": true,
+        "mainBreakerPosition": "top-center",
+        "mainBreakerPoles": 3,
+        "threePhase": true,
+        "signalLamps": 0,
+        "structureDescription": "Meter at the top (prepaid charge-card) with a three-phase main breaker beside/under it, then 18 outgoing line breakers in two vertical groups (8 + 8) plus a smaller bottom group of 2 breakers.",
+        "notes": [
+          "لوحة خطوط + عداد: 18 خط"
+        ],
+        "confidenceScore": 0.87,
+        "reviewRequired": false,
+        "_dec": {
+          "columns": [
+            8,
+            8
+          ],
+          "lower": 2,
+          "rows": 1,
+          "orientation": "dual+bottom"
+        }
+      },
+      "structureDescription": "Meter at the top (prepaid charge-card) with a three-phase main breaker beside/under it, then 18 outgoing line breakers in two vertical groups (8 + 8) plus a smaller bottom group of 2 breakers.",
+      "layoutType": "dual-column-with-bottom-group",
+      "aiPromptClosed": "CLOSED VIEW — لوحة 18 خط بالعداد 3 فاز كارت شحن. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+      "aiPromptOpen": "OPEN / INTERIOR VIEW — لوحة 18 خط بالعداد 3 فاز كارت شحن. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Meter at the top (prepaid charge-card) with a three-phase main breaker beside/under it, then 18 outgoing line breakers in two vertical groups (8 + 8) plus a smaller bottom group of 2 breakers. Interior must contain exactly: a three-phase (wide) main breaker at the top-centre; one meter (prepaid charge-card); 8 + 8 breakers in 2 vertical groups plus a smaller bottom group of 2 breakers. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+      "imageStatus": "needs-generation",
+      "reviewNotes": [
+        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+      ],
+      "ai": {
+        "layoutType": "dual-column-with-bottom-group",
+        "promptClosed": "CLOSED VIEW — لوحة 18 خط بالعداد 3 فاز كارت شحن. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a single hinged door (handle/lock on the right, hinges on the left). A plain door with a louvre/vent detail near the bottom. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+        "promptOpen": "OPEN / INTERIOR VIEW — لوحة 18 خط بالعداد 3 فاز كارت شحن. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 350mm × height 440mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door swings open to the left, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Meter at the top (prepaid charge-card) with a three-phase main breaker beside/under it, then 18 outgoing line breakers in two vertical groups (8 + 8) plus a smaller bottom group of 2 breakers. Interior must contain exactly: a three-phase (wide) main breaker at the top-centre; one meter (prepaid charge-card); 8 + 8 breakers in 2 vertical groups plus a smaller bottom group of 2 breakers. Category: meter + lines panel. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+        "aiClosedImageUrl": null,
+        "aiOpenImageUrl": null,
+        "imageStatus": "needs-generation",
+        "reviewNotes": [
+          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+        ],
+        "reviewRequired": false,
+        "confidenceScore": 0.87
+      }
+    },
+    {
       "id": "a46cf2ff-ccb9-4237-b4b9-171195f34a5e",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة 24 خط بالعداد 3 فاز كارت شحن أوميغا متحركة",
       "categoryId": "1fec6b19-8a96-4d52-bdd6-56f96366d015",
       "categoryName": "لوحات خطوط + عداد",
@@ -2860,20 +3422,36 @@ window.NOUR_DATA = {
       "w": 360,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410071969-____________________________202605101347.jpeg"
+        "assets/img/products/lm-24-card-mobile-main-1782728517658.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410071969-____________________________202605101347.jpeg",
-      "mainImage": "assets/img/optimized/lm-24-card-mobile-main.webp",
-      "thumbnailImage": "assets/img/optimized/lm-24-card-mobile-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/lm-24-card-mobile-main-1782728517658.webp",
+          "alt": "لوحة 24 خط بالعداد 3 فاز كارت شحن أوميغا متحركة",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/lm-24-card-mobile-main-1782728517658.webp",
+      "mainImage": "assets/img/products/lm-24-card-mobile-main-1782728517658.webp",
+      "thumbnailImage": "assets/img/products/lm-24-card-mobile-main-1782728517658.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778410071969-____________________________202605101347.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/lm-24-card-mobile-main-1782728517658.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة 24 خط بالعداد 3 فاز كارت شحن أوميغا متحركة",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 9,
       "indexInCategory": 10,
       "structure": {
         "category": "lines-meter",
@@ -2945,6 +3523,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "d23e4e32-c354-483f-a109-7028ddc42dec",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة سمارت 40×40×12",
       "categoryId": "9c50ba24-0ec7-464b-bed2-7b426a0603fa",
       "categoryName": "لوحات سمارت",
@@ -2953,20 +3532,36 @@ window.NOUR_DATA = {
       "w": 400,
       "d": 120,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415412114-________________________202605101516.jpeg"
+        "assets/img/products/smart-40x40-main-1782723953712.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415412114-________________________202605101516.jpeg",
-      "mainImage": "assets/img/optimized/smart-40x40-main.webp",
-      "thumbnailImage": "assets/img/optimized/smart-40x40-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/smart-40x40-main-1782723953712.webp",
+          "alt": "لوحة سمارت 40×40×12",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/smart-40x40-main-1782723953712.webp",
+      "mainImage": "assets/img/products/smart-40x40-main-1782723953712.webp",
+      "thumbnailImage": "assets/img/products/smart-40x40-main-1782723953712.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415412114-________________________202605101516.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/smart-40x40-main-1782723953712.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة سمارت مقاس 40×40×12 سم",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 1,
       "indexInCategory": 1,
       "structure": {
         "category": "smart-panels",
@@ -3040,6 +3635,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "be86f988-ceb1-451d-8880-4d31fbb93850",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة سمارت 40×60×12",
       "categoryId": "9c50ba24-0ec7-464b-bed2-7b426a0603fa",
       "categoryName": "لوحات سمارت",
@@ -3048,20 +3644,36 @@ window.NOUR_DATA = {
       "w": 600,
       "d": 120,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415432438-________________________202605101516.jpeg"
+        "assets/img/products/smart-40x60-main-1782723956903.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415432438-________________________202605101516.jpeg",
-      "mainImage": "assets/img/optimized/smart-40x60-main.webp",
-      "thumbnailImage": "assets/img/optimized/smart-40x60-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/smart-40x60-main-1782723956903.webp",
+          "alt": "لوحة سمارت 40×60×12",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/smart-40x60-main-1782723956903.webp",
+      "mainImage": "assets/img/products/smart-40x60-main-1782723956903.webp",
+      "thumbnailImage": "assets/img/products/smart-40x60-main-1782723956903.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415432438-________________________202605101516.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/smart-40x60-main-1782723956903.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة سمارت مقاس 40×60×12 سم",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 2,
       "indexInCategory": 2,
       "structure": {
         "category": "smart-panels",
@@ -3135,6 +3747,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "c7249ab7-666b-4269-91ae-26775c45c792",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة سمارت 40×80×12",
       "categoryId": "9c50ba24-0ec7-464b-bed2-7b426a0603fa",
       "categoryName": "لوحات سمارت",
@@ -3143,20 +3756,36 @@ window.NOUR_DATA = {
       "w": 800,
       "d": 120,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415452355-________________________202605101516.jpeg"
+        "assets/img/products/smart-40x80-main-1782723965869.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415452355-________________________202605101516.jpeg",
-      "mainImage": "assets/img/optimized/smart-40x80-main.webp",
-      "thumbnailImage": "assets/img/optimized/smart-40x80-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/smart-40x80-main-1782723965869.webp",
+          "alt": "لوحة سمارت 40×80×12",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/smart-40x80-main-1782723965869.webp",
+      "mainImage": "assets/img/products/smart-40x80-main-1782723965869.webp",
+      "thumbnailImage": "assets/img/products/smart-40x80-main-1782723965869.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415452355-________________________202605101516.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/smart-40x80-main-1782723965869.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة سمارت مقاس 40×80×12 سم",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 3,
       "indexInCategory": 3,
       "structure": {
         "category": "smart-panels",
@@ -3230,6 +3859,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "d18baa6f-7478-40c9-8462-9a1110de27d9",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة سمارت 60×80×12",
       "categoryId": "9c50ba24-0ec7-464b-bed2-7b426a0603fa",
       "categoryName": "لوحات سمارت",
@@ -3238,20 +3868,36 @@ window.NOUR_DATA = {
       "w": 800,
       "d": 120,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415467707-________________________202605101516.jpeg"
+        "assets/img/products/smart-60x80-main-1782723971396.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415467707-________________________202605101516.jpeg",
-      "mainImage": "assets/img/optimized/smart-60x80-main.webp",
-      "thumbnailImage": "assets/img/optimized/smart-60x80-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/smart-60x80-main-1782723971396.webp",
+          "alt": "لوحة سمارت 60×80×12",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/smart-60x80-main-1782723971396.webp",
+      "mainImage": "assets/img/products/smart-60x80-main-1782723971396.webp",
+      "thumbnailImage": "assets/img/products/smart-60x80-main-1782723971396.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415467707-________________________202605101516.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/smart-60x80-main-1782723971396.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة سمارت مقاس 60×80×12 سم",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 4,
       "indexInCategory": 4,
       "structure": {
         "category": "smart-panels",
@@ -3327,6 +3973,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "4329e3dc-8534-4e36-94d9-1f69ea4a64c0",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة اتصالات أفقي",
       "categoryId": "18e2a873-84c8-4278-ab60-f970dfe3046f",
       "categoryName": "لوحات اتصالات",
@@ -3335,20 +3982,36 @@ window.NOUR_DATA = {
       "w": 350,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415303973-________________________202605101514__1_.jpeg"
+        "assets/img/products/comm-horizontal-main-1782723152196.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415303973-________________________202605101514__1_.jpeg",
-      "mainImage": "assets/img/optimized/comm-horizontal-main.webp",
-      "thumbnailImage": "assets/img/optimized/comm-horizontal-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/comm-horizontal-main-1782723152196.webp",
+          "alt": "لوحة اتصالات أفقي",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/comm-horizontal-main-1782723152196.webp",
+      "mainImage": "assets/img/products/comm-horizontal-main-1782723152196.webp",
+      "thumbnailImage": "assets/img/products/comm-horizontal-main-1782723152196.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415303973-________________________202605101514__1_.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/comm-horizontal-main-1782723152196.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة اتصالات أفقي",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 1,
       "indexInCategory": 1,
       "structure": {
         "category": "communications",
@@ -3409,6 +4072,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "acaad5cc-b8d0-4b8e-a6a0-292257630d1d",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة اتصالات رأسي",
       "categoryId": "18e2a873-84c8-4278-ab60-f970dfe3046f",
       "categoryName": "لوحات اتصالات",
@@ -3417,20 +4081,36 @@ window.NOUR_DATA = {
       "w": 350,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415266661-________________________202605101514.jpeg"
+        "assets/img/products/comm-vertical-main-1782723358750.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415266661-________________________202605101514.jpeg",
-      "mainImage": "assets/img/optimized/comm-vertical-main.webp",
-      "thumbnailImage": "assets/img/optimized/comm-vertical-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/comm-vertical-main-1782723358750.webp",
+          "alt": "لوحة اتصالات رأسي",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/comm-vertical-main-1782723358750.webp",
+      "mainImage": "assets/img/products/comm-vertical-main-1782723358750.webp",
+      "thumbnailImage": "assets/img/products/comm-vertical-main-1782723358750.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415266661-________________________202605101514.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/comm-vertical-main-1782723358750.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة اتصالات رأسي",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 2,
       "indexInCategory": 2,
       "structure": {
         "category": "communications",
@@ -3491,6 +4171,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "bcb54107-948d-4bfc-b26f-e820a8a0cd4c",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "لوحة اتصالات وش بلاستيك",
       "categoryId": "18e2a873-84c8-4278-ab60-f970dfe3046f",
       "categoryName": "لوحات اتصالات",
@@ -3499,20 +4180,36 @@ window.NOUR_DATA = {
       "w": 350,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778408790531-____________________________202605101325.jpeg"
+        "assets/img/products/comm-plastic-front-main-1782724837461.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778408790531-____________________________202605101325.jpeg",
-      "mainImage": "assets/img/optimized/comm-plastic-front-main.webp",
-      "thumbnailImage": "assets/img/optimized/comm-plastic-front-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/comm-plastic-front-main-1782724837461.webp",
+          "alt": "لوحة اتصالات وش بلاستيك",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/comm-plastic-front-main-1782724837461.webp",
+      "mainImage": "assets/img/products/comm-plastic-front-main-1782724837461.webp",
+      "thumbnailImage": "assets/img/products/comm-plastic-front-main-1782724837461.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778408790531-____________________________202605101325.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/comm-plastic-front-main-1782724837461.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "لوحة اتصالات وش بلاستيك",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 3,
       "indexInCategory": 3,
       "structure": {
         "category": "communications",
@@ -3574,6 +4271,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "82cbf8f3-f2dc-495f-818e-9f18daf96375",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "بواط مقاس 10×25×20",
       "categoryId": "21eac4c7-a9ea-4635-9b5e-84e59688531d",
       "categoryName": "بواطات",
@@ -3582,20 +4280,36 @@ window.NOUR_DATA = {
       "w": 270,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413814281-________________________202605101449.jpeg"
+        "assets/img/products/jb-10x25x20-main-1782727979140.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413814281-________________________202605101449.jpeg",
-      "mainImage": "assets/img/optimized/jb-10x25x20-main.webp",
-      "thumbnailImage": "assets/img/optimized/jb-10x25x20-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/jb-10x25x20-main-1782727979140.webp",
+          "alt": "بواط مقاس 10×25×20",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/jb-10x25x20-main-1782727979140.webp",
+      "mainImage": "assets/img/products/jb-10x25x20-main-1782727979140.webp",
+      "thumbnailImage": "assets/img/products/jb-10x25x20-main-1782727979140.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413814281-________________________202605101449.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/jb-10x25x20-main-1782727979140.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "بواط معدني مقاس 10×25×20 سم",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 1,
       "indexInCategory": 1,
       "structure": {
         "category": "junction-boxes",
@@ -3655,6 +4369,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "95230f20-968e-47ed-80df-decda65d13fc",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "بواط مقاس 10×30×30",
       "categoryId": "21eac4c7-a9ea-4635-9b5e-84e59688531d",
       "categoryName": "بواطات",
@@ -3663,20 +4378,36 @@ window.NOUR_DATA = {
       "w": 315,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413853966-________________________202605101450.jpeg"
+        "assets/img/products/jb-10x30x30-main-1782728693717.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413853966-________________________202605101450.jpeg",
-      "mainImage": "assets/img/optimized/jb-10x30x30-main.webp",
-      "thumbnailImage": "assets/img/optimized/jb-10x30x30-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/jb-10x30x30-main-1782728693717.webp",
+          "alt": "بواط مقاس 10×30×30",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/jb-10x30x30-main-1782728693717.webp",
+      "mainImage": "assets/img/products/jb-10x30x30-main-1782728693717.webp",
+      "thumbnailImage": "assets/img/products/jb-10x30x30-main-1782728693717.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413853966-________________________202605101450.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/jb-10x30x30-main-1782728693717.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "بواط معدني مقاس 10×30×30 سم",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 2,
       "indexInCategory": 2,
       "structure": {
         "category": "junction-boxes",
@@ -3736,6 +4467,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "3f2a0a25-4452-4c30-800c-97b9bcdffe92",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "بواط مقاس 10×40×30",
       "categoryId": "21eac4c7-a9ea-4635-9b5e-84e59688531d",
       "categoryName": "بواطات",
@@ -3744,20 +4476,36 @@ window.NOUR_DATA = {
       "w": 310,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413923271-________________________202605101451.jpeg"
+        "assets/img/products/jb-10x40x30-main-1782727994621.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413923271-________________________202605101451.jpeg",
-      "mainImage": "assets/img/optimized/jb-10x40x30-main.webp",
-      "thumbnailImage": "assets/img/optimized/jb-10x40x30-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/jb-10x40x30-main-1782727994621.webp",
+          "alt": "بواط مقاس 10×40×30",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/jb-10x40x30-main-1782727994621.webp",
+      "mainImage": "assets/img/products/jb-10x40x30-main-1782727994621.webp",
+      "thumbnailImage": "assets/img/products/jb-10x40x30-main-1782727994621.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778413923271-________________________202605101451.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/jb-10x40x30-main-1782727994621.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "بواط معدني مقاس 10×40×30 سم",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 3,
       "indexInCategory": 3,
       "structure": {
         "category": "junction-boxes",
@@ -3816,88 +4564,8 @@ window.NOUR_DATA = {
       }
     },
     {
-      "id": "2344d590-c39d-4e2f-bba0-2fb1a4a30f52",
-      "name": "بواط مقاس 10×40×40",
-      "categoryId": "21eac4c7-a9ea-4635-9b5e-84e59688531d",
-      "categoryName": "بواطات",
-      "categorySlug": "junction-boxes",
-      "h": 415,
-      "w": 415,
-      "d": 90,
-      "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414005996-________________________202605101452.jpeg"
-      ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414005996-________________________202605101452.jpeg",
-      "mainImage": "assets/img/optimized/jb-10x40x40-main.webp",
-      "thumbnailImage": "assets/img/optimized/jb-10x40x40-thumb.webp",
-      "mainImageWidth": 1200,
-      "mainImageHeight": 896,
-      "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414005996-________________________202605101452.jpeg",
-      "aiClosedImageUrl": null,
-      "aiOpenImageUrl": null,
-      "description": "بواط معدني مقاس 10×40×40 سم",
-      "specs": [],
-      "indexInCategory": 4,
-      "structure": {
-        "category": "junction-boxes",
-        "productType": "junction-box",
-        "layoutType": "junction-box",
-        "orientation": "portrait",
-        "door": {
-          "type": "bolted-cover",
-          "side": "none",
-          "opens": "lift-off flat cover"
-        },
-        "doorSide": "none",
-        "breakerGroups": 0,
-        "breakerColumns": [],
-        "breakerRows": 1,
-        "totalBreakers": 0,
-        "lowerSection": false,
-        "lowerCount": 0,
-        "hasMeter": false,
-        "meterCount": 0,
-        "prepaid": false,
-        "hasMainBreaker": false,
-        "mainBreakerPosition": "none",
-        "mainBreakerPoles": null,
-        "threePhase": false,
-        "signalLamps": 0,
-        "structureDescription": "Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box.",
-        "notes": [
-          "بواط/علبة توزيع معدنية فارغة بفتحات كابلات — لا توجد قواطع أو عداد"
-        ],
-        "confidenceScore": 0.92,
-        "reviewRequired": false
-      },
-      "structureDescription": "Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box.",
-      "layoutType": "junction-box",
-      "aiPromptClosed": "CLOSED VIEW — بواط مقاس 10×40×40. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 415mm × height 415mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-      "aiPromptOpen": "OPEN / INTERIOR VIEW — بواط مقاس 10×40×40. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 415mm × height 415mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-      "imageStatus": "needs-generation",
-      "reviewNotes": [
-        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-      ],
-      "ai": {
-        "layoutType": "junction-box",
-        "promptClosed": "CLOSED VIEW — بواط مقاس 10×40×40. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 415mm × height 415mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-        "promptOpen": "OPEN / INTERIOR VIEW — بواط مقاس 10×40×40. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 415mm × height 415mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-        "aiClosedImageUrl": null,
-        "aiOpenImageUrl": null,
-        "imageStatus": "needs-generation",
-        "reviewNotes": [
-          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-        ],
-        "reviewRequired": false,
-        "confidenceScore": 0.92
-      }
-    },
-    {
       "id": "78c3186f-3f63-4214-aa2f-3708d9e9d7c7",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "بواط مقاس 30*50*10 سم",
       "categoryId": "21eac4c7-a9ea-4635-9b5e-84e59688531d",
       "categoryName": "بواطات",
@@ -3906,21 +4574,37 @@ window.NOUR_DATA = {
       "w": 310,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414151201-________________________202605101455.jpeg"
+        "assets/img/products/بواط-مقاس-30-50-10-سم-main-1782727526639.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414151201-________________________202605101455.jpeg",
-      "mainImage": "assets/img/optimized/30-50-10-main.webp",
-      "thumbnailImage": "assets/img/optimized/30-50-10-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/بواط-مقاس-30-50-10-سم-main-1782727526639.webp",
+          "alt": "بواط مقاس 30*50*10 سم",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/بواط-مقاس-30-50-10-سم-main-1782727526639.webp",
+      "mainImage": "assets/img/products/بواط-مقاس-30-50-10-سم-main-1782727526639.webp",
+      "thumbnailImage": "assets/img/products/بواط-مقاس-30-50-10-سم-main-1782727526639.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414151201-________________________202605101455.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/بواط-مقاس-30-50-10-سم-main-1782727526639.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "بواط مقاس 30*50*10 سم",
       "specs": [],
-      "indexInCategory": 5,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 4,
+      "indexInCategory": 4,
       "structure": {
         "category": "junction-boxes",
         "productType": "junction-box",
@@ -3978,30 +4662,47 @@ window.NOUR_DATA = {
       }
     },
     {
-      "id": "370943e7-b01d-4806-84e2-db64399ccd09",
-      "name": "بواط مقاس 12×50×50",
+      "id": "2344d590-c39d-4e2f-bba0-2fb1a4a30f52",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
+      "name": "بواط مقاس 10×40×40",
       "categoryId": "21eac4c7-a9ea-4635-9b5e-84e59688531d",
       "categoryName": "بواطات",
       "categorySlug": "junction-boxes",
-      "h": 525,
-      "w": 525,
-      "d": 110,
+      "h": 415,
+      "w": 415,
+      "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414424261-________________________202605101500.jpeg"
+        "assets/img/products/jb-10x40x40-main-1782727531047.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414424261-________________________202605101500.jpeg",
-      "mainImage": "assets/img/optimized/jb-12x50x50-main.webp",
-      "thumbnailImage": "assets/img/optimized/jb-12x50x50-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/jb-10x40x40-main-1782727531047.webp",
+          "alt": "بواط مقاس 10×40×40",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/jb-10x40x40-main-1782727531047.webp",
+      "mainImage": "assets/img/products/jb-10x40x40-main-1782727531047.webp",
+      "thumbnailImage": "assets/img/products/jb-10x40x40-main-1782727531047.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414424261-________________________202605101500.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/jb-10x40x40-main-1782727531047.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
-      "description": "بواط معدني مقاس 12×50×50 سم",
+      "description": "بواط معدني مقاس 10×40×40 سم",
       "specs": [],
-      "indexInCategory": 6,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 5,
+      "indexInCategory": 5,
       "structure": {
         "category": "junction-boxes",
         "productType": "junction-box",
@@ -4036,8 +4737,8 @@ window.NOUR_DATA = {
       },
       "structureDescription": "Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box.",
       "layoutType": "junction-box",
-      "aiPromptClosed": "CLOSED VIEW — بواط مقاس 12×50×50. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 525mm × height 525mm × depth 110mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-      "aiPromptOpen": "OPEN / INTERIOR VIEW — بواط مقاس 12×50×50. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 525mm × height 525mm × depth 110mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+      "aiPromptClosed": "CLOSED VIEW — بواط مقاس 10×40×40. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 415mm × height 415mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+      "aiPromptOpen": "OPEN / INTERIOR VIEW — بواط مقاس 10×40×40. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 415mm × height 415mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
       "imageStatus": "needs-generation",
       "reviewNotes": [
         "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
@@ -4045,8 +4746,8 @@ window.NOUR_DATA = {
       ],
       "ai": {
         "layoutType": "junction-box",
-        "promptClosed": "CLOSED VIEW — بواط مقاس 12×50×50. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 525mm × height 525mm × depth 110mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-        "promptOpen": "OPEN / INTERIOR VIEW — بواط مقاس 12×50×50. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 525mm × height 525mm × depth 110mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+        "promptClosed": "CLOSED VIEW — بواط مقاس 10×40×40. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 415mm × height 415mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+        "promptOpen": "OPEN / INTERIOR VIEW — بواط مقاس 10×40×40. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 415mm × height 415mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
         "aiClosedImageUrl": null,
         "aiOpenImageUrl": null,
         "imageStatus": "needs-generation",
@@ -4060,6 +4761,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "9846a967-38ea-4c7e-877e-bf2cfb1699a9",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "بواط مقاس 30*60*10",
       "categoryId": "21eac4c7-a9ea-4635-9b5e-84e59688531d",
       "categoryName": "بواطات",
@@ -4068,21 +4770,37 @@ window.NOUR_DATA = {
       "w": 310,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414339904-________________________202605101457.jpeg"
+        "assets/img/products/بواط-مقاس-30-60-10-سم-main-1782727676630.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414339904-________________________202605101457.jpeg",
-      "mainImage": "assets/img/optimized/30-60-10-main.webp",
-      "thumbnailImage": "assets/img/optimized/30-60-10-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/بواط-مقاس-30-60-10-سم-main-1782727676630.webp",
+          "alt": "بواط مقاس 30*60*10",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/بواط-مقاس-30-60-10-سم-main-1782727676630.webp",
+      "mainImage": "assets/img/products/بواط-مقاس-30-60-10-سم-main-1782727676630.webp",
+      "thumbnailImage": "assets/img/products/بواط-مقاس-30-60-10-سم-main-1782727676630.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414339904-________________________202605101457.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/بواط-مقاس-30-60-10-سم-main-1782727676630.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "بواط مقاس 30*60*10",
       "specs": [],
-      "indexInCategory": 7,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 6,
+      "indexInCategory": 6,
       "structure": {
         "category": "junction-boxes",
         "productType": "junction-box",
@@ -4141,6 +4859,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "9ee98e23-819a-41de-9155-a8759fecb2df",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "بواط مقاس 10×70×30",
       "categoryId": "21eac4c7-a9ea-4635-9b5e-84e59688531d",
       "categoryName": "بواطات",
@@ -4149,21 +4868,37 @@ window.NOUR_DATA = {
       "w": 310,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414273723-________________________202605101457__1_.jpeg"
+        "assets/img/products/jb-10x70x30-main-1782727674259.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414273723-________________________202605101457__1_.jpeg",
-      "mainImage": "assets/img/optimized/jb-10x70x30-main.webp",
-      "thumbnailImage": "assets/img/optimized/jb-10x70x30-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/jb-10x70x30-main-1782727674259.webp",
+          "alt": "بواط مقاس 10×70×30",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/jb-10x70x30-main-1782727674259.webp",
+      "mainImage": "assets/img/products/jb-10x70x30-main-1782727674259.webp",
+      "thumbnailImage": "assets/img/products/jb-10x70x30-main-1782727674259.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414273723-________________________202605101457__1_.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/jb-10x70x30-main-1782727674259.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "بواط معدني مقاس 10×70×30 سم",
       "specs": [],
-      "indexInCategory": 8,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 7,
+      "indexInCategory": 7,
       "structure": {
         "category": "junction-boxes",
         "productType": "junction-box",
@@ -4221,7 +4956,106 @@ window.NOUR_DATA = {
       }
     },
     {
+      "id": "370943e7-b01d-4806-84e2-db64399ccd09",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
+      "name": "بواط مقاس 12×50×50",
+      "categoryId": "21eac4c7-a9ea-4635-9b5e-84e59688531d",
+      "categoryName": "بواطات",
+      "categorySlug": "junction-boxes",
+      "h": 525,
+      "w": 525,
+      "d": 110,
+      "images": [
+        "assets/img/products/jb-12x50x50-main-1782724512908.webp"
+      ],
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/jb-12x50x50-main-1782724512908.webp",
+          "alt": "بواط مقاس 12×50×50",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/jb-12x50x50-main-1782724512908.webp",
+      "mainImage": "assets/img/products/jb-12x50x50-main-1782724512908.webp",
+      "thumbnailImage": "assets/img/products/jb-12x50x50-main-1782724512908.webp",
+      "mainImageWidth": 1200,
+      "mainImageHeight": 900,
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/jb-12x50x50-main-1782724512908.webp",
+      "dimensionImage": null,
+      "aiClosedImageUrl": null,
+      "aiOpenImageUrl": null,
+      "description": "بواط معدني مقاس 12×50×50 سم",
+      "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 8,
+      "indexInCategory": 8,
+      "structure": {
+        "category": "junction-boxes",
+        "productType": "junction-box",
+        "layoutType": "junction-box",
+        "orientation": "portrait",
+        "door": {
+          "type": "bolted-cover",
+          "side": "none",
+          "opens": "lift-off flat cover"
+        },
+        "doorSide": "none",
+        "breakerGroups": 0,
+        "breakerColumns": [],
+        "breakerRows": 1,
+        "totalBreakers": 0,
+        "lowerSection": false,
+        "lowerCount": 0,
+        "hasMeter": false,
+        "meterCount": 0,
+        "prepaid": false,
+        "hasMainBreaker": false,
+        "mainBreakerPosition": "none",
+        "mainBreakerPoles": null,
+        "threePhase": false,
+        "signalLamps": 0,
+        "structureDescription": "Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box.",
+        "notes": [
+          "بواط/علبة توزيع معدنية فارغة بفتحات كابلات — لا توجد قواطع أو عداد"
+        ],
+        "confidenceScore": 0.92,
+        "reviewRequired": false
+      },
+      "structureDescription": "Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box.",
+      "layoutType": "junction-box",
+      "aiPromptClosed": "CLOSED VIEW — بواط مقاس 12×50×50. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 525mm × height 525mm × depth 110mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+      "aiPromptOpen": "OPEN / INTERIOR VIEW — بواط مقاس 12×50×50. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 525mm × height 525mm × depth 110mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+      "imageStatus": "needs-generation",
+      "reviewNotes": [
+        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+      ],
+      "ai": {
+        "layoutType": "junction-box",
+        "promptClosed": "CLOSED VIEW — بواط مقاس 12×50×50. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 525mm × height 525mm × depth 110mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+        "promptOpen": "OPEN / INTERIOR VIEW — بواط مقاس 12×50×50. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 525mm × height 525mm × depth 110mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+        "aiClosedImageUrl": null,
+        "aiOpenImageUrl": null,
+        "imageStatus": "needs-generation",
+        "reviewNotes": [
+          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+        ],
+        "reviewRequired": false,
+        "confidenceScore": 0.92
+      }
+    },
+    {
       "id": "d6747c77-3037-457d-bf2f-f6a025ac452b",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "بواط مسمار 10×25×20",
       "categoryId": "c6bb7452-b7fe-4aa3-897c-c6cffb9c5e33",
       "categoryName": "بواط مسمار",
@@ -4230,20 +5064,36 @@ window.NOUR_DATA = {
       "w": 210,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414638733-________________________202605101503.jpeg"
+        "assets/img/products/nb-10x25x20-main-1782723146637.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414638733-________________________202605101503.jpeg",
-      "mainImage": "assets/img/optimized/nb-10x25x20-main.webp",
-      "thumbnailImage": "assets/img/optimized/nb-10x25x20-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/nb-10x25x20-main-1782723146637.webp",
+          "alt": "بواط مسمار 10×25×20",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/nb-10x25x20-main-1782723146637.webp",
+      "mainImage": "assets/img/products/nb-10x25x20-main-1782723146637.webp",
+      "thumbnailImage": "assets/img/products/nb-10x25x20-main-1782723146637.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414638733-________________________202605101503.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/nb-10x25x20-main-1782723146637.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "بواب مسمار معدني مقاس 10×25×20 سم",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 1,
       "indexInCategory": 1,
       "structure": {
         "category": "nail-boxes",
@@ -4303,6 +5153,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "5f2b48a6-0bde-4c7c-9dac-05e34f8dceb7",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "بواب مسمار 10×30×20",
       "categoryId": "c6bb7452-b7fe-4aa3-897c-c6cffb9c5e33",
       "categoryName": "بواط مسمار",
@@ -4311,20 +5162,36 @@ window.NOUR_DATA = {
       "w": 210,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414747849-________________________202605101505.jpeg"
+        "assets/img/products/nb-10x30x20-main-1782723169745.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414747849-________________________202605101505.jpeg",
-      "mainImage": "assets/img/optimized/nb-10x30x20-main.webp",
-      "thumbnailImage": "assets/img/optimized/nb-10x30x20-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/nb-10x30x20-main-1782723169745.webp",
+          "alt": "بواب مسمار 10×30×20",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/nb-10x30x20-main-1782723169745.webp",
+      "mainImage": "assets/img/products/nb-10x30x20-main-1782723169745.webp",
+      "thumbnailImage": "assets/img/products/nb-10x30x20-main-1782723169745.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414747849-________________________202605101505.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/nb-10x30x20-main-1782723169745.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "بواب مسمار معدني مقاس 10×30×20 سم",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 2,
       "indexInCategory": 2,
       "structure": {
         "category": "nail-boxes",
@@ -4383,88 +5250,8 @@ window.NOUR_DATA = {
       }
     },
     {
-      "id": "12356f30-29c0-4fde-969a-806937ee83d4",
-      "name": "بواب مسمار 10×30×30",
-      "categoryId": "c6bb7452-b7fe-4aa3-897c-c6cffb9c5e33",
-      "categoryName": "بواط مسمار",
-      "categorySlug": "nail-boxes",
-      "h": 315,
-      "w": 315,
-      "d": 90,
-      "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415066301-________________________202605101505.jpeg"
-      ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415066301-________________________202605101505.jpeg",
-      "mainImage": "assets/img/optimized/nb-10x30x30-main.webp",
-      "thumbnailImage": "assets/img/optimized/nb-10x30x30-thumb.webp",
-      "mainImageWidth": 1200,
-      "mainImageHeight": 896,
-      "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415066301-________________________202605101505.jpeg",
-      "aiClosedImageUrl": null,
-      "aiOpenImageUrl": null,
-      "description": "بواب مسمار معدني مقاس 10×30×30 سم",
-      "specs": [],
-      "indexInCategory": 3,
-      "structure": {
-        "category": "nail-boxes",
-        "productType": "nail-junction-box",
-        "layoutType": "junction-box",
-        "orientation": "portrait",
-        "door": {
-          "type": "bolted-cover",
-          "side": "none",
-          "opens": "lift-off flat cover"
-        },
-        "doorSide": "none",
-        "breakerGroups": 0,
-        "breakerColumns": [],
-        "breakerRows": 1,
-        "totalBreakers": 0,
-        "lowerSection": false,
-        "lowerCount": 0,
-        "hasMeter": false,
-        "meterCount": 0,
-        "prepaid": false,
-        "hasMainBreaker": false,
-        "mainBreakerPosition": "none",
-        "mainBreakerPoles": null,
-        "threePhase": false,
-        "signalLamps": 0,
-        "structureDescription": "Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box.",
-        "notes": [
-          "بواط/علبة توزيع معدنية فارغة بفتحات كابلات — لا توجد قواطع أو عداد"
-        ],
-        "confidenceScore": 0.92,
-        "reviewRequired": false
-      },
-      "structureDescription": "Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box.",
-      "layoutType": "junction-box",
-      "aiPromptClosed": "CLOSED VIEW — بواب مسمار 10×30×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 315mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-      "aiPromptOpen": "OPEN / INTERIOR VIEW — بواب مسمار 10×30×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 315mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-      "imageStatus": "needs-generation",
-      "reviewNotes": [
-        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-      ],
-      "ai": {
-        "layoutType": "junction-box",
-        "promptClosed": "CLOSED VIEW — بواب مسمار 10×30×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 315mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-        "promptOpen": "OPEN / INTERIOR VIEW — بواب مسمار 10×30×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 315mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-        "aiClosedImageUrl": null,
-        "aiOpenImageUrl": null,
-        "imageStatus": "needs-generation",
-        "reviewNotes": [
-          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-        ],
-        "reviewRequired": false,
-        "confidenceScore": 0.92
-      }
-    },
-    {
       "id": "083266a5-c330-4f8a-8657-975bade9999d",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "بواط مسمار 10×40×20",
       "categoryId": "c6bb7452-b7fe-4aa3-897c-c6cffb9c5e33",
       "categoryName": "بواط مسمار",
@@ -4473,21 +5260,37 @@ window.NOUR_DATA = {
       "w": 210,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414821020-________________________202605101506.jpeg"
+        "assets/img/products/nb-10x40x20-main-1782728219234.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414821020-________________________202605101506.jpeg",
-      "mainImage": "assets/img/optimized/nb-10x40x20-main.webp",
-      "thumbnailImage": "assets/img/optimized/nb-10x40x20-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/nb-10x40x20-main-1782728219234.webp",
+          "alt": "بواط مسمار 10×40×20",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/nb-10x40x20-main-1782728219234.webp",
+      "mainImage": "assets/img/products/nb-10x40x20-main-1782728219234.webp",
+      "thumbnailImage": "assets/img/products/nb-10x40x20-main-1782728219234.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414821020-________________________202605101506.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/nb-10x40x20-main-1782728219234.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "بواب مسمار معدني مقاس 10×40×20 سم",
       "specs": [],
-      "indexInCategory": 4,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 3,
+      "indexInCategory": 3,
       "structure": {
         "category": "nail-boxes",
         "productType": "nail-junction-box",
@@ -4545,30 +5348,47 @@ window.NOUR_DATA = {
       }
     },
     {
-      "id": "17a99a8c-58b9-4262-a8e7-8f44d0d34415",
-      "name": "بواب مسمار 10×40×30",
+      "id": "12356f30-29c0-4fde-969a-806937ee83d4",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
+      "name": "بواب مسمار 10×30×30",
       "categoryId": "c6bb7452-b7fe-4aa3-897c-c6cffb9c5e33",
       "categoryName": "بواط مسمار",
       "categorySlug": "nail-boxes",
-      "h": 410,
+      "h": 315,
       "w": 315,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415087622-________________________202605101506.jpeg"
+        "assets/img/products/nb-10x30x30-main-1782727703319.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415087622-________________________202605101506.jpeg",
-      "mainImage": "assets/img/optimized/nb-10x40x30-main.webp",
-      "thumbnailImage": "assets/img/optimized/nb-10x40x30-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/nb-10x30x30-main-1782727703319.webp",
+          "alt": "بواب مسمار 10×30×30",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/nb-10x30x30-main-1782727703319.webp",
+      "mainImage": "assets/img/products/nb-10x30x30-main-1782727703319.webp",
+      "thumbnailImage": "assets/img/products/nb-10x30x30-main-1782727703319.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415087622-________________________202605101506.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/nb-10x30x30-main-1782727703319.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
-      "description": "بواب مسمار معدني مقاس 10×40×30 سم",
+      "description": "بواب مسمار معدني مقاس 10×30×30 سم",
       "specs": [],
-      "indexInCategory": 5,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 4,
+      "indexInCategory": 4,
       "structure": {
         "category": "nail-boxes",
         "productType": "nail-junction-box",
@@ -4603,8 +5423,8 @@ window.NOUR_DATA = {
       },
       "structureDescription": "Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box.",
       "layoutType": "junction-box",
-      "aiPromptClosed": "CLOSED VIEW — بواب مسمار 10×40×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 410mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-      "aiPromptOpen": "OPEN / INTERIOR VIEW — بواب مسمار 10×40×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 410mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+      "aiPromptClosed": "CLOSED VIEW — بواب مسمار 10×30×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 315mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+      "aiPromptOpen": "OPEN / INTERIOR VIEW — بواب مسمار 10×30×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 315mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
       "imageStatus": "needs-generation",
       "reviewNotes": [
         "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
@@ -4612,8 +5432,8 @@ window.NOUR_DATA = {
       ],
       "ai": {
         "layoutType": "junction-box",
-        "promptClosed": "CLOSED VIEW — بواب مسمار 10×40×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 410mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-        "promptOpen": "OPEN / INTERIOR VIEW — بواب مسمار 10×40×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 410mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+        "promptClosed": "CLOSED VIEW — بواب مسمار 10×30×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 315mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+        "promptOpen": "OPEN / INTERIOR VIEW — بواب مسمار 10×30×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 315mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
         "aiClosedImageUrl": null,
         "aiOpenImageUrl": null,
         "imageStatus": "needs-generation",
@@ -4627,6 +5447,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "c30ff8ca-6ac4-49a7-94b9-1c235e479fec",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "بواب مسمار 10×50×20",
       "categoryId": "c6bb7452-b7fe-4aa3-897c-c6cffb9c5e33",
       "categoryName": "بواط مسمار",
@@ -4635,21 +5456,37 @@ window.NOUR_DATA = {
       "w": 210,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414939123-________________________202605101508.jpeg"
+        "assets/img/products/nb-10x50x20-main-1782728257356.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414939123-________________________202605101508.jpeg",
-      "mainImage": "assets/img/optimized/nb-10x50x20-main.webp",
-      "thumbnailImage": "assets/img/optimized/nb-10x50x20-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/nb-10x50x20-main-1782728257356.webp",
+          "alt": "بواب مسمار 10×50×20",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/nb-10x50x20-main-1782728257356.webp",
+      "mainImage": "assets/img/products/nb-10x50x20-main-1782728257356.webp",
+      "thumbnailImage": "assets/img/products/nb-10x50x20-main-1782728257356.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778414939123-________________________202605101508.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/nb-10x50x20-main-1782728257356.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "بواب مسمار معدني مقاس 10×50×20 سم",
       "specs": [],
-      "indexInCategory": 6,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 5,
+      "indexInCategory": 5,
       "structure": {
         "category": "nail-boxes",
         "productType": "nail-junction-box",
@@ -4707,88 +5544,8 @@ window.NOUR_DATA = {
       }
     },
     {
-      "id": "1f9345bd-1852-44bd-ade0-879e929c6f95",
-      "name": "بواب مسمار 10×50×30",
-      "categoryId": "c6bb7452-b7fe-4aa3-897c-c6cffb9c5e33",
-      "categoryName": "بواط مسمار",
-      "categorySlug": "nail-boxes",
-      "h": 510,
-      "w": 310,
-      "d": 90,
-      "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415110365-________________________202605101508.jpeg"
-      ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415110365-________________________202605101508.jpeg",
-      "mainImage": "assets/img/optimized/nb-10x50x30-main.webp",
-      "thumbnailImage": "assets/img/optimized/nb-10x50x30-thumb.webp",
-      "mainImageWidth": 1200,
-      "mainImageHeight": 896,
-      "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415110365-________________________202605101508.jpeg",
-      "aiClosedImageUrl": null,
-      "aiOpenImageUrl": null,
-      "description": "بواب مسمار معدني مقاس 10×50×30 سم",
-      "specs": [],
-      "indexInCategory": 7,
-      "structure": {
-        "category": "nail-boxes",
-        "productType": "nail-junction-box",
-        "layoutType": "junction-box",
-        "orientation": "portrait",
-        "door": {
-          "type": "bolted-cover",
-          "side": "none",
-          "opens": "lift-off flat cover"
-        },
-        "doorSide": "none",
-        "breakerGroups": 0,
-        "breakerColumns": [],
-        "breakerRows": 1,
-        "totalBreakers": 0,
-        "lowerSection": false,
-        "lowerCount": 0,
-        "hasMeter": false,
-        "meterCount": 0,
-        "prepaid": false,
-        "hasMainBreaker": false,
-        "mainBreakerPosition": "none",
-        "mainBreakerPoles": null,
-        "threePhase": false,
-        "signalLamps": 0,
-        "structureDescription": "Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box.",
-        "notes": [
-          "بواط/علبة توزيع معدنية فارغة بفتحات كابلات — لا توجد قواطع أو عداد"
-        ],
-        "confidenceScore": 0.92,
-        "reviewRequired": false
-      },
-      "structureDescription": "Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box.",
-      "layoutType": "junction-box",
-      "aiPromptClosed": "CLOSED VIEW — بواب مسمار 10×50×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 310mm × height 510mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-      "aiPromptOpen": "OPEN / INTERIOR VIEW — بواب مسمار 10×50×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 310mm × height 510mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-      "imageStatus": "needs-generation",
-      "reviewNotes": [
-        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-      ],
-      "ai": {
-        "layoutType": "junction-box",
-        "promptClosed": "CLOSED VIEW — بواب مسمار 10×50×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 310mm × height 510mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-        "promptOpen": "OPEN / INTERIOR VIEW — بواب مسمار 10×50×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 310mm × height 510mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
-        "aiClosedImageUrl": null,
-        "aiOpenImageUrl": null,
-        "imageStatus": "needs-generation",
-        "reviewNotes": [
-          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
-          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
-        ],
-        "reviewRequired": false,
-        "confidenceScore": 0.92
-      }
-    },
-    {
       "id": "ad925903-6d21-4e98-aea8-c78a48c39a25",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "بواب مسمار 10×60×20",
       "categoryId": "c6bb7452-b7fe-4aa3-897c-c6cffb9c5e33",
       "categoryName": "بواط مسمار",
@@ -4797,21 +5554,37 @@ window.NOUR_DATA = {
       "w": 210,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415007853-________________________202605101509.jpeg"
+        "assets/img/products/nb-10x60x20-main-1782727706856.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415007853-________________________202605101509.jpeg",
-      "mainImage": "assets/img/optimized/nb-10x60x20-main.webp",
-      "thumbnailImage": "assets/img/optimized/nb-10x60x20-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/nb-10x60x20-main-1782727706856.webp",
+          "alt": "بواب مسمار 10×60×20",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/nb-10x60x20-main-1782727706856.webp",
+      "mainImage": "assets/img/products/nb-10x60x20-main-1782727706856.webp",
+      "thumbnailImage": "assets/img/products/nb-10x60x20-main-1782727706856.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415007853-________________________202605101509.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/nb-10x60x20-main-1782727706856.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "بواب مسمار معدني مقاس 10×60×20 سم",
       "specs": [],
-      "indexInCategory": 8,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 6,
+      "indexInCategory": 6,
       "structure": {
         "category": "nail-boxes",
         "productType": "nail-junction-box",
@@ -4869,30 +5642,47 @@ window.NOUR_DATA = {
       }
     },
     {
-      "id": "3ef5015f-98f8-4fc6-8f89-ff64cdb9c9a1",
-      "name": "بواب مسمار 10×60×30",
+      "id": "17a99a8c-58b9-4262-a8e7-8f44d0d34415",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
+      "name": "بواب مسمار 10×40×30",
       "categoryId": "c6bb7452-b7fe-4aa3-897c-c6cffb9c5e33",
       "categoryName": "بواط مسمار",
       "categorySlug": "nail-boxes",
-      "h": 610,
-      "w": 310,
+      "h": 410,
+      "w": 315,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415125861-________________________202605101509.jpeg"
+        "assets/img/products/nb-10x40x30-main-1782728282531.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415125861-________________________202605101509.jpeg",
-      "mainImage": "assets/img/optimized/nb-10x60x30-main.webp",
-      "thumbnailImage": "assets/img/optimized/nb-10x60x30-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/nb-10x40x30-main-1782728282531.webp",
+          "alt": "بواب مسمار 10×40×30",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/nb-10x40x30-main-1782728282531.webp",
+      "mainImage": "assets/img/products/nb-10x40x30-main-1782728282531.webp",
+      "thumbnailImage": "assets/img/products/nb-10x40x30-main-1782728282531.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415125861-________________________202605101509.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/nb-10x40x30-main-1782728282531.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
-      "description": "بواب مسمار معدني مقاس 10×60×30 سم",
+      "description": "بواب مسمار معدني مقاس 10×40×30 سم",
       "specs": [],
-      "indexInCategory": 9,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 7,
+      "indexInCategory": 7,
       "structure": {
         "category": "nail-boxes",
         "productType": "nail-junction-box",
@@ -4927,8 +5717,8 @@ window.NOUR_DATA = {
       },
       "structureDescription": "Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box.",
       "layoutType": "junction-box",
-      "aiPromptClosed": "CLOSED VIEW — بواب مسمار 10×60×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 310mm × height 610mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-      "aiPromptOpen": "OPEN / INTERIOR VIEW — بواب مسمار 10×60×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 310mm × height 610mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+      "aiPromptClosed": "CLOSED VIEW — بواب مسمار 10×40×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 410mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+      "aiPromptOpen": "OPEN / INTERIOR VIEW — بواب مسمار 10×40×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 410mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
       "imageStatus": "needs-generation",
       "reviewNotes": [
         "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
@@ -4936,8 +5726,8 @@ window.NOUR_DATA = {
       ],
       "ai": {
         "layoutType": "junction-box",
-        "promptClosed": "CLOSED VIEW — بواب مسمار 10×60×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 310mm × height 610mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
-        "promptOpen": "OPEN / INTERIOR VIEW — بواب مسمار 10×60×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 310mm × height 610mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+        "promptClosed": "CLOSED VIEW — بواب مسمار 10×40×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 410mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+        "promptOpen": "OPEN / INTERIOR VIEW — بواب مسمار 10×40×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 410mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
         "aiClosedImageUrl": null,
         "aiOpenImageUrl": null,
         "imageStatus": "needs-generation",
@@ -4951,6 +5741,7 @@ window.NOUR_DATA = {
     },
     {
       "id": "1fcd77f5-fa81-4b13-847e-7f22dc5da98c",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "بواب مسمار 10×70×20",
       "categoryId": "c6bb7452-b7fe-4aa3-897c-c6cffb9c5e33",
       "categoryName": "بواط مسمار",
@@ -4959,21 +5750,37 @@ window.NOUR_DATA = {
       "w": 210,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415032600-________________________202605101509.jpeg"
+        "assets/img/products/nb-10x70x20-main-1782728078666.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415032600-________________________202605101509.jpeg",
-      "mainImage": "assets/img/optimized/nb-10x70x20-main.webp",
-      "thumbnailImage": "assets/img/optimized/nb-10x70x20-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/nb-10x70x20-main-1782728078666.webp",
+          "alt": "بواب مسمار 10×70×20",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/nb-10x70x20-main-1782728078666.webp",
+      "mainImage": "assets/img/products/nb-10x70x20-main-1782728078666.webp",
+      "thumbnailImage": "assets/img/products/nb-10x70x20-main-1782728078666.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415032600-________________________202605101509.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/nb-10x70x20-main-1782728078666.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "بواب مسمار معدني مقاس 10×70×20 سم",
       "specs": [],
-      "indexInCategory": 10,
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 8,
+      "indexInCategory": 8,
       "structure": {
         "category": "nail-boxes",
         "productType": "nail-junction-box",
@@ -5031,7 +5838,204 @@ window.NOUR_DATA = {
       }
     },
     {
+      "id": "1f9345bd-1852-44bd-ade0-879e929c6f95",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
+      "name": "بواب مسمار 10×50×30",
+      "categoryId": "c6bb7452-b7fe-4aa3-897c-c6cffb9c5e33",
+      "categoryName": "بواط مسمار",
+      "categorySlug": "nail-boxes",
+      "h": 510,
+      "w": 310,
+      "d": 90,
+      "images": [
+        "assets/img/products/nb-10x50x30-main-1782728303613.webp"
+      ],
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/nb-10x50x30-main-1782728303613.webp",
+          "alt": "بواب مسمار 10×50×30",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/nb-10x50x30-main-1782728303613.webp",
+      "mainImage": "assets/img/products/nb-10x50x30-main-1782728303613.webp",
+      "thumbnailImage": "assets/img/products/nb-10x50x30-main-1782728303613.webp",
+      "mainImageWidth": 1200,
+      "mainImageHeight": 900,
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/nb-10x50x30-main-1782728303613.webp",
+      "dimensionImage": null,
+      "aiClosedImageUrl": null,
+      "aiOpenImageUrl": null,
+      "description": "بواب مسمار معدني مقاس 10×50×30 سم",
+      "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 9,
+      "indexInCategory": 9,
+      "structure": {
+        "category": "nail-boxes",
+        "productType": "nail-junction-box",
+        "layoutType": "junction-box",
+        "orientation": "portrait",
+        "door": {
+          "type": "bolted-cover",
+          "side": "none",
+          "opens": "lift-off flat cover"
+        },
+        "doorSide": "none",
+        "breakerGroups": 0,
+        "breakerColumns": [],
+        "breakerRows": 1,
+        "totalBreakers": 0,
+        "lowerSection": false,
+        "lowerCount": 0,
+        "hasMeter": false,
+        "meterCount": 0,
+        "prepaid": false,
+        "hasMainBreaker": false,
+        "mainBreakerPosition": "none",
+        "mainBreakerPoles": null,
+        "threePhase": false,
+        "signalLamps": 0,
+        "structureDescription": "Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box.",
+        "notes": [
+          "بواط/علبة توزيع معدنية فارغة بفتحات كابلات — لا توجد قواطع أو عداد"
+        ],
+        "confidenceScore": 0.92,
+        "reviewRequired": false
+      },
+      "structureDescription": "Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box.",
+      "layoutType": "junction-box",
+      "aiPromptClosed": "CLOSED VIEW — بواب مسمار 10×50×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 310mm × height 510mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+      "aiPromptOpen": "OPEN / INTERIOR VIEW — بواب مسمار 10×50×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 310mm × height 510mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+      "imageStatus": "needs-generation",
+      "reviewNotes": [
+        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+      ],
+      "ai": {
+        "layoutType": "junction-box",
+        "promptClosed": "CLOSED VIEW — بواب مسمار 10×50×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 310mm × height 510mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+        "promptOpen": "OPEN / INTERIOR VIEW — بواب مسمار 10×50×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 310mm × height 510mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+        "aiClosedImageUrl": null,
+        "aiOpenImageUrl": null,
+        "imageStatus": "needs-generation",
+        "reviewNotes": [
+          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+        ],
+        "reviewRequired": false,
+        "confidenceScore": 0.92
+      }
+    },
+    {
+      "id": "3ef5015f-98f8-4fc6-8f89-ff64cdb9c9a1",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
+      "name": "بواب مسمار 10×60×30",
+      "categoryId": "c6bb7452-b7fe-4aa3-897c-c6cffb9c5e33",
+      "categoryName": "بواط مسمار",
+      "categorySlug": "nail-boxes",
+      "h": 610,
+      "w": 310,
+      "d": 90,
+      "images": [
+        "assets/img/products/nb-10x60x30-main-1782727714163.webp"
+      ],
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/nb-10x60x30-main-1782727714163.webp",
+          "alt": "بواب مسمار 10×60×30",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/nb-10x60x30-main-1782727714163.webp",
+      "mainImage": "assets/img/products/nb-10x60x30-main-1782727714163.webp",
+      "thumbnailImage": "assets/img/products/nb-10x60x30-main-1782727714163.webp",
+      "mainImageWidth": 1200,
+      "mainImageHeight": 900,
+      "thumbnailWidth": 480,
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/nb-10x60x30-main-1782727714163.webp",
+      "dimensionImage": null,
+      "aiClosedImageUrl": null,
+      "aiOpenImageUrl": null,
+      "description": "بواب مسمار معدني مقاس 10×60×30 سم",
+      "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 10,
+      "indexInCategory": 10,
+      "structure": {
+        "category": "nail-boxes",
+        "productType": "nail-junction-box",
+        "layoutType": "junction-box",
+        "orientation": "portrait",
+        "door": {
+          "type": "bolted-cover",
+          "side": "none",
+          "opens": "lift-off flat cover"
+        },
+        "doorSide": "none",
+        "breakerGroups": 0,
+        "breakerColumns": [],
+        "breakerRows": 1,
+        "totalBreakers": 0,
+        "lowerSection": false,
+        "lowerCount": 0,
+        "hasMeter": false,
+        "meterCount": 0,
+        "prepaid": false,
+        "hasMainBreaker": false,
+        "mainBreakerPosition": "none",
+        "mainBreakerPoles": null,
+        "threePhase": false,
+        "signalLamps": 0,
+        "structureDescription": "Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box.",
+        "notes": [
+          "بواط/علبة توزيع معدنية فارغة بفتحات كابلات — لا توجد قواطع أو عداد"
+        ],
+        "confidenceScore": 0.92,
+        "reviewRequired": false
+      },
+      "structureDescription": "Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box.",
+      "layoutType": "junction-box",
+      "aiPromptClosed": "CLOSED VIEW — بواب مسمار 10×60×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 310mm × height 610mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+      "aiPromptOpen": "OPEN / INTERIOR VIEW — بواب مسمار 10×60×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 310mm × height 610mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+      "imageStatus": "needs-generation",
+      "reviewNotes": [
+        "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+        "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+      ],
+      "ai": {
+        "layoutType": "junction-box",
+        "promptClosed": "CLOSED VIEW — بواب مسمار 10×60×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 310mm × height 610mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.",
+        "promptOpen": "OPEN / INTERIOR VIEW — بواب مسمار 10×60×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 310mm × height 610mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Same enclosure as the closed view but with the door cover removed and set aside, revealing the interior back-plate. INTERNAL ARRANGEMENT (reproduce faithfully): Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box. Interior must contain exactly: an empty steel back-plate with cable knockouts only — no breakers, no meter. Category: metal nail junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: extra/random breakers, a different count, a generic front-facing panel, mismatched size or colour vs the closed view, text labels, watermarks.",
+        "aiClosedImageUrl": null,
+        "aiOpenImageUrl": null,
+        "imageStatus": "needs-generation",
+        "reviewNotes": [
+          "صورة اللوحة المغلقة ما زالت بانتظار التوليد.",
+          "صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد."
+        ],
+        "reviewRequired": false,
+        "confidenceScore": 0.92
+      }
+    },
+    {
       "id": "cea1fdcb-5857-4ee1-900d-42b19a6eb208",
+      "updatedAt": "2026-06-29T10:24:53.892Z",
       "name": "بواب مسمار 10×70×30",
       "categoryId": "c6bb7452-b7fe-4aa3-897c-c6cffb9c5e33",
       "categoryName": "بواط مسمار",
@@ -5040,20 +6044,36 @@ window.NOUR_DATA = {
       "w": 315,
       "d": 90,
       "images": [
-        "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415139477-________________________202605101509.jpeg"
+        "assets/img/products/nb-10x70x30-main-1782727716966.webp"
       ],
-      "originalImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415139477-________________________202605101509.jpeg",
-      "mainImage": "assets/img/optimized/nb-10x70x30-main.webp",
-      "thumbnailImage": "assets/img/optimized/nb-10x70x30-thumb.webp",
+      "imageItems": [
+        {
+          "type": "main",
+          "src": "assets/img/products/nb-10x70x30-main-1782727716966.webp",
+          "alt": "بواب مسمار 10×70×30",
+          "caption": "الصورة الرئيسية",
+          "visible": true,
+          "order": 1
+        }
+      ],
+      "originalImage": "assets/img/products/nb-10x70x30-main-1782727716966.webp",
+      "mainImage": "assets/img/products/nb-10x70x30-main-1782727716966.webp",
+      "thumbnailImage": "assets/img/products/nb-10x70x30-main-1782727716966.webp",
       "mainImageWidth": 1200,
-      "mainImageHeight": 896,
+      "mainImageHeight": 900,
       "thumbnailWidth": 480,
-      "thumbnailHeight": 358,
-      "referenceImage": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778415139477-________________________202605101509.jpeg",
+      "thumbnailHeight": 360,
+      "referenceImage": "assets/img/products/nb-10x70x30-main-1782727716966.webp",
+      "dimensionImage": null,
       "aiClosedImageUrl": null,
       "aiOpenImageUrl": null,
       "description": "بواب مسمار معدني مقاس 10×70×30 سم",
       "specs": [],
+      "features": [],
+      "keywords": [],
+      "customNote": "",
+      "contentBlocks": [],
+      "displayOrder": 11,
       "indexInCategory": 11,
       "structure": {
         "category": "nail-boxes",

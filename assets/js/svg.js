@@ -1,37 +1,101 @@
 /* ===========================================================
    NOUR DATASHEET — lightweight public SVG utilities
-   Dimension diagram + neutral missing-image placeholder only.
-   Product panel illustrations are intentionally not rendered.
+   Professional technical dimension drawing + missing-image placeholder.
+   The dimension drawing is generated from each product's own
+   Width / Height / Depth values (p.w / p.h / p.d). It is reusable and
+   applied to every product page automatically.
    =========================================================== */
 (function () {
   let nextId = 0;
   const uid = () => "nour-dim-" + ++nextId;
+  const r = (n) => Math.round(n * 10) / 10;
 
+  /* Clean engineering-style drawing: a FRONT view (Width × Height) with a
+     hinged door, plus a SIDE view (Depth × Height), with proper extension
+     lines, arrowheaded dimension lines and Width / Height / Depth labels.
+     Black/blue line work on a white sheet — close to the old Nour PDF style. */
   function dims(p) {
-    const id = uid(), VB = 430, VH = 360;
-    const w = p.w || 300, h = p.h || 400, d = p.d || 90;
-    const s = 190 / Math.max(w, h);
-    const W = w * s, H = h * s;
-    const D = Math.max(14, Math.min(60, d * s));
-    const dxv = D * 0.7, dyv = D * 0.5;
-    const x = 96, y = (VH - H) / 2 - 6;
-    const blue = "#0b57b8", ink = "#0f1b2d", tick = "#9fbfe6";
-    const trx = x + W, try_ = y;
-    return `<svg viewBox="0 0 ${VB} ${VH}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="رسم المقاسات">
-      <defs><marker id="${id}-ar" markerWidth="9" markerHeight="9" refX="4.5" refY="4.5" orient="auto"><path d="M1 1 L8 4.5 L1 8 Z" fill="${blue}"/></marker></defs>
-      <rect x="${x}" y="${y}" width="${W}" height="${H}" rx="8" fill="#f4f9ff" stroke="${blue}" stroke-width="2"/>
-      <rect x="${x + 8}" y="${y + 8}" width="${W - 16}" height="${H - 16}" rx="6" fill="#fff" stroke="${tick}" stroke-dasharray="3 4"/>
-      <polygon points="${trx},${try_} ${trx + dxv},${try_ - dyv} ${trx + dxv},${try_ - dyv + H} ${trx},${try_ + H}" fill="#dcebfc" opacity="0.6" stroke="${tick}"/>
-      <line x1="${x}" y1="${y + H + 16}" x2="${x}" y2="${y + H + 40}" stroke="${tick}"/>
-      <line x1="${x + W}" y1="${y + H + 16}" x2="${x + W}" y2="${y + H + 40}" stroke="${tick}"/>
-      <line x1="${x}" y1="${y + H + 30}" x2="${x + W}" y2="${y + H + 30}" stroke="${blue}" stroke-width="1.6" marker-start="url(#${id}-ar)" marker-end="url(#${id}-ar)"/>
-      <text x="${x + W / 2}" y="${y + H + 52}" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-weight="700" font-size="13" fill="${ink}">Width — ${w} mm</text>
-      <line x1="${x - 16}" y1="${y}" x2="${x - 40}" y2="${y}" stroke="${tick}"/>
-      <line x1="${x - 16}" y1="${y + H}" x2="${x - 40}" y2="${y + H}" stroke="${tick}"/>
-      <line x1="${x - 30}" y1="${y}" x2="${x - 30}" y2="${y + H}" stroke="${blue}" stroke-width="1.6" marker-start="url(#${id}-ar)" marker-end="url(#${id}-ar)"/>
-      <text x="${x - 36}" y="${y + H / 2}" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-weight="700" font-size="13" fill="${ink}" transform="rotate(-90 ${x - 36} ${y + H / 2})">Height — ${h} mm</text>
-      <line x1="${trx}" y1="${try_ - 8}" x2="${trx + dxv}" y2="${try_ - dyv - 8}" stroke="${blue}" stroke-width="1.6" marker-start="url(#${id}-ar)" marker-end="url(#${id}-ar)"/>
-      <text x="${trx + dxv / 2 + 30}" y="${try_ - dyv - 14}" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-weight="700" font-size="13" fill="${ink}">Depth — ${d} mm</text>
+    const id = uid();
+    const wmm = Number(p && p.w) > 0 ? Number(p.w) : null;
+    const hmm = Number(p && p.h) > 0 ? Number(p.h) : null;
+    const dmm = Number(p && p.d) > 0 ? Number(p.d) : null;
+
+    // Proportion fallbacks for the geometry only — labels still show the
+    // real catalog values (or "غير متوفر" when a dimension is missing).
+    const w = wmm || 300, h = hmm || 400, d = dmm || 90;
+
+    // One shared scale (mm → px) so all three views stay to the same ratio.
+    const FRONT_MAX_W = 175, FRONT_MAX_H = 215;
+    const s = Math.min(FRONT_MAX_W / w, FRONT_MAX_H / h);
+    const FW = w * s, FH = h * s;
+    const SW = Math.max(22, Math.min(130, d * s)); // side-view width (depth)
+
+    const viewTop = 52;       // space above for the depth dimension
+    const frontX = 100;       // space left for the height dimension
+    const gap = 58;           // space between the front and side views
+    const sideX = frontX + FW + gap;
+
+    const VBW = r(sideX + SW + 40);
+    const VBH = r(viewTop + FH + 66);
+
+    const blue = "#0b57b8", navy = "#07254d", ink = "#0f1b2d";
+    const edge = "#9fc0ea", faint = "#c9def7";
+    const fillFront = "#f4f9ff", fillDoor = "#ffffff", fillSide = "#e9f2fd";
+
+    const wLabel = wmm == null ? "غير متوفر" : wmm + " mm";
+    const hLabel = hmm == null ? "غير متوفر" : hmm + " mm";
+    const dLabel = dmm == null ? "غير متوفر" : dmm + " mm";
+
+    // front rect corners
+    const fL = frontX, fR = frontX + FW, fT = viewTop, fB = viewTop + FH;
+    // side rect corners
+    const sL = sideX, sR = sideX + SW, sT = viewTop, sB = viewTop + FH;
+
+    // dimension-line positions
+    const widthDimY = fB + 30;
+    const heightDimX = fL - 42;
+    const depthDimY = sT - 26;
+
+    const TXT = 'font-family="Montserrat,Arial,sans-serif" font-weight="700"';
+
+    return `<svg viewBox="0 0 ${VBW} ${VBH}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="رسم المقاسات الفني — العرض ${wLabel}، الارتفاع ${hLabel}، العمق ${dLabel}">
+      <defs>
+        <marker id="${id}-a" markerWidth="11" markerHeight="11" refX="7.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M1 1 L8 4 L1 7 Z" fill="${blue}"/></marker>
+        <marker id="${id}-b" markerWidth="11" markerHeight="11" refX="0.5" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M8 1 L1 4 L8 7 Z" fill="${blue}"/></marker>
+      </defs>
+
+      <rect x="0" y="0" width="${VBW}" height="${VBH}" rx="10" fill="#ffffff"/>
+
+      <!-- FRONT VIEW -->
+      <rect x="${r(fL)}" y="${r(fT)}" width="${r(FW)}" height="${r(FH)}" rx="7" fill="${fillFront}" stroke="${blue}" stroke-width="2.2"/>
+      <rect x="${r(fL + 7)}" y="${r(fT + 7)}" width="${r(FW - 14)}" height="${r(FH - 14)}" rx="4" fill="${fillDoor}" stroke="${edge}" stroke-dasharray="4 4"/>
+      <rect x="${r(fL + 5)}" y="${r(fT + FH * 0.17)}" width="5" height="16" rx="1.5" fill="${edge}"/>
+      <rect x="${r(fL + 5)}" y="${r(fT + FH * 0.72)}" width="5" height="16" rx="1.5" fill="${edge}"/>
+      <line x1="${r(fR - 9)}" y1="${r(fT + FH / 2 - 12)}" x2="${r(fR - 9)}" y2="${r(fT + FH / 2 + 12)}" stroke="${blue}" stroke-width="2.4" stroke-linecap="round"/>
+      <text x="${r(fL + FW / 2)}" y="${r(fB + 50)}" text-anchor="middle" ${TXT} font-size="11" fill="${navy}" letter-spacing="1">FRONT VIEW</text>
+
+      <!-- SIDE VIEW -->
+      <rect x="${r(sL)}" y="${r(sT)}" width="${r(SW)}" height="${r(FH)}" rx="4" fill="${fillSide}" stroke="${blue}" stroke-width="2.2"/>
+      <line x1="${r(sL + SW * 0.5)}" y1="${r(sT)}" x2="${r(sL + SW * 0.5)}" y2="${r(sB)}" stroke="${edge}" stroke-dasharray="4 4"/>
+      <text x="${r(sL + SW / 2)}" y="${r(sB + 50)}" text-anchor="middle" ${TXT} font-size="11" fill="${navy}" letter-spacing="1">SIDE VIEW</text>
+
+      <!-- WIDTH dimension (below front) -->
+      <line x1="${r(fL)}" y1="${r(fB + 6)}" x2="${r(fL)}" y2="${r(widthDimY + 6)}" stroke="${faint}"/>
+      <line x1="${r(fR)}" y1="${r(fB + 6)}" x2="${r(fR)}" y2="${r(widthDimY + 6)}" stroke="${faint}"/>
+      <line x1="${r(fL)}" y1="${r(widthDimY)}" x2="${r(fR)}" y2="${r(widthDimY)}" stroke="${blue}" stroke-width="1.5" marker-start="url(#${id}-b)" marker-end="url(#${id}-a)"/>
+      <text x="${r(fL + FW / 2)}" y="${r(widthDimY - 7)}" text-anchor="middle" ${TXT} font-size="12.5" fill="${ink}">Width — ${wLabel}</text>
+
+      <!-- HEIGHT dimension (left of front) -->
+      <line x1="${r(fL - 6)}" y1="${r(fT)}" x2="${r(heightDimX - 6)}" y2="${r(fT)}" stroke="${faint}"/>
+      <line x1="${r(fL - 6)}" y1="${r(fB)}" x2="${r(heightDimX - 6)}" y2="${r(fB)}" stroke="${faint}"/>
+      <line x1="${r(heightDimX)}" y1="${r(fT)}" x2="${r(heightDimX)}" y2="${r(fB)}" stroke="${blue}" stroke-width="1.5" marker-start="url(#${id}-b)" marker-end="url(#${id}-a)"/>
+      <text x="${r(heightDimX - 9)}" y="${r(fT + FH / 2)}" text-anchor="middle" ${TXT} font-size="12.5" fill="${ink}" transform="rotate(-90 ${r(heightDimX - 9)} ${r(fT + FH / 2)})">Height — ${hLabel}</text>
+
+      <!-- DEPTH dimension (above side) -->
+      <line x1="${r(sL)}" y1="${r(sT - 6)}" x2="${r(sL)}" y2="${r(depthDimY - 6)}" stroke="${faint}"/>
+      <line x1="${r(sR)}" y1="${r(sT - 6)}" x2="${r(sR)}" y2="${r(depthDimY - 6)}" stroke="${faint}"/>
+      <line x1="${r(sL)}" y1="${r(depthDimY)}" x2="${r(sR)}" y2="${r(depthDimY)}" stroke="${blue}" stroke-width="1.5" marker-start="url(#${id}-b)" marker-end="url(#${id}-a)"/>
+      <text x="${r(sL + SW / 2)}" y="${r(depthDimY - 7)}" text-anchor="middle" ${TXT} font-size="12.5" fill="${ink}">Depth — ${dLabel}</text>
     </svg>`;
   }
 

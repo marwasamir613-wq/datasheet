@@ -1,7 +1,79 @@
-[{"id":"685e22fe-0fc4-4f69-ab0d-c2059901349f","name":"لوحات خطوط فقط","slug":"lines-only","description":"لوحات الخطوط بدون عداد لكافة المقاسات","image_url":"https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/category-images/1778416620574-___________________2K_202605101536.jpeg","display_order":1,"is_visible":true,"created_at":"2026-05-09T10:38:34.837014+00:00","updated_at":"2026-05-11T07:17:10.875525+00:00"}, 
- {"id":"6a9e526d-8d80-406b-b77d-4804b5ee55fe","name":"لوحات عداد فقط","slug":"meter-only","description":"لوحات العدادات الفردية والمتعددة للمصانع والمشاريع","image_url":"https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/category-images/1778416880662-___________________2K_202605101540.jpeg","display_order":2,"is_visible":true,"created_at":"2026-05-09T10:38:34.837014+00:00","updated_at":"2026-05-11T07:17:10.875525+00:00"}, 
- {"id":"1fec6b19-8a96-4d52-bdd6-56f96366d015","name":"لوحات خطوط + عداد","slug":"lines-meter","description":"لوحات تحتوي على عداد وخطوط متعددة بأحجام مختلفة","image_url":"https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/category-images/1778416233713-___________________2K_202605101530.jpeg","display_order":3,"is_visible":true,"created_at":"2026-05-09T10:38:34.837014+00:00","updated_at":"2026-05-11T07:17:10.875525+00:00"}, 
- {"id":"9c50ba24-0ec7-464b-bed2-7b426a0603fa","name":"لوحات سمارت","slug":"smart-panels","description":"لوحات سمارت بمقاسات مخصصة حسب طلب العميل","image_url":"https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/category-images/1778415521791-________________________202605101516.jpeg","display_order":4,"is_visible":true,"created_at":"2026-05-09T10:38:34.837014+00:00","updated_at":"2026-05-11T07:17:10.875525+00:00"}, 
- {"id":"18e2a873-84c8-4278-ab60-f970dfe3046f","name":"لوحات اتصالات","slug":"communications","description":"لوحات اتصالات أفقية ورأسية وذات وش بلاستيك","image_url":"https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/category-images/1778416461899-___________________2K_202605101534.jpeg","display_order":5,"is_visible":true,"created_at":"2026-05-09T10:38:34.837014+00:00","updated_at":"2026-05-11T07:17:10.875525+00:00"}, 
- {"id":"21eac4c7-a9ea-4635-9b5e-84e59688531d","name":"بواطات","slug":"junction-boxes","description":"بواطات معدنية بمقاسات متعددة لتوزيع الأسلاك","image_url":"https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/category-images/1778416780738-___________________2K_202605101539.jpeg","display_order":6,"is_visible":true,"created_at":"2026-05-09T10:38:34.837014+00:00","updated_at":"2026-05-11T07:17:10.875525+00:00"}, 
- {"id":"c6bb7452-b7fe-4aa3-897c-c6cffb9c5e33","name":"بواط مسمار","slug":"nail-boxes","description":"بواب مسمار معدنية بأحجام متنوعة","image_url":"https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/category-images/1778417173323-___________________2K_202605101546.jpeg","display_order":7,"is_visible":true,"created_at":"2026-05-09T10:38:34.837014+00:00","updated_at":"2026-05-11T07:17:10.875525+00:00"}]
+[
+  {
+    "id": "685e22fe-0fc4-4f69-ab0d-c2059901349f",
+    "name": "لوحات خطوط فقط",
+    "slug": "lines-only",
+    "description": "لوحات الخطوط بدون عداد لكافة المقاسات",
+    "image_url": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/category-images/1778416620574-___________________2K_202605101536.jpeg",
+    "display_order": 1,
+    "is_visible": true,
+    "created_at": "2026-05-09T10:38:34.837014+00:00",
+    "updated_at": "2026-06-29T10:24:53.892Z"
+  },
+  {
+    "id": "6a9e526d-8d80-406b-b77d-4804b5ee55fe",
+    "name": "لوحات عداد فقط",
+    "slug": "meter-only",
+    "description": "لوحات العدادات الفردية والمتعددة للمصانع والمشاريع",
+    "image_url": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/category-images/1778416880662-___________________2K_202605101540.jpeg",
+    "display_order": 2,
+    "is_visible": true,
+    "created_at": "2026-05-09T10:38:34.837014+00:00",
+    "updated_at": "2026-06-29T10:24:53.892Z"
+  },
+  {
+    "id": "1fec6b19-8a96-4d52-bdd6-56f96366d015",
+    "name": "لوحات خطوط + عداد",
+    "slug": "lines-meter",
+    "description": "لوحات تحتوي على عداد وخطوط متعددة بأحجام مختلفة",
+    "image_url": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/category-images/1778416233713-___________________2K_202605101530.jpeg",
+    "display_order": 3,
+    "is_visible": true,
+    "created_at": "2026-05-09T10:38:34.837014+00:00",
+    "updated_at": "2026-06-29T10:24:53.892Z"
+  },
+  {
+    "id": "9c50ba24-0ec7-464b-bed2-7b426a0603fa",
+    "name": "لوحات سمارت",
+    "slug": "smart-panels",
+    "description": "لوحات سمارت بمقاسات مخصصة حسب طلب العميل",
+    "image_url": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/category-images/1778415521791-________________________202605101516.jpeg",
+    "display_order": 4,
+    "is_visible": true,
+    "created_at": "2026-05-09T10:38:34.837014+00:00",
+    "updated_at": "2026-06-29T10:24:53.892Z"
+  },
+  {
+    "id": "18e2a873-84c8-4278-ab60-f970dfe3046f",
+    "name": "لوحات اتصالات",
+    "slug": "communications",
+    "description": "لوحات اتصالات أفقية ورأسية وذات وش بلاستيك",
+    "image_url": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/category-images/1778416461899-___________________2K_202605101534.jpeg",
+    "display_order": 5,
+    "is_visible": true,
+    "created_at": "2026-05-09T10:38:34.837014+00:00",
+    "updated_at": "2026-06-29T10:24:53.892Z"
+  },
+  {
+    "id": "21eac4c7-a9ea-4635-9b5e-84e59688531d",
+    "name": "بواطات",
+    "slug": "junction-boxes",
+    "description": "بواطات معدنية بمقاسات متعددة لتوزيع الأسلاك",
+    "image_url": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/category-images/1778416780738-___________________2K_202605101539.jpeg",
+    "display_order": 6,
+    "is_visible": true,
+    "created_at": "2026-05-09T10:38:34.837014+00:00",
+    "updated_at": "2026-06-29T10:24:53.892Z"
+  },
+  {
+    "id": "c6bb7452-b7fe-4aa3-897c-c6cffb9c5e33",
+    "name": "بواط مسمار",
+    "slug": "nail-boxes",
+    "description": "بواب مسمار معدنية بأحجام متنوعة",
+    "image_url": "https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/category-images/1778417173323-___________________2K_202605101546.jpeg",
+    "display_order": 7,
+    "is_visible": true,
+    "created_at": "2026-05-09T10:38:34.837014+00:00",
+    "updated_at": "2026-06-29T10:24:53.892Z"
+  }
+]

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>إدارة NOUR DATASHEET — محلي</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="icon" href="assets/img/logo.webp" />
+  <link rel="stylesheet" href="assets/css/admin.css" />
+</head>
+<body class="auth-locked">
+  <div class="admin-shell">
+    <aside class="admin-sidebar">
+      <div class="admin-brand">
+        <img src="assets/img/logo.webp" alt="نور" />
+        <div><b>NOUR ADMIN</b><span>إدارة محلية فقط</span></div>
+      </div>
+      <nav id="adminNav">
+        <button class="active" data-section="products">المنتجات</button>
+        <button data-section="categories">الأقسام</button>
+        <button data-section="settings">الإعدادات</button>
+        <span class="nav-label">أدوات</span>
+        <button data-section="dashboard">نظرة عامة</button>
+        <button data-section="images">مكتبة الصور</button>
+        <button data-section="transfer">استيراد / تصدير</button>
+        <button data-section="backups">نسخ احتياطية</button>
+      </nav>
+      <a class="public-link" href="index.html" target="_blank">فتح الموقع العام ↗</a>
+    </aside>
+
+    <main class="admin-main">
+      <header class="admin-topbar">
+        <div>
+          <h1 id="sectionTitle">المنتجات</h1>
+          <p>كل التغييرات تُحفظ محليًا على جهازك فقط.</p>
+        </div>
+        <div class="top-actions">
+          <span id="authBox" class="auth-box hidden"><span id="authEmail" dir="ltr"></span><button class="btn ghost small" id="logoutBtn">خروج</button></span>
+          <span id="dirtyBadge" class="dirty-badge hidden">تغييرات غير محفوظة</span>
+          <button class="btn secondary" id="reloadBtn">إعادة تحميل البيانات</button>
+          <button class="btn secondary" id="previewBtn">معاينة الموقع</button>
+          <button class="btn primary" id="saveAllBtn">حفظ وبناء الموقع</button>
+        </div>
+      </header>
+
+      <div id="modeBanner" class="mode-banner hidden"></div>
+      <div id="toastHost" class="toast-host"></div>
+
+      <section class="admin-section" data-panel="dashboard">
+        <div class="admin-card data-status" id="dataStatus"></div>
+        <div class="stats-grid" id="dashboardStats"></div>
+        <div class="admin-card">
+          <h2>بدء سريع</h2>
+          <div class="quick-grid">
+            <button data-go="products">إضافة أو تعديل منتج</button>
+            <button data-go="categories">إدارة الأقسام</button>
+            <button data-go="settings">تعديل بيانات الشركة</button>
+            <button data-go="backups">إنشاء نسخة احتياطية</button>
+          </div>
+        </div>
+        <div class="admin-card">
+          <h2>حالة النظام</h2>
+          <ul class="status-list">
+            <li>الخادم مربوط على جهازك المحلي فقط: <code>127.0.0.1</code></li>
+            <li>الحفظ يحدّث ملفات JSON ثم يشغّل <code>data/build-data.js</code>.</li>
+            <li>يتم إنشاء نسخة احتياطية تلقائيًا قبل كل حفظ.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="admin-section" data-panel="settings">
+        <form id="settingsForm" class="admin-card form-grid">
+          <h2 class="span-2">إعدادات الشركة والصفحة الرئيسية</h2>
+          <label>اسم الشركة بالعربية<input name="company.nameAr" required /></label>
+          <label>العنوان بالإنجليزية<input name="company.titleEn" dir="ltr" /></label>
+          <label class="span-2">النص التعريفي<textarea name="company.introAr" rows="3"></textarea></label>
+          <label class="span-2">من نحن<textarea name="company.aboutAr" rows="4"></textarea></label>
+          <label class="span-2">ملاحظة التصنيع حسب الطلب<input name="company.customNoteAr" /></label>
+          <label>مسار الشعار<input name="company.logoPath" dir="ltr" /></label>
+          <label>مسار صورة الهيرو<input name="company.heroImagePath" dir="ltr" /></label>
+          <label>سنوات الخبرة<input name="company.yearsExperience" type="number" min="0" /></label>
+          <label>رقم الهاتف الظاهر<input name="contact.phoneDisplay" dir="ltr" /></label>
+          <label>رقم واتساب الدولي<input name="contact.phoneInternational" dir="ltr" /></label>
+          <label class="span-2">رسالة واتساب الافتراضية<input name="contact.whatsappText" /></label>
+          <label>رابط فيسبوك<input name="contact.facebook" dir="ltr" /></label>
+          <label>البريد الإلكتروني<input name="contact.email" type="email" dir="ltr" /></label>
+          <label>عنوان الصفحة الرئيسية<input name="homepage.heroTitle" dir="ltr" /></label>
+          <label>نص مربع البحث<input name="homepage.searchPlaceholder" /></label>
+          <div class="span-2">
+            <h3>بطاقات الإحصائيات</h3>
+            <div id="statsEditor" class="repeater"></div>
+            <button type="button" class="btn ghost small" id="addStatBtn">+ إضافة إحصائية</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="admin-section" data-panel="categories">
+        <div class="section-tools">
+          <p>إضافة وتعديل وترتيب أقسام الموقع.</p>
+          <button class="btn primary" id="addCategoryBtn">+ إضافة قسم</button>
+        </div>
+        <div id="categoriesList" class="admin-list"></div>
+      </section>
+
+      <section class="admin-section active" data-panel="products">
+        <div class="product-layout">
+          <aside class="product-browser admin-card">
+            <div class="browser-tools">
+              <input id="productSearch" type="search" placeholder="ابحث عن منتج…" />
+              <select id="productCategoryFilter"></select>
+              <button class="btn primary" id="addProductBtn">+ منتج جديد</button>
+            </div>
+            <div id="productList" class="product-list"></div>
+          </aside>
+          <div id="productEditor" class="admin-card product-editor">
+            <div class="empty-editor">اختر منتجًا للتعديل أو أضف منتجًا جديدًا.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="admin-section" data-panel="images">
+        <div class="admin-card">
+          <h2>مكتبة صور المنتجات</h2>
+          <p>اختر منتجًا من قسم المنتجات لإدارة الصورة الرئيسية والصور الإضافية. الصور المرفوعة تُحوّل إلى WebP وتُحفظ داخل <code>assets/img/products/</code>.</p>
+          <button class="btn primary" data-go="products">فتح مدير المنتجات</button>
+        </div>
+        <div id="imageLibrary" class="image-library"></div>
+      </section>
+
+      <section class="admin-section" data-panel="transfer">
+        <div class="admin-grid-2">
+          <div class="admin-card">
+            <h2>تصدير البيانات</h2>
+            <p>تنزيل نسخة JSON كاملة يمكن الاحتفاظ بها أو استيرادها لاحقًا.</p>
+            <button class="btn primary" id="exportBtn">تصدير JSON</button>
+          </div>
+          <div class="admin-card">
+            <h2>استيراد البيانات</h2>
+            <p>اختيار ملف JSON مُصدّر من لوحة الإدارة. راجع البيانات ثم اضغط حفظ.</p>
+            <input id="importInput" type="file" accept="application/json,.json" />
+          </div>
+        </div>
+      </section>
+
+      <section class="admin-section" data-panel="backups">
+        <div class="section-tools">
+          <p>نسخ تلقائية قبل كل حفظ، ويمكن إنشاء نسخة يدوية أو استرجاع نسخة سابقة.</p>
+          <button class="btn primary" id="createBackupBtn">إنشاء نسخة احتياطية</button>
+        </div>
+        <div id="backupsList" class="admin-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <div id="confirmModal" class="modal hidden" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <h3 id="confirmTitle">تأكيد العملية</h3>
+      <p id="confirmMessage"></p>
+      <div class="modal-actions">
+        <button class="btn ghost" id="confirmCancel">إلغاء</button>
+        <button class="btn danger" id="confirmOk">تأكيد</button>
+      </div>
+    </div>
+  </div>
+
+  <input id="imageUploadInput" type="file" accept="image/*" hidden />
+
+  <div id="loginOverlay" class="login-overlay hidden">
+    <form id="loginForm" class="login-card">
+      <img src="assets/img/logo.webp" alt="نور" />
+      <h2>دخول لوحة الإدارة</h2>
+      <p>سجّل الدخول بحساب Supabase للتحكم في محتوى الموقع مباشرة.</p>
+      <label>البريد الإلكتروني<input id="loginEmail" type="email" required dir="ltr" autocomplete="username" /></label>
+      <label>كلمة المرور<input id="loginPassword" type="password" required autocomplete="current-password" /></label>
+      <div id="loginError" class="login-error"></div>
+      <button class="btn primary" id="loginSubmit" type="submit">تسجيل الدخول</button>
+    </form>
+  </div>
+
+  <script src="assets/js/supabase-config.js"></script>
+  <script src="/api/supabase-config.js"></script>
+  <script src="assets/js/admin-supabase.js"></script>
+  <script src="assets/js/svg.js"></script>
+  <script src="assets/js/admin.js"></script>
+</body>
+</html>

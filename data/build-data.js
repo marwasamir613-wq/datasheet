@@ -7,30 +7,61 @@ const ROOT = path.resolve(__dirname, "..");
 const cats = require(path.join(ROOT, "data/categories.raw.json"));
 const prods = require(path.join(ROOT, "data/products.raw.json"));
 const STRUCT = require(path.join(ROOT, "data/structure.js")); // structure + AI-prompt engine
+const siteSettingsPath = path.join(ROOT, "data/site-settings.json");
+const siteSettings = fs.existsSync(siteSettingsPath)
+  ? require(siteSettingsPath)
+  : {};
 const optimizedManifestPath = path.join(ROOT, "data/optimized-images.json");
 const optimizedImages = fs.existsSync(optimizedManifestPath)
   ? require(optimizedManifestPath)
   : {};
 
 // --- Company + contact (from profile + brief) ---
-const company = {
+const companyDefaults = {
   nameAr: "نور للإضاءة الحديثة",
   titleEn: "NOUR DATASHEET",
   introAr: "شركة نور متخصصة في تصنيع جميع مقاسات لوحات الكهرباء ويوجد تصنيع حسب الطلب",
   aboutAr:
     "نور للإضاءة الحديثة — خبرة تتجاوز 40 عامًا منذ عام 1985 في تصنيع لوحات الكهرباء بمختلف المقاسات، واللوحات الذكية، ولوحات الاتصالات، والبواطات. خامات قوية وتصنيع دقيق على يد فنيين متخصصين، مع إمكانية التصنيع حسب الطلب لخدمة المشاريع السكنية والتجارية والصناعية.",
   customNoteAr: "يوجد تصنيع حسب الطلب بأي مقاس",
+  logoPath: "assets/img/logo.webp",
+  heroImagePath: "assets/img/hero-panels.webp",
+  yearsExperience: 40,
 };
 
-const contact = {
+const contactDefaults = {
   phoneDisplay: "01003510077",
-  tel: "tel:+201003510077",
-  whatsapp: "https://wa.me/201003510077",
-  whatsappText:
-    "https://wa.me/201003510077?text=" +
-    encodeURIComponent("السلام عليكم، أرغب في الاستفسار عن "),
+  phoneInternational: "201003510077",
+  whatsappText: "السلام عليكم، أرغب في الاستفسار عن ",
   facebook: "https://www.facebook.com/profile.php?id=100090946688622",
   email: "nourformodernligting111@gmail.com",
+};
+const company = { ...companyDefaults, ...(siteSettings.company || {}) };
+const contactSource = {
+  ...contactDefaults,
+  ...(siteSettings.contact || {}),
+};
+const phoneInternational = String(
+  contactSource.phoneInternational || contactSource.phoneDisplay || ""
+).replace(/\D/g, "");
+const contact = {
+  phoneDisplay: contactSource.phoneDisplay,
+  phoneInternational,
+  tel: "tel:+" + phoneInternational,
+  whatsapp: "https://wa.me/" + phoneInternational,
+  whatsappText:
+    "https://wa.me/" +
+    phoneInternational +
+    "?text=" +
+    encodeURIComponent(contactSource.whatsappText),
+  facebook: contactSource.facebook,
+  email: contactSource.email,
+};
+const homepage = {
+  heroTitle: "NOUR DATASHEET",
+  searchPlaceholder: "ابحث عن منتج أو مقاس…",
+  stats: [],
+  ...(siteSettings.homepage || {}),
 };
 
 // --- Categories (catalog display_order) ---
@@ -49,6 +80,36 @@ const catSlug = Object.fromEntries(categories.map((c) => [c.id, c.slug]));
 const catOrder = Object.fromEntries(categories.map((c) => [c.id, c.order]));
 const firstImageUrl = (...values) =>
   values.find((value) => typeof value === "string" && value.trim()) || null;
+const normalizeImageItems = (product) => {
+  const source = Array.isArray(product.images) ? product.images : [];
+  return source
+    .map((item, index) => {
+      if (typeof item === "string")
+        return {
+          type: index === 0 ? "main" : "extra",
+          src: item,
+          alt: product.name || "",
+          caption: index === 0 ? "الصورة الرئيسية" : "",
+          visible: true,
+          order: index + 1,
+        };
+      if (!item || typeof item !== "object" || !item.src) return null;
+      return {
+        type: item.type === "main" ? "main" : "extra",
+        src: String(item.src),
+        alt: String(item.alt || product.name || ""),
+        caption: String(item.caption || ""),
+        visible: item.visible !== false,
+        order: Number(item.order) || index + 1,
+      };
+    })
+    .filter(Boolean)
+    .sort((a, b) => a.order - b.order);
+};
+const normalizeStringList = (value) =>
+  Array.isArray(value)
+    ? value.map((item) => String(item || "").trim()).filter(Boolean)
+    : [];
 const IMAGE_STATUSES = new Set([
   "needs-generation",
   "generated",
@@ -66,16 +127,30 @@ const reviewNotesFrom = (value) => {
 const products = prods
   .filter((p) => p.is_visible !== false)
   .map((p) => {
-    const images = Array.isArray(p.images) ? p.images.filter(Boolean) : [];
+    const imageItems = normalizeImageItems(p);
+    const visibleImageItems = imageItems.filter((item) => item.visible);
+    const mainItem =
+      visibleImageItems.find((item) => item.type === "main") ||
+      visibleImageItems[0] ||
+      null;
+    const images = visibleImageItems.map((item) => item.src);
     const optimized = optimizedImages[p.id] || {};
     const originalImage = firstImageUrl(
+      mainItem && mainItem.src,
       p.mainImage,
-      p.main_image,
-      images[0]
+      p.main_image
     );
-    const mainImage = firstImageUrl(optimized.main, originalImage);
+    const canUseOptimized =
+      optimized.originalUrl &&
+      originalImage &&
+      optimized.originalUrl === originalImage;
+    const mainImage = firstImageUrl(
+      canUseOptimized && optimized.main,
+      originalImage
+    );
     return {
       id: p.id,
+      updatedAt: p.updated_at || p.updatedAt || null,
       name: (p.name || "").trim(),
       categoryId: p.category_id,
       categoryName: catName[p.category_id] || "",
@@ -84,18 +159,27 @@ const products = prods
       w: Number(p.dimensions_w) || null,
       d: Number(p.dimensions_d) || null,
       images,
+      imageItems,
       originalImage,
       mainImage,
-      thumbnailImage: firstImageUrl(optimized.thumbnail, mainImage),
-      mainImageWidth: Number(optimized.mainWidth) || 1200,
-      mainImageHeight: Number(optimized.mainHeight) || 900,
-      thumbnailWidth: Number(optimized.thumbnailWidth) || 480,
-      thumbnailHeight: Number(optimized.thumbnailHeight) || 360,
+      thumbnailImage: firstImageUrl(
+        canUseOptimized && optimized.thumbnail,
+        mainImage
+      ),
+      mainImageWidth: Number(canUseOptimized && optimized.mainWidth) || 1200,
+      mainImageHeight: Number(canUseOptimized && optimized.mainHeight) || 900,
+      thumbnailWidth:
+        Number(canUseOptimized && optimized.thumbnailWidth) || 480,
+      thumbnailHeight:
+        Number(canUseOptimized && optimized.thumbnailHeight) || 360,
       referenceImage: firstImageUrl(
         p.referenceImage,
         p.reference_image,
         originalImage
       ),
+      // Optional custom technical-drawing image. When set it replaces the
+      // auto-generated SVG dimension drawing on the product page.
+      dimensionImage: firstImageUrl(p.dimensionImage, p.dimension_image),
       aiClosedImageUrl: firstImageUrl(
         p.aiClosedImageUrl,
         p.ai_closed_image_url,
@@ -120,12 +204,24 @@ const products = prods
       sourceReviewNotes: reviewNotesFrom(p.reviewNotes),
       description: (p.description || "").trim(),
       specs: Array.isArray(p.specifications) ? p.specifications : [],
+      features: normalizeStringList(p.features),
+      keywords: normalizeStringList(p.keywords),
+      customNote: String(p.custom_note || p.customNote || "").trim(),
+      contentBlocks: Array.isArray(p.contentBlocks)
+        ? p.contentBlocks
+        : [],
+      displayOrder: Number(p.display_order) || 0,
     };
   })
   .sort((a, b) => {
     if (catOrder[a.categoryId] !== catOrder[b.categoryId])
       return catOrder[a.categoryId] - catOrder[b.categoryId];
-    return (a.h || 0) - (b.h || 0) || (a.w || 0) - (b.w || 0) || (a.d || 0) - (b.d || 0);
+    return (
+      (a.displayOrder || 0) - (b.displayOrder || 0) ||
+      (a.h || 0) - (b.h || 0) ||
+      (a.w || 0) - (b.w || 0) ||
+      (a.d || 0) - (b.d || 0)
+    );
   });
 
 // add per-category running index (order within section)
@@ -201,12 +297,15 @@ const data = {
   generatedAt: new Date().toISOString(),
   company,
   contact,
+  homepage,
   stats: { categories: categories.length, products: products.length },
   categories,
   products,
 };
 
 const out = path.join(ROOT, "assets/js/data.js");
+const publicJsonOut = path.join(ROOT, "data/public-data.json");
+fs.writeFileSync(publicJsonOut, JSON.stringify(data, null, 2) + "\n", "utf8");
 fs.writeFileSync(
   out,
   "/* AUTO-GENERATED from data/*.raw.json by data/build-data.js — do not edit by hand. */\n" +
@@ -296,8 +395,8 @@ categories.forEach((c) => {
     md.push("- **layoutType:** `" + p.layoutType + "` · **confidence:** " +
       p.structure.confidenceScore + " · **imageStatus:** `" + p.imageStatus + "`");
     md.push("- **structure:** " + p.structureDescription);
-    md.push("- **generated closed URL:** " + (p.aiClosedImageUrl || ""));
-    md.push("- **generated open URL:** " + (p.aiOpenImageUrl || ""));
+    md.push("- **generated closed URL:** " + (p.aiClosedImageUrl || "(not set)"));
+    md.push("- **generated open URL:** " + (p.aiOpenImageUrl || "(not set)"));
     if (p.reviewNotes.length)
       md.push("- **review notes:** " + p.reviewNotes.join(" | "));
     md.push("- **CLOSED prompt:**");

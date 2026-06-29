@@ -29,9 +29,17 @@
 
   <footer class="footer" id="footer"></footer>
 
+  <script src="assets/js/supabase-config.js"></script>
+  <script src="/api/supabase-config.js"></script>
   <script src="assets/js/data.js"></script>
+  <script src="assets/js/nour-data.js"></script>
   <script src="assets/js/common.js"></script>
   <script src="assets/js/svg.js"></script>
   <script src="assets/js/product.js"></script>
+  <script>
+    (window.NOUR_BOOT ? window.NOUR_BOOT() : Promise.resolve())
+      .catch(function () {})
+      .finally(function () { window.NOUR.renderProduct(); });
+  </script>
 </body>
 </html>

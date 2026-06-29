@@ -1,20 +1,37 @@
 /* ===========================================================
    NOUR DATASHEET — landing page (catalog) logic
+   Exposed as window.NOUR.renderHome and invoked by the page bootstrap
+   after the runtime data layer (nour-data.js) has loaded.
    =========================================================== */
-(function () {
+window.NOUR = window.NOUR || {};
+window.NOUR.renderHome = function () {
   const { D, ICONS, esc, dimShort, productUrl } = window.NOUR;
 
   // ---- hero / chrome ----
+  window.NOUR.applyBrandAssets();
+  const heroLogo = document.querySelector(".hero-logo-wrap img");
+  if (heroLogo) heroLogo.src = D.company.logoPath || "assets/img/logo.webp";
+  document.getElementById("titleEn").textContent =
+    D.homepage.heroTitle || D.company.titleEn;
   document.getElementById("introAr").textContent = D.company.introAr;
   window.NOUR.miniActions(document.getElementById("miniActions"));
   window.NOUR.heroContact(document.getElementById("heroContact"));
   window.NOUR.footer(document.getElementById("footer"));
 
-  document.getElementById("heroStats").innerHTML = `
-    <div class="stat"><b>${D.stats.products}</b><span>منتج / مقاس</span></div>
-    <div class="stat"><b>${D.stats.categories}</b><span>أقسام</span></div>
-    <div class="stat"><b>+40</b><span>عامًا خبرة</span></div>
-    <div class="stat"><b>حسب الطلب</b><span>تصنيع خاص</span></div>`;
+  const stats = Array.isArray(D.homepage.stats) && D.homepage.stats.length
+    ? D.homepage.stats
+    : [
+        { value: "{products}", label: "منتج / مقاس" },
+        { value: "{categories}", label: "أقسام" },
+      ];
+  document.getElementById("heroStats").innerHTML = stats
+    .map((stat) => {
+      const value = String(stat.value || "")
+        .replace("{products}", D.stats.products)
+        .replace("{categories}", D.stats.categories);
+      return `<div class="stat"><b>${esc(value)}</b><span>${esc(stat.label)}</span></div>`;
+    })
+    .join("");
 
   // ---- group products by category (already sorted small→large) ----
   const byCat = {};
@@ -44,7 +61,7 @@
     const dimOk = [p.h, p.w, p.d].every((v) => v != null);
     return `
       <article class="card reveal" data-cat="${esc(p.categoryId)}"
-        data-search="${esc((p.name + " " + dimShort(p)).toLowerCase())}">
+        data-search="${esc((p.name + " " + dimShort(p) + " " + (p.keywords || []).join(" ")).toLowerCase())}">
         <a class="card-media" href="${productUrl(p)}">
           ${media}
           <span class="cat-tag">${esc(p.categoryName)}</span>
@@ -109,6 +126,8 @@
 
   // ---- filtering (category + search) ----
   const searchInput = document.getElementById("searchInput");
+  searchInput.placeholder =
+    D.homepage.searchPlaceholder || searchInput.placeholder;
   function applyFilter() {
     const q = (searchInput.value || "").trim().toLowerCase();
     let anyVisible = false;
@@ -133,9 +152,8 @@
     b.classList.add("active");
     activeCat = b.dataset.cat;
     applyFilter();
-    window.scrollTo({ top: document.querySelector(".toolbar").offsetTop - 70, behavior: "smooth" });
   });
   searchInput.addEventListener("input", applyFilter);
 
   window.NOUR.observeReveals(catalog);
-})();
+};

@@ -1,0 +1,41 @@
+{
+  "company": {
+    "nameAr": "نور للإضاءة الحديثة",
+    "titleEn": "NOUR DATASHEET",
+    "introAr": "شركة نور متخصصة في تصنيع جميع مقاسات لوحات الكهرباء ويوجد تصنيع حسب الطلب",
+    "aboutAr": "نور للإضاءة الحديثة — خبرة تتجاوز 40 عامًا منذ عام 1985 في تصنيع لوحات الكهرباء بمختلف المقاسات، واللوحات الذكية، ولوحات الاتصالات، والبواطات. خامات قوية وتصنيع دقيق على يد فنيين متخصصين، مع إمكانية التصنيع حسب الطلب لخدمة المشاريع السكنية والتجارية والصناعية.",
+    "customNoteAr": "يوجد تصنيع حسب الطلب بأي مقاس",
+    "logoPath": "assets/img/logo.webp",
+    "heroImagePath": "assets/img/hero-panels.webp",
+    "yearsExperience": 40
+  },
+  "contact": {
+    "phoneDisplay": "01003510077",
+    "phoneInternational": "201003510077",
+    "whatsappText": "السلام عليكم، أرغب في الاستفسار عن ",
+    "facebook": "https://www.facebook.com/profile.php?id=100090946688622",
+    "email": "nourformodernligting111@gmail.com"
+  },
+  "homepage": {
+    "heroTitle": "NOUR DATASHEET",
+    "searchPlaceholder": "ابحث عن منتج أو مقاس…",
+    "stats": [
+      {
+        "value": "{products}",
+        "label": "منتج / مقاس"
+      },
+      {
+        "value": "{categories}",
+        "label": "أقسام"
+      },
+      {
+        "value": "+40",
+        "label": "عامًا خبرة"
+      },
+      {
+        "value": "حسب الطلب",
+        "label": "تصنيع خاص"
+      }
+    ]
+  }
+}
