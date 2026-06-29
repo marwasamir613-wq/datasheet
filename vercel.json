@@ -25,6 +25,27 @@
       }
     },
     {
+      "src": "/api/data",
+      "dest": "/api/data.js",
+      "headers": {
+        "Cache-Control": "no-store"
+      }
+    },
+    {
+      "src": "/api/save",
+      "dest": "/api/save.js",
+      "headers": {
+        "Cache-Control": "no-store"
+      }
+    },
+    {
+      "src": "/api/upload-image",
+      "dest": "/api/upload-image.js",
+      "headers": {
+        "Cache-Control": "no-store"
+      }
+    },
+    {
       "src": "/api/(.*)",
       "dest": "/api/$1",
       "headers": {
