@@ -86,7 +86,7 @@ name/dimensions in `products.raw.json` or the logic in `data/structure.js`, then
 
 ### لوحة 24 خط 3 فاز بالعمومي
 - **productId:** `36b36dc3-0798-4273-9d4a-d8cea948e442`
-- **reference image:** https://bulukgskywmxunsbaxzq.supabase.co/storage/v1/object/public/product-images/1778411092556-________________________202605101404.jpeg
+- **reference image:** assets/img/products/lo-24-3p-main-1782802890973.webp
 - **layoutType:** `dual-column-with-bottom-group` · **confidence:** 0.88 · **imageStatus:** `needs-generation`
 - **structure:** A three-phase main breaker across the top, then 24 outgoing line breakers on DIN rails arranged as two vertical groups (10 + 10) plus a smaller bottom group of 4 breakers.
 - **generated closed URL:** (not set)
@@ -542,8 +542,8 @@ name/dimensions in `products.raw.json` or the logic in `data/structure.js`, then
 - **layoutType:** `junction-box` · **confidence:** 0.92 · **imageStatus:** `needs-generation`
 - **structure:** Empty galvanized-steel junction enclosure: plain interior back-plate, cable knockouts on the sides, no breakers and no meter — a wiring/distribution box.
 - **generated closed URL:** (not set)
-- **generated open URL:** (not set)
-- **review notes:** صورة اللوحة المغلقة ما زالت بانتظار التوليد. | صورة اللوحة المفتوحة/الداخلية ما زالت بانتظار التوليد.
+- **generated open URL:** assets/img/products/jb-10x30x30-open-1782806380280.webp
+- **review notes:** صورة اللوحة المغلقة ما زالت بانتظار التوليد.
 - **CLOSED prompt:**
   > CLOSED VIEW — بواط مقاس 10×30×30. Use the supplied real product image as the PRIMARY visual reference for the enclosure: preserve its actual proportions, door shape, frame depth, handle/lock position, hinges, visible openings, colour placement and NOUR branding. Improve it into a polished 3D catalog render without replacing it with a generic electrical cabinet. Clean commercial 3D product illustration, professional datasheet/catalog style, soft studio lighting, subtle reflections, neutral light-grey seamless background, slight isometric three-quarter angle, crisp edges, high detail, photorealistic materials but clearly a polished 3D render (NOT a photograph, NOT a copy of any photo). Brand identity: NOUR — modern blue (#0b4ea2) and white powder-coated steel, a small NOUR badge with a red lightning bolt on the door. Real proportions width 315mm × height 315mm × depth 90mm — keep this aspect ratio (tall portrait cabinet). Show the enclosure fully CLOSED from the front, a plain bolted steel cover with corner screws and side cable knockouts. A plain rectangular steel box, no door details. Category: metal junction box. STRICT RULES: keep it structurally faithful to the real product configuration described below; do NOT invent a random breaker layout; do NOT add or remove breakers, meters or sections; the closed view and the open view MUST be the exact same unit (same size, colour, proportions and identity); output a single product centered in frame. Avoid: open door, visible breakers, text labels, watermarks, clutter, multiple panels.
 - **OPEN prompt:**
